@@ -1,0 +1,34 @@
+<%- include ('./partials/header') -%>
+        <div class="jumbotron">
+            <h2>Join Us Live</h2>
+        </div>
+        <div class="container">
+          <% if(items.length > 0){ %>   
+        <p>This is the current live video in this feed</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/live_stream?channel=UCEXGDNclvmg6RW0vipJYsTQ" frameborder="0" allowfullscreen></iframe>
+    <% } else{ %>
+        <p>Sorry, there is no live broadcast at the moment. Here's what you can do:</p>
+        <button>Click here to refresh feed</button>
+    <% } %>          
+        </div>
+
+
+    <% if(vids.length > 1){ %>
+        <div class="container" id="sermonDiv">
+           <h2>Previous sermons</h2>
+
+            <% vids.forEach((vid)=>{ %>
+                <div class="card" style="width: 30%;">
+                    <img class="card-img-top" src="<%=vid.snippet.thumbnails.medium.url%>" alt="">
+                        <div class="card-body">
+                          <p class="card-title"><%=vid.snippet.title%></p>
+                        </div>
+                        <div class="card-body">
+                        <p>Preached on: <%=new Date(vid.snippet.publishedAt).toUTCString()%> </p>
+                         
+                        </div>                   
+                      </div>
+                      <%  })  }%>
+  
+        </div>
+   <%- include ('./partials/footer') -%>
