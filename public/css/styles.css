@@ -1,6 +1,5 @@
-.card{
-    float: left;
-    width: 20%;
+.nav-link{
+	font-weight: bold;
 }
 #sermonDiv{
     margin-top: 3em;
