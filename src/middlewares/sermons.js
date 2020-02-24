@@ -31,15 +31,14 @@ exports.getLiveVideos = (req,res)=>{
                     resp.data.items.forEach((vid)=>{
                         vids.push(vid.id.videoId)
                     })
-                    return res.status(200).render('index', {items: data.data.items, vids:resp.data.items})
+                //    return res.status(200).send(resp.data)
+
+                    return res.status(200).render('live', {items: data.data.items, vids:resp.data.items})
                 }
           })          
         }
   })
     .catch((error)=>{
-       return res.status(500).json({
-           success:false,
-           data: error.message
-       })
+       return res.status(500).render('404',{error: error.message})
     })
 }

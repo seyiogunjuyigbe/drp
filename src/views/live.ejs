@@ -1,0 +1,43 @@
+<%- include ('./partials/header') -%>
+<title>Sermons</title>
+  </head>
+  <body>
+        <div class="jumbotron">
+            <h2 class="text-center">Join Us Live</h2>
+        </div>
+        <div class="container">
+          <% if(items.length > 0){ %>   
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/live_stream?channel=UCEXGDNclvmg6RW0vipJYsTQ" frameborder="0" allowfullscreen></iframe>
+    <% } else{ %>
+        <p>Sorry, there is no live broadcast at the moment. Here's what you can do:</p>
+        <button class="btn btn-warning" onclick="window.location.reload();">Click here to refresh feed</button>
+    <% } %>          
+        </div>
+    <% if(vids.length > 1){ %>
+        <div class="container" id="sermonDiv">
+           <h2>Previous sermons</h2>
+            <% vids.forEach((vid)=>{ %>
+                <div class="col-md-9">
+                    <div class="church_causes_listing church_music_book">
+                        <figure>
+                            <a href="https://www.youtube.com/watch?v=<%=vid.id.videoId%>"><img src="<%=vid.snippet.thumbnails.default.url%>" alt=""></a>
+                        </figure>
+                        <div class="church_blog_content">
+                            <div class="church_causes2_caption">
+                                <div class="padding_div">
+                                    <a href="https://www.youtube.com/watch?v=<%=vid.id.videoId%>"><h4><%=vid.snippet.title%></h4></a>
+                                    <ul class="meta_address">
+                                        <li><i class="fa fa-user" aria-hidden="true"></i> Pastor Shannona</li>
+                                        <li><i class="fa fa-clock-o" aria-hidden="true"></i> <%=new Date(vid.snippet.publishedAt).toDateString()%></li>
+        
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                      <%  })  }%>
+  
+        </div>
+   <%- include ('./partials/footer') -%>

@@ -12,7 +12,7 @@ const passportConfig = require('./config/passport').passportConfig;
 const userRoutes = require('./routes/userRoutes').userRoutes;
 const bodyParser = require('body-parser');
 
-startDb();
+// startDb();
 // passportConfig();
 
 app.use(bodyParser.urlencoded({extended: true}));
@@ -37,4 +37,5 @@ app.use(function(req, res, next){
     next();
 })
 userRoutes(app);
-app.listen(3000, process.env.IP, ()=>console.log('Listening on 3000'))
+const port = process.env.PORT || 3000
+app.listen(port, process.env.IP, ()=>console.log('Listening on 3000'))

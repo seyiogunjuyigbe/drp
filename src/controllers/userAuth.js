@@ -48,7 +48,7 @@ exports.isLoggedInAndAdmin = (req,res,next)=>{
         if(req.user.role == "admin"){
             return next();
         } else{
-            res.status(501).json({
+            res.status(401).json({
                 error: 'You are unauthorized to access this route'
             })
         } 
@@ -62,7 +62,7 @@ exports.isLoggedInAndSuperAdmin = (req,res,next)=>{
         if(req.user.role == "superAdmin"){
             return next();
         } else{
-            res.status(501).json({
+            res.status(401).json({
                 error: 'You are unauthorized to access this route'
             })
         } 
