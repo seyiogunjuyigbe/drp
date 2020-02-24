@@ -39,6 +39,6 @@ exports.getLiveVideos = (req,res)=>{
         }
   })
     .catch((error)=>{
-       return res.status(500).render('404',{error: error.message})
+       return res.status(500).render('404',{error: 'Please check your internet connection'})
     })
 }

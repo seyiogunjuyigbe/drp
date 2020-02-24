@@ -11,7 +11,7 @@ const passport = require('passport');
 const passportConfig = require('./config/passport').passportConfig;
 const userRoutes = require('./routes/userRoutes').userRoutes;
 const bodyParser = require('body-parser');
-
+const nodemailer = require('nodemailer')
 // startDb();
 // passportConfig();
 

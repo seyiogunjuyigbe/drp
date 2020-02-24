@@ -4366,7 +4366,7 @@ footer .footer-post-content a{
 .content_404{
 	float: left;
 	width: 100%;
-	background-image: url(images/404.jpg);
+	background-image: url(../images/404.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
