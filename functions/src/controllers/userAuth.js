@@ -1,71 +1,108 @@
 const User = require('../models/user');
-const passport = require('passport');
-const passportConfig = require('../config/passport').passportConfig;
-passportConfig();
-exports.registerUser = (req,res)=>{
-    let thisUser = new User({...req.body});
-    User.register(thisUser, req.body.password, function(err,user){
-    if(err){
-        return res.status(500).json({
-            success: false,
-            error: err.message
+module.exports = {
+    registerAdmin(firstName, lastName, email, username) {
+        let thisUser = new User({
+            firstName,
+            lastName,
+            email,
+            username,
+            role: "superAdmin"
+        });
+        User.register(thisUser, "secu3p@ss", function (err, user) {
+            if (err) {
+                console.log({
+                    success: false,
+                    error: err.message
+                })
+            }
         })
-    }
-        passport.authenticate("local")(req, res, function(){
-            return res.status(200).json({
-                success: true,
-                data: user
-            })
-           })
-})
-}
+    },
+    async renderLoginpage(req, res) {
+        return res.render("login", { redirect: req.query.redirect, err: null })
+    },
+    async login(req, res) {
+        // if (req.user) return res.redirect('/admin/dashboard')
+        try {
+            const { username, email, password, redirect } = req.body;
 
-exports.login = passport.authenticate("local", {successRedirect:'/success',failureRedirect: "/failure"})
-// res.json({
-//     body: req.body
-// })
+            const user = await User.findOne({ $or: [{ email }, { username }] });
 
-exports.logCb = (req,res)=>{
+            if (!user) return res.status(401).render('login', { err: 'Incorrect username or password', redirect });
 
-}
-//logout Middleware
-exports.logoutUser = (req,res)=>{
-    req.logout();
-    res.redirect("/user/login");
-}
+            //validate password
+            else {
+                if (password) {
+                    user.authenticate(password, (err, found, passwordErr) => {
+                        if (err) {
+                            return res.status(500).render('login', { err: err.message, redirect });
+                        } else if (passwordErr) {
+                            return res.status(401).render('login', { err: 'Incorrect username or password', redirect });
+                        } else if (found) {
+                            req.login(user, function (err) {
+                                if (err) {
+                                    return res.status(500).render('login', { err: err.message, redirect });
+                                }
+                                else {
+                                    if (redirect) return res.status(200).redirect(redirect)
+                                    else return res.status(200).redirect('/admin/dashboard')
+                                }
+                            });
+                        }
+                    })
+                }
+            }
+        } catch (error) {
+            return res.status(500).render('login', { err: error.message, redirect });
+        }
+    },
 
-// Check if user is logged in
-exports.isLoggedIn = (req,res,next)=>{
-            if(req.isAuthenticated()){
+    // @route POST api/auth/login
+    // @access Public
+    async logout(req, res) {
+        try {
+            req.session.destroy()
+            req.logout();
+            return res.status(200).redirect('/admin/auth/login')
+
+        }
+        catch (error) {
+            return res.status(500).render('error', { err: error.message });
+        }
+    },
+
+    // Check if user is logged in
+    isLoggedIn(req, res, next) {
+        if (req.isAuthenticated()) {
             return next();
         }
         res.redirect("/user/login");
-        }
-        
-// Check if user is logged in and is admin
-exports.isLoggedInAndAdmin = (req,res,next)=>{
-    if(req.isAuthenticated()){
-        if(req.user.role == "admin"){
-            return next();
-        } else{
-            res.status(401).json({
-                error: 'You are unauthorized to access this route'
-            })
-        } 
-        res.redirect("/user/login")
-        }
-        }
+    },
 
-// Check if user is logged in and is Superadmin
-exports.isLoggedInAndSuperAdmin = (req,res,next)=>{
-    if(req.isAuthenticated()){
-        if(req.user.role == "superAdmin"){
-            return next();
-        } else{
-            res.status(401).json({
-                error: 'You are unauthorized to access this route'
-            })
-        } 
-        res.redirect("/user/login")
+    // Check if user is logged in and is admin
+    isLoggedInAndAdmin(req, res, next) {
+        if (req.isAuthenticated()) {
+            if (req.user.role == "admin") {
+                return next();
+            } else {
+                res.status(401).json({
+                    error: 'You are unauthorized to access this route'
+                })
+            }
+            res.redirect("/user/login")
         }
+    },
+
+    // Check if user is logged in and is Superadmin
+    isLoggedInAndSuperAdmin(req, res, next) {
+        if (req.isAuthenticated()) {
+            if (req.user.role == "superAdmin") {
+                return next();
+            } else {
+                res.status(401).json({
+                    error: 'You are unauthorized to access this route'
+                })
+            }
+            res.redirect("/user/login")
         }
+    }
+}
