@@ -21,9 +21,10 @@ module.exports = {
         return res.render("login", { redirect: req.query.redirect, err: null })
     },
     async login(req, res) {
-        // if (req.user) return res.redirect('/admin/dashboard')
+        // if (req.user) return res.redirect('/dashboard')
         try {
             const { username, email, password, redirect } = req.body;
+            if (!password) return res.status(400).render('login', { err: 'Password required', redirect });
 
             const user = await User.findOne({ $or: [{ email }, { username }] });
 
@@ -62,7 +63,7 @@ module.exports = {
         try {
             req.session.destroy()
             req.logout();
-            return res.status(200).redirect('/admin/auth/login')
+            return res.status(200).redirect('/auth/login')
 
         }
         catch (error) {

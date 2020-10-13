@@ -2284,7 +2284,7 @@ ul.slick-dots{
 	width: 50%;
 	text-align: center;
 	margin: -250px 0 0;
-	left: 0px 
+	left: 0px;
 	right:0px;
 	top:50%;
 }
@@ -3860,7 +3860,7 @@ footer .footer-post-content a{
 	padding: 0px;
 	border:1px solid transparent;
 }
-.slick-dots li.slick-active button,{
+.slick-dots li.slick-active button{
 	border-color: transparent;
 }
 .church_testimonial_slider .slick-list{
@@ -4166,7 +4166,7 @@ footer .footer-post-content a{
 	margin-right: 20px;
 }
 .open_services:hover span{
-	border-color:;
+	border-color:#000;
 }
 .open_services_content{
 	float: none;
@@ -5141,7 +5141,7 @@ section.church_service_post{
 }
 .post_img_list ul li{
 	float:left;
-	width:
+	/* width: */
 } 
 
 /*

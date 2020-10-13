@@ -6,23 +6,8 @@ const broadcastCtrl = require("../controllers/broadcast");
 const { checkAuth } = require('../middlewares/auth');
 exports.userRoutes = app => {
     app.get('/', (req, res) => { return res.status(200).render('index') })
-    // Temp routes
-    app.get('/success', (req, res) => {
-        return res.status(200).json({
-            success: true,
-            user: req.user
-        })
-    })
-
-    app.get('/failure', (req, res) => {
-        return res.status(200).json({
-            success: false,
-            message: 'Try again'
-        })
-    })
-    // 
     app.get("/broadcast", checkAuth, broadcastCtrl.goLiveWithWeb)
-    app.get("/live-broadcast", broadcastCtrl.joinBroadcast);
+    app.get("/live", broadcastCtrl.joinBroadcast);
     app.post("/stream", broadcastCtrl.startNewStream)
     app.post("/stream/:streamId", broadcastCtrl.stopLiveStream)
     app.get("/stream", broadcastCtrl.fetchCurrentStream)
@@ -34,5 +19,6 @@ exports.userRoutes = app => {
     app.get('/auth/login', userAuth.renderLoginpage);
     app.post('/auth/login', userAuth.login);
     app.get('/auth/logout', userAuth.logout);
+    app.get("/admin/dashboard", checkAuth, (req, res) => { res.render("dashboard", { user: req.user }) })
     app.all('*', (req, res) => { return res.status(404).render('404', { error: 'Error... page not found' }) })
 }
