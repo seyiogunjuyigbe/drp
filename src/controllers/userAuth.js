@@ -1,6 +1,6 @@
 const User = require('../models/user');
 module.exports = {
-    registerAdmin(firstName, lastName, email, username) {
+    registerAdmin(firstName, lastName, email, username, password) {
         let thisUser = new User({
             firstName,
             lastName,
@@ -8,12 +8,14 @@ module.exports = {
             username,
             role: "superAdmin"
         });
-        User.register(thisUser, "secu3p@ss", function (err, user) {
+        User.register(thisUser, password, function (err, user) {
             if (err) {
                 console.log({
                     success: false,
                     error: err.message
                 })
+            } else {
+                console.log(thisUser.username + " seeded")
             }
         })
     },

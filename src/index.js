@@ -11,7 +11,6 @@ const User = require('./models/user');
 const passport = require('passport');
 const { PORT, SECRET_KEY } = require("./config/constants")
 const port = PORT || 3000
-console.log({ PORT, SECRET_KEY })
 const io = require("socket.io")(app.listen(port, () => console.log('Server listening on ' + port + " at " + new Date().toTimeString())));
 
 // const passportConfig = require('./config/passport').passportConfig;
@@ -40,7 +39,8 @@ app.use(require("express-session")({
     }
 })
 );
-
+const seedUsers = require("./utils/seedUsers");
+seedUsers()
 app.use(function (req, res, next) {
     res.locals.user = req.user;
     next();
