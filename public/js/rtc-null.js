@@ -7,6 +7,11 @@ import h from './helpers.js';
 
 window.addEventListener('load', async () => {
     let response = await axios.get(`${window.location.origin}/stream`);
+    if (!response.data.livestream) {
+        document.querySelector(".jumbotron").innerHTML = "<h3>Sorry, no live streams at the moment</h3>"
+    }
+    document.querySelector(".jumbotron").style.display = "block"
+
     const room = h.getQString(response.data.livestream.url, 'room');
     const username = sessionStorage.getItem('username');
 
