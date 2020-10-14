@@ -20,10 +20,14 @@ module.exports = {
         })
     },
     async renderLoginpage(req, res) {
-        return res.render("login", { redirect: req.query.redirect, err: null })
+        if (req.user) return res.redirect('/admin/dashboard')
+        else {
+            return res.render("login", { redirect: req.query.redirect, err: null })
+
+        }
     },
     async login(req, res) {
-        // if (req.user) return res.redirect('/dashboard')
+        if (req.user) return res.redirect('/admin/dashboard')
         try {
             const { username, email, password, redirect } = req.body;
             if (!password) return res.status(400).render('login', { err: 'Password required', redirect });
