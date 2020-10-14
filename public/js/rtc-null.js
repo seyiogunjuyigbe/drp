@@ -1,11 +1,13 @@
+
 /**
- * @author Amir Sanni <amirsanni@gmail.com>
- * @date 6th January, 2020
- */
+* @author Amir Sanni <amirsanni@gmail.com>
+* @date 6th January, 2020
+*/
 import h from './helpers.js';
 
-window.addEventListener('load', () => {
-    const room = h.getQString(location.href, 'room');
+window.addEventListener('load', async () => {
+    let response = await axios.get(`${window.location.origin}/stream`);
+    const room = h.getQString(response.data.livestream.url, 'room');
     const username = sessionStorage.getItem('username');
 
     if (!room) {
@@ -17,6 +19,7 @@ window.addEventListener('load', () => {
     }
 
     else {
+        document.querySelector('#username-set').style.display = "none";
         let commElem = document.getElementsByClassName('room-comm');
 
         for (let i = 0; i < commElem.length; i++) {
@@ -37,7 +40,6 @@ window.addEventListener('load', () => {
         getAndSetUserStream();
 
 
-
         socket.on('connect', () => {
             //set socketId
             socketId = socket.io.engine.id;
@@ -52,13 +54,13 @@ window.addEventListener('load', () => {
             socket.on('new user', (data) => {
                 socket.emit('newUserStart', { to: data.socketId, sender: socketId });
                 pc.push(data.socketId);
-                // init(true, data.socketId);
+                init(true, data.socketId);
             });
 
 
             socket.on('newUserStart', (data) => {
                 pc.push(data.sender);
-                // init(false, data.sender);
+                init(false, data.sender);
             });
 
 
@@ -84,7 +86,9 @@ window.addEventListener('load', () => {
                         });
 
                         let answer = await pc[data.sender].createAnswer();
+
                         await pc[data.sender].setLocalDescription(answer);
+
                         socket.emit('sdp', { description: pc[data.sender].localDescription, to: data.sender, sender: socketId });
                     }).catch((e) => {
                         console.error(e);
@@ -362,58 +366,66 @@ window.addEventListener('load', () => {
                 }, 50);
             }
         });
-
-
-        //When the video icon is clicked
-        document.getElementById('toggle-video').addEventListener('click', (e) => {
-            e.preventDefault();
-
-            let elem = document.getElementById('toggle-video');
-
+        if (myStream) {
             if (myStream.getVideoTracks()[0].enabled) {
-                e.target.classList.remove('fa-video');
-                e.target.classList.add('fa-video-slash');
-                elem.setAttribute('title', 'Show Video');
-
                 myStream.getVideoTracks()[0].enabled = false;
             }
-
-            else {
-                e.target.classList.remove('fa-video-slash');
-                e.target.classList.add('fa-video');
-                elem.setAttribute('title', 'Hide Video');
-
-                myStream.getVideoTracks()[0].enabled = true;
+            if (myStream.getAudioTracks()[0].enabled) {
+                myStream.getAudioTracks()[0].enabled = false;
             }
+        }
 
-            broadcastNewTracks(myStream, 'video');
-        });
+        //When the video icon is clicked
+        // document.getElementById('toggle-video').addEventListener('click', (e) => {
+        //     e.preventDefault();
+
+        //     let elem = document.getElementById('toggle-video');
+
+        //     if (myStream.getVideoTracks()[0].enabled) {
+        //         e.target.classList.remove('fa-video');
+        //         e.target.classList.add('fa-video-slash');
+        //         elem.setAttribute('title', 'Show Video');
+
+        //         myStream.getVideoTracks()[0].enabled = false;
+        //     }
+
+        //     else {
+        //         e.target.classList.remove('fa-video-slash');
+        //         e.target.classList.add('fa-video');
+        //         elem.setAttribute('title', 'Hide Video');
+
+        //         myStream.getVideoTracks()[0].enabled = true;
+        //     }
+
+        //     broadcastNewTracks(myStream, 'video');
+        // });
+
 
 
         //When the mute icon is clicked
-        document.getElementById('toggle-mute').addEventListener('click', (e) => {
-            e.preventDefault();
+        // document.getElementById('toggle-mute').addEventListener('click', (e) => {
+        //     e.preventDefault();
 
-            let elem = document.getElementById('toggle-mute');
+        //     let elem = document.getElementById('toggle-mute');
 
-            if (myStream.getAudioTracks()[0].enabled) {
-                e.target.classList.remove('fa-microphone-alt');
-                e.target.classList.add('fa-microphone-alt-slash');
-                elem.setAttribute('title', 'Unmute');
+        //     if (myStream.getAudioTracks()[0].enabled) {
+        //         e.target.classList.remove('fa-microphone-alt');
+        //         e.target.classList.add('fa-microphone-alt-slash');
+        //         elem.setAttribute('title', 'Unmute');
 
-                myStream.getAudioTracks()[0].enabled = false;
-            }
+        //         myStream.getAudioTracks()[0].enabled = false;
+        //     }
 
-            else {
-                e.target.classList.remove('fa-microphone-alt-slash');
-                e.target.classList.add('fa-microphone-alt');
-                elem.setAttribute('title', 'Mute');
+        //     else {
+        //         e.target.classList.remove('fa-microphone-alt-slash');
+        //         e.target.classList.add('fa-microphone-alt');
+        //         elem.setAttribute('title', 'Mute');
 
-                myStream.getAudioTracks()[0].enabled = true;
-            }
+        //         myStream.getAudioTracks()[0].enabled = true;
+        //     }
 
-            broadcastNewTracks(myStream, 'audio');
-        });
+        //     broadcastNewTracks(myStream, 'audio');
+        // });
 
 
         //When user clicks the 'Share screen' button

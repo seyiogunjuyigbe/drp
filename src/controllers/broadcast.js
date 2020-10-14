@@ -38,7 +38,7 @@ module.exports = {
             let livestream = await Stream.findOne({ isLive: true });
             return res.status(200).json({ success: true, livestream })
         } catch (err) {
-            return res.status(500).json({ success: false, err })
+            return res.status(500).json({ success: false, err, livestream: null })
 
         }
     }

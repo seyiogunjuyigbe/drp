@@ -1,5 +1,4 @@
 import helpers from './helpers.js';
-// import * as Axios from './axios.js';
 
 window.addEventListener('load', () => {
     //When the chat icon is clicked
