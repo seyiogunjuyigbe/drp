@@ -6,6 +6,10 @@
   <meta content="width=device-width, initial-scale=1" name="viewport" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+  <script src="/js/jquery-3.2.1.min.js"></script>
+  <script src="/js/popper.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
     integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <link rel="stylesheet" href='/css/app.css' type="text/css">
@@ -28,6 +32,16 @@
     margin: 0 auto;
     left: 10%;
 
+  }
+
+  body {
+    background-color: #070113;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+  }
+
+  .bg-default {
+    background-color: #000 !important;
   }
 
   #main-section {
@@ -56,7 +70,7 @@
   </div>
 
 
-  <nav class="navbar fixed-top bg-info rounded-0 d-print-none" <%if(user){%> data-role="admin" <% } else{%>
+  <nav class="navbar fixed-top bg-default rounded-0 d-print-none" <%if(user){%> data-role="admin" <% } else{%>
     data-role="guest" <%}%>>
     <!-- <div class="text-white">Video Call</div> -->
 
@@ -77,8 +91,8 @@
         <i class="fa fa-dot-circle text-white"></i>
       </button>
 
-      <button class="btn btn-sm text-white pull-right btn-no-effect" id='toggle-chat-pane'>
-        <i class="fa fa-comment"></i> <span class="badge badge-danger very-small font-weight-lighter"
+      <button class="btn btn-sm text-white pull-right btn-no-effect" id='toggle-chat-pane' title="Live Chat">
+        <i class="fa fa-2x fa-comment"></i> <span class="badge badge-danger very-small font-weight-lighter"
           id='new-chat-notification' hidden>New</span>
       </button>
 
@@ -157,7 +171,7 @@
           <div class="row mt-2 mb-2" id='videos'></div>
         </div>
 
-        <div class="col-md-3 chat-col d-print-none mb-2 bg-info" id='chat-pane' hidden>
+        <div class="col-md-3 chat-col d-print-none mb-2 bg-default" id='chat-pane' hidden>
           <div class="row">
             <div class="col-12 text-center h2 mb-3">CHAT</div>
           </div>

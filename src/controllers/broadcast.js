@@ -4,7 +4,8 @@ module.exports = {
         return res.status(200).render('broadcast', { user: req.user })
     },
     async joinBroadcast(req, res) {
-        return res.status(200).render('live-broadcast', { user: req.user })
+        let livestream = await Stream.findOne({ isLive: true });
+        return res.status(200).render('live-broadcast', { user: req.user, livestream })
     },
     async startNewStream(req, res) {
         try {

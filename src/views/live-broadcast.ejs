@@ -4,8 +4,46 @@
 <head>
   <title>Join Live Broadcast</title>
   <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <meta name="description" content="Join Live Broadcast with Pastor Shannona Williams. <%if(livestream){%><%=livestream.title%><%}%>">
+
+<meta name="image" content="/images/logo.png" />
+<meta name="keywords"
+  content="TARM,TARM Nigeria, TARM International, Transfiguration Ark Revival Mission, Ark, Reverend Oyelakin Olabiyi, Oyelakin Olabiyi, Revd. Lakin Olabiyi, Pastor Lakin, Pastor Lakin Olabiyi, Discipleship, Soul Winning, Christian Home Summit, Christian Home Building, Reality Conference, Prayer School, Destiny College, Leadership College, Transfiguration, Transfiguratioon Hour" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="language" content="English" />
+
+<!-- Schema.org : Google -->
+<meta itemprop="name" content="Deliverance and Restoration Praise Ministries" />
+<meta itemprop="description"
+  content="Join Live Broadcast with Pastor Shannona Williams. <%if(livestream){%><%=livestream.title%><%}%>" />
+<meta itemprop="image" content="/images/logo.png" />
+<!-- Schema.org : Google -->
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="" />
+<meta property="og:title" content="Deliverance and Restoration Praise Ministries" />
+<meta property="og:site_name" content="Trim" />
+<meta property="og:description"
+  content="Join Live Broadcast with Pastor Shannona Williams. <%if(livestream){%><%=livestream.title%><%}%>" />
+<meta property="og:image" content="/images/logo.png" />
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:url" content="" />
+<meta property="twitter:title" content="Deliverance and Restoration Praise Ministries" />
+<meta property="twitter:description"
+  content="Join Live Broadcast with Pastor Shannona Williams. <%if(livestream){%><%=livestream.title%><%}%>" />
+<meta property="twitter:image" content="/images/logo.png" />
+
+  <script src="/js/jquery-3.2.1.min.js"></script>
+  <script src="/js/popper.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
     integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <link rel="stylesheet" href='/css/app.css' type="text/css">
@@ -27,6 +65,20 @@
     display: none;
   }
 
+  .jumbotron {
+    background-color: #fff !important;
+  }
+
+  .bg-default {
+    background-color: #000 !important;
+  }
+
+  body {
+    background-color: #070113;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+  }
+
   #main-section {
     width: 100%;
     margin: 0 auto;
@@ -39,100 +91,112 @@
 </style>
 
 <body>
-  <nav class="navbar fixed-top bg-info rounded-0 d-print-none" <% if(user){%> data-role="admin" <% } else{%>
+  <link rel="stylesheet" href="/css/colors.css">
+  <link rel="stylesheet" href="/css/styles.css">
+
+  <nav class="navbar fixed-top bg-default rounded-0 d-print-none" <% if(user){%> data-role=" admin" <% } else{%>
     data-role="guest" <%}%>>
     <div class="pull-right room-comm float-right" hidden>
 
-      <button class="btn btn-sm text-white pull-right btn-no-effect" id='toggle-chat-pane'>
-        <i class="fa fa-comment"></i> <span class="badge badge-danger very-small font-weight-lighter"
+      <button class="btn btn-sm text-white pull-right btn-no-effect" id='toggle-chat-pane' title="Live Chat">
+        <i class="fa fa-2x fa-comment"></i> Live Chat<span class="badge badge-danger very-small font-weight-lighter"
           id='new-chat-notification' hidden>New</span>
       </button>
 
-      <button class="btn btn-sm rounded-0 btn-no-effect text-white">
-        <a href="/" class="text-white text-decoration-none"><i class="fa fa-sign-out-alt text-white"
-            title="Leave"></i></a>
-      </button>
+        <a href="/" class="btn btn-danger text-white text-decoration-none"><i class="fa fa-2x fa-sign-out-alt text-white"
+            title="Exit Broadcast"></i> Leave Broadcast</a>
     </div>
   </nav>
-
-  <div class="container-fluid" id='room-create' style="visibility: hidden;">
-    <div class="row">
-      <div class="col-12 h2 mt-5 text-center">Start Broadcast</div>
+<div class="container">
+  <div class="jumbotron text-center">
+    <%if(livestream){ %> <h2>
+  <%=livestream.title%> </h2>
+  <%} else{ %>
+  <h2>
+    No livestream at the moment </h2>
+  <%}%>
+   
     </div>
-
-    <div class="row mt-2">
-      <div class="col-12 text-center">
-        <span class="form-text small text-danger" id='err-msg'></span>
+    </div>
+    <div class="container-fluid" id='room-create' style="visibility: hidden;">
+      <div class="row">
+        <div class="col-12 h2 mt-5 text-center">Start Broadcast</div>
       </div>
 
-      <div class="col-12 col-md-4 offset-md-4 mb-3">
-        <label for="room-name">Service Title</label>
-        <input type="text" id='room-name' class="form-control rounded-0" placeholder="e.g. Tuesday Bible Study">
-      </div>
-
-      <div class="col-12 col-md-4 offset-md-4 mb-3" style="display: none;">
-        <label for="your-name">Your Name</label>
-        <input type="text" id='your-name' class="form-control rounded-0" readonly>
+      <div class="row mt-2">
+        <div class="col-12 text-center">
+          <span class="form-text small text-danger" id='err-msg'></span>
         </div>
 
         <div class="col-12 col-md-4 offset-md-4 mb-3">
-            <button id='create-room' class="btn btn-block rounded-0 btn-info">Start</button>
+          <label for="room-name">Service Title</label>
+          <input type="text" id='room-name' class="form-control rounded-0" placeholder="e.g. Tuesday Bible Study">
+        </div>
+
+        <div class="col-12 col-md-4 offset-md-4 mb-3" style="display: none;">
+          <label for="your-name">Your Name</label>
+          <input type="text" id='your-name' class="form-control rounded-0" readonly>
+        </div>
+
+        <div class="col-12 col-md-4 offset-md-4 mb-3">
+          <button id='create-room' class="btn btn-block rounded-0 btn-info">Start</button>
         </div>
 
         <div class="col-12 col-md-4 offset-md-4 mb-3" id='room-created'></div>
-        </div>
-        </div>
+      </div>
+    </div>
 
 
 
-        <div class="container-fluid" id='username-set'>
-            <div class="row">
-                <div class="col-12 h4 mt-5 text-center">Your Name</div>
-            </div>
+    <div class="container-fluid" id='username-set'>
+      <div class="row">
+        <div class="col-12 h4 mt-5 text-center">Your Name</div>
+      </div>
 
-            <div class="row mt-2">
-                <div class="col-12 text-center">
-                    <span class="form-text small text-danger" id='err-msg-username'></span>
-                </div>
-
-                <div class="col-12 col-md-4 offset-md-4 mb-3">
-                    <label for="username">Your Name</label>
-                    <input type="text" id='username' class="form-control rounded-0" placeholder="Your Name">
-                </div>
-
-                <div class="col-12 col-md-4 offset-md-4 mb-3">
-                    <button id='enter-room' class="btn btn-block rounded-0 btn-info">Enter Room</button>
-                </div>
-            </div>
+      <div class="row mt-2">
+        <div class="col-12 text-center">
+          <span class="form-text small text-danger" id='err-msg-username'></span>
         </div>
 
-
-
-        <div class="container-fluid room-comm" hidden>
-            <div class="row">
-                <video class="local-video mirror-mode" id='local' volume='0' autoplay muted></video>
-            </div>
-
-            <div class="row">
-                <div class="col-md-12 main" id='main-section'>
-                    <div class="row mt-2 mb-2" id='videos'></div>
-                </div>
-
-                <div class="col-md-3 chat-col d-print-none mb-2 bg-info" id='chat-pane' hidden>
-                    <div class="row">
-                        <div class="col-12 text-center h2 mb-3">CHAT</div>
-                    </div>
-
-                    <div id='chat-messages'></div>
-
-                    <div class="row">
-                        <textarea id='chat-input' class="form-control rounded-0 chat-box border-info" rows='3'
-                            placeholder="Type here..."></textarea>
-                    </div>
-                </div>
-            </div>
+        <div class="col-12 col-md-4 offset-md-4 mb-3">
+          <label for="username">Your Name</label>
+          <input type="text" id='username' class="form-control rounded-0" placeholder="Your Name">
         </div>
+
+        <div class="col-12 col-md-4 offset-md-4 mb-3">
+          <button id='enter-room' class="btn btn-block rounded-0 btn-info">Join Service</button>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="container-fluid room-comm" hidden>
+      <div class="row">
+        <video class="local-video mirror-mode" id='local' volume='0' autoplay muted></video>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12 main" id='main-section'>
+          <div class="row mt-2 mb-2" id='videos'></div>
+        </div>
+
+        <div class="col-md-3 chat-col d-print-none mb-2 bg-default" id='chat-pane' hidden>
+          <div class="row">
+            <div class="col-12 text-center h2 mb-3">LIVE CHAT</div>
+          </div>
+
+          <div id='chat-messages'></div>
+
+          <div class="row">
+            <textarea id='chat-input' class="form-control rounded-0 chat-box border-info" rows='3'
+              placeholder="Type here..."></textarea>
+          </div>
+        </div>
+      </div>
+    </div>
 </body>
 <span id="stop-stream"></span>
 <span id="closeModal"></span>
+
 </html>

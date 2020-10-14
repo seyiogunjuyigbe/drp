@@ -1,8 +1,6 @@
 #formDiv{
     width:40%;
-    border: 2px solid #fff;
     box-sizing: border-box;
-    border-radius: 40px;
     padding: 3%;
     padding-top: 0;
     margin-top: 1%;
@@ -13,7 +11,7 @@ form{
     padding-top: 2%;
 }
 body{
-    background-color: #070113;
+    background-color: #000;
     font-family: 'Poppins', sans-serif;
     color: #fff;
 }
