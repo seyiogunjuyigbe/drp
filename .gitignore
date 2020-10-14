@@ -1,0 +1,5 @@
+.env
+package-lock.json
+node_modules/
+drpmin.zip
+functions/env.json

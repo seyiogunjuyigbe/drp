@@ -1,0 +1,41 @@
+{
+  "name": "drpmin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/index.js ",
+    "serve": "firebase serve --only functions:api",
+    "deploy": "firebase deploy --only functions:api",
+    "init": "firebase init"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cloudinary": "^1.19.0",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "express-validator": "^6.3.1",
+    "mongoose": "^5.8.10",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "multer-storage-cloudinary": "^2.2.1",
+    "nodemailer": "^6.4.2",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^6.0.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "firebase-tools": "^8.10.0",
+    "nodemon": "^2.0.4"
+  }
+}

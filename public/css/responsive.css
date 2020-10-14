@@ -1,0 +1,1324 @@
+/*============	Media Between Start ============ */
+@media screen and (min-width: 1367px) and (max-width: 1680px) {
+	
+
+}
+
+/*============	Media Between Start ============ */
+@media screen and (min-width: 1199px) and (max-width: 1366px)  {	
+	.church_music_book .church_blog_content h4{
+		margin-bottom:19px;
+	}
+	.slider-version3.default_arrows.version_02 .slider-detail .item_caption{
+		width:45%;
+	}
+	.slider-version3.default_arrows .slick-arrow{
+		margin:0 0 -82px;
+	}
+	div.church_videoplayer_listing div.church_videoplay{
+		padding: 238px 0;
+	}
+	.wrapper .banner .slider-version3.default_arrows .slick-arrow{
+		margin:0 0 -208px;
+	}
+	.version-02 .countdown li span, .version-02 .countdown li p{
+		font-size: 20px;
+	}
+	div.banner_version_02 div.version-02 .large_text{
+		line-height: 100px;
+		font-size: 130px;
+	}
+	div.banner_version_02 div.version-02.slider-caption{
+		margin: -85px auto 0;
+	}
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+	.church_menu_row .church_audio_row{
+		width: 100%;
+	}
+	.church_social-menu .church_navigation .navigation > ul > li > a{
+		padding: 19px 19px 20px;
+	}
+	.church_container .cart_items_show,
+	.church_menu_row .social-icons{
+		display: none;
+	}
+	.church_soft_services .soft_column a{
+		margin: -45px auto 0;
+		width: 50%;
+	}
+	
+	.soft_column h4{
+		font-size: 20px;
+	}
+	.church_causes_post.hover_effect_02{
+		border: none;
+		padding: 0px;
+	}
+	.col-md-4:last-of-type .church_causes_post.hover_effect_02{
+		border: none;
+	}
+	.post_column.hover-effect-03 figure{
+		width: 100%;
+	}
+	.post_column.hover-effect-03 .post-content,
+	.rtl_content.post_column.hover-effect-03 figure{
+		width: 100%;
+	}
+	.footer_board .footer_twitter .footer_twitter_caption{
+		padding: 15px 0 8px 25px;
+		width: 72%;
+	}
+	.footer-post-content a{
+		margin-bottom: 2px;
+	}
+	.full-banner .sb-current .slider-caption:before{
+		left: 10% !important;
+	}
+	header.header_version_3 .church_navigation ul > li{
+		padding: 0 18px;
+	}
+	.item_caption .custom-font-30px{
+		font-size: 24px;
+	}
+	.wrapper .default_arrows .slick-arrow.slick-next{
+		left: 26.5%;
+	}
+	.church_event_blog .church_listing_block figure img{
+	    min-height: 257px;
+	    -moz-transform: scale(1.2);
+	    -webkit-transform: scale(1.2);
+	    -o-transform: scale(1.2);
+	    transform: scale(1.2);
+	}
+	.church_event_blog .church_listing_caption h4 a{
+		margin-bottom: 9px;
+    	padding-bottom: 14px;
+	}
+	.church_event_blog .church_listing_block .church_listing_caption p{
+		margin-bottom: 21px;
+    	padding: 3px 0 0;
+	}
+	.church_blog_columns .ch_position-up{
+		width: 100%;
+	}
+	.church_blog_columns .church_blog_footer{
+		padding: 17px 30px 15px;
+	}
+	.church_blog_columns .church_blog_content h4 a{
+		font-size: 20px;
+	}
+	.church_prayer_detail h3{
+		font-size: 30px;
+	}
+	.church_prayer_block .church_prayer_detail p{
+		margin-bottom: 22px;
+	}
+	.post_easter .small_easter-caption{
+		padding: 51px 0 45px;
+	}
+	.church_play_track a{
+		font-size: 14px;
+	}
+	.col-md-8 .church_playing_music figure{
+		width: 100%;
+	}
+	.col-md-8 .church_music_caption{
+		float: left;
+		width: 100%;
+		padding: 15px 15px 0px 15px;
+	}
+	.church_progress_menu{
+		height: auto;
+	}
+	div.church_container_version2 div.audioplayer div.info{
+		border: none;
+	}
+	div.church_container_version2 div.audioplayer div.title{
+		border: none;
+		font-size: 12px;
+	}
+	div.church_container_version2 .audioplayer .player div.progressbar{
+		left: -13px;
+		width: 210px;
+	}
+	.church_container_version2 .audioplayer .controls .pause::before, 
+	.church_container_version2 .audioplayer .controls .play::before{
+		-moz-transform: scale(0.7);
+		-webkit-transform: scale(0.7);
+		-o-transform: scale(0.7);
+		transform: scale(0.7);
+	}
+	div.count-down-timer .countdown li{
+		margin-right: 2px;
+	}
+	div.church_listing_caption{
+		padding: 0px;
+	}
+	ul.social-icons li a, ul.meta_address li a{
+		font-size: 13px;
+	}
+	div.church_listing_caption h4 a{
+		margin-bottom: 8px;
+		padding-bottom: 12px
+	}
+	.header_version_5 .navigation ul li a{
+		padding: 19px 9px 20px;
+	}
+	div.style_version_5 div.audioplayer div.timeHolder{
+		right: 90px;
+		width: 57%;
+	}
+	div.style_version_5 div.audioplayer div.player div.progressbar{
+		width: 400px;
+		left: auto;
+		right: -20px;
+	}
+	.church_thumbnail_slider_wraper{
+		height: 513px;
+	}
+	div.style_version_5 div.audioplayer div.info .title{
+		font-size: 15px;
+	}
+	div.style_version_5 div.audioplayer div.info{
+		padding: 6px 0 7px;
+	}
+	div.padding_banner{
+		padding: 0px;
+	}
+	.church_listing_caption a{
+		font-size: 18px;
+	}
+	.church_service_post_fig{
+		margin-bottom: 15px;
+	}
+	div.church_service_post_fig figure figcaption ul.countdown li{
+		margin-right: 20px;
+	}
+	div.church_service_post_fig figure figcaption ul.countdown li:before{
+		display: none;
+	}
+	header.header_version_2 .church_menu_row{
+		width: auto;
+	}
+	div.slider-caption ul.countdown li h3{
+		margin-bottom: 5px;
+	}
+	div.slider-caption ul.countdown li h3,
+	div.slider-caption ul.countdown li span{
+		font-size: 20px;
+		display: inline-block;
+		width: 100%;
+	}
+	div.banner_version_02 div.slider-caption .large_text{
+		font-size: 120px;
+		line-height: 89px;
+	}
+	div.banner_version_02 div.slider-caption{
+		margin: -80px auto 0;
+	}
+	div.church_playing-options ul li{
+		width: 25%;
+	}
+	div.church_playing-options.icon ul li a{
+		width: 100%;
+	}
+	ul.countdown li{
+		margin-right: 18px;
+	}
+	ul.countdown li:before{
+		display: none;
+	}
+	div.church_blog_post_text .countdown li h3{
+		font-size: 14px;
+	}
+	div.church_blog_post_text .countdown li span{
+		font-size: 16px;
+		display: inline-block;
+	}
+	div.church_postor_row div.church_postor_fig{
+		background-image: none;
+	}
+	div.church_music_caption div.church_playing-options ul li{
+		width: 8%;
+	}
+	.left_side-content figure{
+		float: left;
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	.ministry_column .ministry_content{
+		float: left;
+		width: 100%;
+		padding: 0px;
+	}
+	.comingsoon_content_caption h2{
+		font-size: 36px;
+		line-height: 36px;
+		margin-bottom: 20px;
+	}
+	.comingsoon_content_caption h6{
+		font-size: 16px;
+	}
+	div.style_audio_2{
+		right: 94px;
+		padding: 0px;
+	}
+	div.style_audio_2.audioplayer .timeHolder{
+		right: 135px;
+		width: 75%;
+	}
+	div.church_causes_listing figure{
+		float: left;
+		width: 100%;
+	}
+	div.church_causes_listing div.church_blog_content{
+		float: left;
+		width: 100%;
+	}
+	div.style_audio_2.audioplayer div.player div.progressbar{
+		left: 0px;
+		width: 540px;
+	}
+	.church_service_post_fig.responsive_991{
+		margin-bottom: 0px;
+	}
+	.church_news_fig .church_news_text{
+		padding: 8px 20px;
+	}
+	.church_blog_post_fig .church_blog_post_text{
+		padding-left: 13px;
+	}
+	.church_blog_post_text .post_comment{
+		padding-bottom: 6px;
+	}
+	div.church_causes_caption div.chu-detail_donars .donars_right li{
+		width: 31.777%;
+	}
+	ul.widget_event_slider li a{
+		width: 30.7777%;
+	}
+	.wrapper .default_arrows .slick-arrow.slick-next{
+		left: auto;
+	}
+	.widget_event_slider.default_arrows .slick-arrow{
+		margin-top: -49px;
+		top:0px;
+	}
+	ul.church_blog_next li{
+		width: 48%;
+	}
+	.ch_comment_form .kf_commet_field{
+		margin-right: 25px;
+	}
+	header.church_version_1 .church_logo{
+		padding: 24px 0 0;
+	}
+	header.church_version_1 .church_social-menu .church_navigation .navigation > ul > li > a{
+		padding: 24px 19px;
+	}
+	div.church_videoplayer_listing div.church_videoplay{
+		padding: 246px 0;
+	}
+	
+}
+/*============	Media 991Px Start ============ */ 
+
+@media (max-width: 991px) {	
+	.listing_picture_news,
+	.church_navigation,
+	.church_banner .nav-arrows a,
+	.church_menu_row,
+	.slider-caption.container{
+		display: none;
+	}
+	.church_aboutus .church_picture{
+		min-height: 278px;
+		opacity: 0.2;
+		position: absolute;
+		top:0px;
+		left: 0px;
+		right: 0px;
+		width: 100%;
+	}
+	.church_heading.align_center span{
+		width: 70%;
+	}
+	.soft_column .soft_column_caption a{
+		width: 52%;
+	}
+	.soft_column .soft_column_caption{
+		/*margin: -66px auto 0;*/
+		padding: 0px 10px;
+	}
+	.church_listing_player  .church_play_track a{
+		font-size: 14px;
+	}
+	.accordian_spacing .player_caption{
+		padding: 13px 15px 12px 20px;
+	}
+	.church_causes_post{
+		padding: 0px;
+	}
+	.testimonial_content p{
+		width: 78%;
+	}
+	.post_column .post-content h6 {
+	    display: list-item;
+	    float: none;
+	    margin-bottom: 0;
+	    overflow: hidden;
+	    width: auto;
+	}
+	.church_flicker,
+	.footer_board .footer_twitter,
+	.footer_blog,
+	.footer_detail{
+		margin-bottom: 30px;
+	}
+	.church_flicker .footer-post-content a,
+	.footer_blog .footer-post-content a{
+		margin-bottom: 2px;
+	}
+	.post_column figure,
+	.footer_board .footer_twitter span{
+		height: 100%;
+	}
+	.footer_board .footer_twitter .footer_twitter_caption{
+		padding: 20px 15px;
+	}
+	.footer_other_sections .church_flicker .footer_blog_post{
+		padding-bottom: 15px;
+		padding-top: 5px;
+	}
+	.post_column.hover-effect-03 figure,
+	.post_column.hover-effect-03 .post-content,
+	.post_column.rtl_content .post-content,
+	.church_videoplayer_listing .church_listing_player,
+	.church_videoplayer_listing .church_videoplay{
+		width: 50%;
+		z-index: 10;
+	}
+	.church_aboutus .church_about_us{
+		width: 100%;
+	}
+	.post_column.hover-effect-03 .post-content{
+		padding: 15px;
+	}
+	.footer_twitter > span{
+		width: 15%;
+	}
+	.footer_board .footer_twitter .footer_twitter_caption{
+		padding: 12px 15px 0;
+		width: 65%;
+	}
+	.footer_twitter .pull-right{
+		width: auto;
+		display: inline-block;
+		padding: 22px 15px 0px 0px;
+	}
+	div.church_listing_news,
+	.footer_twitter .pull-right a{
+		width: 100%;
+	}
+	.church_flicker .church_flicker_gallery li{
+		width: 16.333%;
+	}
+	.church_container .container:before{
+		display: none;
+	}
+	header.header_version_3 .church_navigation ul > li{
+		padding: 0px;
+	}
+	.item_caption .custom-font-30px{
+		font-size: 20px;
+	}
+	.wrapper .default_arrows .slick-arrow.slick-next{
+		left: 27%;
+	}
+	.church_progress_menu{
+		height: auto;
+	}
+	.church_progress_menu .slider_progress_items,
+	.church_event_blog .church_listing_caption,
+	.church_event_blog .church_listing_block figure{
+		width: 100%;
+	}
+	.church_blog_content .church_blog_footer{
+		padding: 17px 40px 15px;
+	}
+	.church_prayer_detail h3{
+		font-size: 24px;
+	}
+	.church_prayer_block .church_prayer_detail p{
+		margin-bottom: 12px;
+	}
+	.responsive_3 .header_top_row .pull-right{
+		width: 100%;
+	}
+	.responsive_3 .social-icons_list li{
+		border-top: 1px solid #616161;
+	}
+	.responsive_3 .church_menu_row{
+		display: block;
+		width: auto;
+	}
+	header.responsive_3 .church_logo{
+		padding: 0px;
+	}
+	.post_easter .small_easter-caption{
+		padding: 29px 0 21px;
+	}
+	.post_event_first .easter_event{
+		margin: -77px auto 0;
+	}
+	.church_music_caption .church_playing-options li{
+		margin-right: 16px;
+	}
+	.church_prayer_block .church_prayer_detail{
+		padding: 0px;
+	}
+	div.header_top_row div.pull-right{
+		width: 100%;
+	}
+	.header_version_5 div.header_top_row div.pull-right{
+		width: auto;
+	}
+	div.church_listing_caption{
+		padding-top: 0px;
+	}
+	.social-icons li a, .meta_address li a{
+		font-size: 13px;
+	}
+	.count-down-timer .countdown li{
+		margin-right: 5px;
+	}
+	.church_progress_menu{
+		height: auto;
+	}
+	.services_weekly li div.weekly_column{
+		padding: 58px 15px 51px;
+	}
+	div.style_version_5 div.audioplayer div.info{
+		width: 25%;
+		display: none;
+	}
+	div.style_version_5 div.audioplayer div.player div.progressbar {
+	    left: 6px;
+	    width: 58%;
+	}
+	div.style_version_5 div.audioplayer div.timeHolder{
+		margin: -6px auto;
+		right: 90px;
+		width: 74%;
+	}
+	div.style_version_5 div.audioplayer div.controls{
+		left: 0px;
+	}
+	div.church_thumbnail_slider_wraper{
+		max-height: 392px;
+	}
+	div.slider_thumbnail div.item_caption{
+		min-height: 100px;
+		padding: 15px 20px 0;
+	}
+	div.slider_thumbnail_items.default_arrows .slick-arrow.slick-prev{
+		left: -70%;
+	}
+	div.slider_thumbnail_items.default_arrows .slick-arrow.slick-next{
+		left: -40%;
+	}
+	div.slider_thumbnail_items.default_arrows .slick-arrow{
+		margin: 0 0 20px;
+	}
+	div.padding_banner{
+		padding: 0px;
+	}
+	div.responsive_991{
+		width: 50%;
+	}
+	div.church_service_post_fig.responsive_991{
+		padding-right: 5px;
+	}
+	div.church_text h3{
+		font-size: 24px;
+	}
+	.church_latest_wrap ul.church_full_row > li{
+		width: 33.333%;
+	}
+	.church_full_row div.church_playing-options ul li{
+		width: 24.999%;
+	}
+	.church_full_row div.church_playing-options ul li a{
+		width: 100%;
+	}
+	div.church_postor_row div.church_postor_fig{
+		background-position: top right;
+	}
+	div.church_postor_row div.church_postor_text{
+		padding:30px 0 0;
+	}
+	div.church_postor_row div.church_postor_text p{
+		margin-bottom: 0px;
+	}
+	.church_blog_post_fig .church_blog_post_text .countdown li{
+		margin-right: 28px;
+	}
+	div.post_img_list{
+		margin-bottom: 15px;
+	}
+	div.church_text h3{
+		margin-top: -4px;
+	}
+	div.church_text p{
+		margin-bottom: 0px;
+	}
+	.right_side-content figure,
+	.ministry_column .left_side-content figure{
+		float: left;
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	.ministry_column .left_side-content figure img{
+		width: 100%;
+	}
+	.ministry_column .ministry_content{
+		float: left;
+		width: 100%;
+		padding: 0px;
+	}
+	.ministry_column .custom-font-30px{
+		line-height: normal;
+	}
+	.comingsoon_content_caption h2{
+		font-size: 36px;
+		line-height: 36px;
+		margin-bottom: 20px;
+	}
+	.comingsoon_content_caption h6{
+		font-size: 16px;
+	}
+	div.church_causes_listing div.church_blog_content,
+	div.church_causes_listing figure{
+		float: left;
+		width: 100%;
+	}
+	div.style_audio_2{
+		float: left;
+		right: 72px;
+	}
+	div.style_audio_2.audioplayer div.player div.progressbar{
+		width:320px;
+		left: 13px;
+	}
+	div.style_audio_2.audioplayer div.timeHolder {
+	    right: 130px;
+	    width: 65%;
+	}
+	div.church_music_book div.caption p{
+		margin-bottom: 80px;
+	}
+	.church_causes2_caption{
+		
+	}
+	.church_service_post_fig.no-padding{
+		margin-bottom: 10px;
+	}
+	div.church_service_post_fig.responsive_991{
+		padding-top: 0px;
+	}
+	div.church_latest_des{
+		padding: 0 20px 30px;
+	}
+	header.header_version_6 div.pull-right{
+		width: auto;
+	}
+	.church_causes_listing .church_causes2_caption{
+		padding: 17px 15px 0;
+	}
+	div.church_causes_listing .donars_right li,
+	div.chu-detail_donars,
+	.church_blog_content div.chu_progress_causes{
+		width: 100%;
+	}
+	.church_causes_documents .donate_amount_focus li{
+		margin-right: 19px;
+	}
+	.widget_event_slider.default_arrows .slick-arrow{
+		margin-top: -45px;
+		top:0px;
+	}
+	.widget_event_slider.default_arrows .slick-arrow.slick-next{
+		left: auto;
+	}
+	.widget_event_slider.default_arrows .slick-arrow.slick-prev{
+		right: 30px;
+	}
+	.widget_events .widget_event_slider li a{
+		width: 15.888%;
+	}
+	ul.church_blog_next li{
+		width: 48%;
+	}
+	.ch_comment_form .kf_commet_field{
+		margin-right: 25px;
+	}
+	.ch_comment_form{
+		margin-bottom: 30px;
+	}
+	div.dl-menuwrapper{
+		display: block;
+		float: right;
+		width: auto;
+		padding: 36px 0px 0px;
+		z-index: 99;
+		position: relative;
+	}
+	div.dl-menuwrapper .dl-menu{
+		left: auto;
+		right: 0px;
+	}
+	.header_version_3 div.dl-menuwrapper{
+		padding: 0px;
+	}
+	.header_version_4 div.dl-menuwrapper{
+		padding: 15px 0px 0px;
+	}
+	.header_version_2 div.dl-menuwrapper{
+		padding: 29px 0;
+	}
+	header.header_version_2{
+		position: relative;
+		top:0px;
+	}
+	.header_version_6 div.dl-menuwrapper{
+		padding: 42px 0 0;
+	}
+	.header_version_4 .church_logo{
+		float: left;
+		width: 100%;
+		text-align: center;
+	}
+	div.church_videoplayer_listing div.church_videoplay{
+		padding: 261px 0;
+	}
+	.banner_slide.slick-slide.slick-current.slick-active > img{
+		height: 215px;
+	}
+	.footer_title.c-black{
+		font-size: 30px;
+	}
+	
+}
+
+/*============	Media 768Px Start ============ */ 
+@media (min-width: 768px) and (max-width: 991px) {
+	
+}
+
+/*============ Media 767Px Start ============ */
+@media (max-width: 767px) {
+	
+	div.listing_picture_news,
+	.church_testimonial_nav,
+	.church_progress_menu.container,
+	.item_caption,
+	.church_navigation,
+	.pull-right .social-icons,
+	.church_banner .nav-arrows a,
+	.church_menu_row,
+	.slider-caption.container{
+		display: none;
+	}
+	.church_aboutus .church_picture{
+		min-height: 278px;
+		opacity: 0.2;
+		position: absolute;
+		top:0px;
+		left: 0px;
+		right: 0px;
+		width: 100%;
+	}
+	.church_heading.align_center span{
+		width: 70%;
+	}
+	.soft_column .soft_column_caption a{
+		width: 52%;
+	}
+	.soft_column .soft_column_caption{
+		/*margin: -66px auto 0;*/
+		padding: 0px 10px;
+	}
+	.church_listing_player  .church_play_track a{
+		font-size: 14px;
+	}
+	.accordian_spacing .player_caption{
+		padding: 13px 15px 12px 20px;
+	}
+	.church_causes_post{
+		padding: 0px;
+	}
+	.testimonial_content p{
+		width: 78%;
+	}
+	.post_column .post-content h6 {
+	    display: list-item;
+	    float: none;
+	    margin-bottom: 0;
+	    overflow: hidden;
+	    width: auto;
+	}div.church_listing_block figure,
+	.church_flicker,
+	.footer_board .footer_twitter,
+	.footer_blog,
+	.footer_detail{
+		margin-bottom: 30px;
+	}
+	.church_flicker .footer-post-content a,
+	.footer_blog .footer-post-content a{
+		margin-bottom: 2px;
+	}
+	.post_column figure,
+	.footer_board .footer_twitter span{
+		height: 100%;
+	}
+	.footer_board .footer_twitter .footer_twitter_caption{
+		padding: 20px 15px;
+	}
+	.footer_board .footer_twitter .pull-right{
+		padding: 0px;
+	}
+	.footer_other_sections .church_flicker .footer_blog_post{
+		padding-bottom: 15px;
+		padding-top: 5px;
+	}
+	.footer_board .footer_twitter .footer_twitter_caption,
+	.footer_twitter .pull-right a,
+	.footer_twitter .pull-right,
+	.post_column.hover-effect-03 figure,
+	.footer_board .footer_twitter span,
+	.post_column.hover-effect-03 .post-content,
+	.post_column.rtl_content .post-content,
+	.church_videoplayer_listing .church_listing_player,
+	.church_videoplayer_listing .church_videoplay,
+	.church_aboutus .church_about_us{
+		width: 100%;
+		z-index: 10;
+	}
+	.post_column.hover-effect-03 .post-content{
+		padding: 15px;
+	}
+
+	.church_login_services li a, 
+	.language_changer .selectric .label, 
+	.church_accounts_language li a{
+		font-size: 12px;
+	}
+	.church_login_services li, 
+	.church_accounts_language > li{
+		margin-right: 8px;
+		padding-right: 0px;
+	}
+	.church_login_services li:before,
+	.church_accounts_language > li:before{
+		display: none;
+	}
+	.church_login_services li, .church_accounts_language > li{
+		width: 100%;
+		padding: 10px 20px;
+		margin-right: 0px;
+		background: #000;
+		margin-bottom: 10px;
+	}
+	.church_listing_block .church_listing_caption,
+	.church_event_blog .church_listing_block figure,
+	.church_login_services li a, .church_accounts_language > li a{
+		width: 100%;
+	}
+	.pull-right .church_login_services{
+		padding-top: 0px;
+		margin-right: 0px;
+	}
+	.header_version_3 .church_login_services, 
+	.header_version_3 .church_accounts_language{
+		padding-top: 0px;
+	}
+	.header_version_3 .header_top_row{
+		padding:15px 0px;
+	}
+	.slider-version3.default_arrows .slick-arrow{
+		margin: 0 0 -50px;
+	}
+	.slider-version3.default_arrows .slick-arrow.slick-prev{
+		left: 5%;
+	}
+	.church_help_content h3{
+		font-size: 24px;
+		margin-top: -6px;
+	}
+	.church_help_content h4{
+		font-size: 24px;
+	}
+	.church_donate_rate .church_help_hall{
+		padding:80px 0px;
+	}
+	.soft_column .soft_column_caption a{
+		
+	}
+	.church_blog_columns .ch_position-up{
+		width: 100%;
+	}
+	.church_blog_columns .church_blog_footer{
+		padding: 17px 20px 15px;
+	}
+	.church_prayer_block .pull-right{
+		float: left;
+		width: 100%;
+	}
+	header.header_version_3 .church_logo{
+		margin-bottom: 10px;
+	}
+	header.header_version_3 .church_countdown_timer,
+	.church_prayer_block .church_prayer_detail{
+		width: 100%;
+	}
+	div.church_latest_wrap ul.church_full_row > li,
+	.post_easter_blog .post_event_first{
+		width: 100%;
+	}
+	.post_easter_blog .post_easter ul li.small_easter{
+		width: 100%;
+	}
+	.post_easter_blog .small_easter-caption h6 a{
+		font-size: 18px;
+	}
+	.col-md-8 .church_playing_music figure{
+		margin-bottom: 15px;
+		float: left;
+		width: 100%;
+	}
+	div.church_listing_news,
+	.church_playing_music figure img{
+		width: 100%;
+	}
+	.church_playing_music .church_music_caption{
+		float: left;
+		width: 100%;
+		padding: 0px;
+	}
+	.church_music_caption .church_playing-options li{
+		margin-right: 2px;
+	}
+	.church_play_playlist .church_play_track a{
+		font-size: 13px;
+	}
+	.church_testimonial_slider .testimonial_item{
+		padding: 15px;
+	}
+	ul.block_services li{
+		width: 100%;
+	}
+	div.church_listing_block figure{
+		width: 100%;
+	}
+	div.church_listing_caption div{
+		padding: 0px;
+	}
+	ul.ch_position-up{
+		padding:17px 0 9px 15px;
+	}
+	ul.meta_address li:before{
+		display: none;
+	}
+	ul.services_weekly li{
+		width: 100%;
+	}
+	div.header_top_row div.pull-right{
+		width: 100%;
+	}
+	.church_thumbnail_slider_wraper div.default_arrows .slick-arrow{
+		display: none !important;
+	}
+	.church_audio_row.style_version_5{
+		display: none;
+	}
+	.thumbnail_title h4{
+		font-size: 12px;
+	}
+	div.banner.padding_banner{
+		padding: 0px;
+	}
+	div.slider_thumbnail_items div.item:hover img{
+		transform: none;
+	}
+	
+	div.church_thumbnail_slider_wraper{
+		height: 246px;
+	}
+	ul.church_full_row > li{
+		width: 100%;
+	}
+	.church_latest_text div.church_playing-options ul li{
+		width: 25%;
+	}
+	.church_latest_text div.church_playing-options ul li a{
+		width: 100%;
+		display: inline-block;
+	}
+	.church_news_fig{
+		margin-bottom: 30px;
+	}
+	div.church_blog_post_fig div.church_blog_post_text,
+	div.church_blog_post_fig figure,
+	div.church_postor_fig div.church_postor_text,
+	div.church_postor_row .church_postor_fig figure{
+		float: left;
+		width: 100%;
+	}
+	.church_postor_fig .church_postor_text{
+		padding: 15px 0 0;
+	}
+	.church_blog_post_fig .church_blog_post_text{
+		padding: 30px 15px 0;
+	}
+	.church_postor_row .church_postor_fig{
+		background-image: none;
+	}
+	div.church_blog_post_text .countdown li{
+		margin-right: 40px;
+	}
+	div.church_prayer_block.height div.pull-right{
+		width: auto;
+		height: auto;
+	}
+	div.church_prayer_detail.padding{
+		padding: 80px 0px 0px;
+	}
+	.church_service_post_fig{
+		margin-bottom: 15px;
+	}
+	div.church_news_fig div.church_news_text{
+		padding: 15px 20px;
+	}
+	div.church_blog_post_text .countdown li{
+		margin-right: 10px;
+		margin-bottom: 0px;
+	}
+	div.church_blog_post_text .countdown li:before{
+		display: none;
+	}
+	div.church_blog_post_text .countdown li h3{
+		font-size: 16px;
+	}
+	div.church_blog_post_text .countdown li span{
+		font-size: 12px;
+	}
+	.church_text h3{
+		font-size: 22px;
+		margin-top: -4px;
+	}
+	.align_center h3{
+		margin-top: -3px;
+		font-size: 32px;
+	}
+	div.right_side-content figure,
+	div.ministry_column div.left_side-content figure{
+		float: left;
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	div.right_side-content div.ministry_content,
+	div.ministry_column div.left_side-content figure img{
+		width: 100%;
+	}.
+	div.ministry_column div.ministry_content{
+		float: left;
+		width: 100%;
+		padding: 0px;
+	}
+	div.ministry_column .custom-font-30px{
+		line-height: normal;
+	}
+	div.comingsoon_content_caption h2{
+		font-size: 30px;
+		line-height: 30px;
+		margin-bottom: 20px;
+	}
+	div.comingsoon_content_caption h6{
+		font-size: 16px;
+		width: 100%;
+	}
+	div.comingsoon_content_caption .padding-lt-rt{
+		width: 100%;
+	}
+	div.comingsoon_content_caption .countdown li{
+		margin-right: 0px;
+		width: 100%;
+		padding: 0px;
+		margin-bottom: 20px;
+	}
+	div.comingsoon_content_caption .countdown li:before{
+		display: none;
+	}
+	.comingsoon_content_caption form .submit_email input{
+		width: 100%;
+	}
+	.church_blog_post_fig .church_blog_post_text .countdown li{
+		margin-right: 20px;
+	}
+	div.responsive_991{
+		width: 100%;
+	}
+	header.header_version_6{
+		position: relative;
+	}
+	.header_version_6 ul.church_login_services li,
+	.header_version_6 ul.church_accounts_language > li{
+		background: rgba(255, 255, 255, 0.1);
+	}
+	div.church_music_book div.church_blog_content h4 a{
+		font-size: 24px;
+	}
+	
+	.audioplayer.style_audio_2{
+		display: none;
+	}
+
+	div.church_blog_content div.share_social li{
+		float: left;
+		width: 50%;
+		border-bottom: none;
+		padding: 0px;
+	}
+	div.church_blog_content div.share_social li a{
+		padding: 0px;
+		border-bottom: 1px solid #ccc;
+		border-right: 1px solid #ccc;
+		padding: 10px 0px;
+	}
+	div.church_music_book div.caption p{
+		margin-bottom: 20px;
+		width: 100%;
+	}
+	div.church_blog_content p,
+	div.church_music_book div.church_causes2_caption,
+	.church_blog_content div.share_social{
+		width: 100%;
+		float: left;
+		border: none;
+	}
+	div.church_blog_content p{
+		font-size: 13px;
+	}
+	.church_blog_content div.share_social{
+		border-top: 1px solid #ccc;
+	}
+	.church_causes_listing .church_causes2_caption{
+		padding: 17px 15px 0;
+	}
+	div.amount_focus,
+	div.chu_progress_causes,
+	div.church_causes_listing .donars_right li,
+	div.chu-detail_donars,
+	.church_blog_content div.chu_progress_causes{
+		width: 100%;
+	}
+	div.chu_progress_causes{
+		padding: 30px 30px 15px;
+	}
+	div.chu-detail_donars .donars_right li{
+		width: 31.9999%;
+	}
+	.church_causes_documents ul.documents_download li .pull-left{
+		margin-bottom: 15px;
+		padding: 0;
+		width: 100%;
+	}
+	.church_causes_documents ul.donate_amount_focus li{
+		width: 50%;
+		float: left;
+		margin-right: 0px;
+		padding: 0px 10px;
+	}
+	.donate_amount_focus li .amount_focus label{
+		width: 100%;
+	}
+	.wrapper .default_arrows .slick-arrow.slick-next{
+		left: 70%;
+	}
+	.widget_event_slider.default_arrows .slick-arrow.slick-prev{
+		right: 33%;
+	}
+	.blog_title_1 > a{
+		font-size: 20px;
+	}
+	.church_causes_detail .church_causes_cap{
+		padding: 20px 20px 22px;
+	}
+	div.widget_sidebar .widget_event_slider.default_arrows button.slick-arrow{
+		margin-top: -50px;
+		top:0px;
+	}
+	.church_meta_date.meta_2.meta_3 li{
+		width: 50%;
+	}
+	blockquote.blockquote_text{
+		padding: 33px 50px 64px;
+	}
+	ul.church_blog_next li{
+		margin-right: 0px;
+	}
+	div.churech_author figure{
+		margin-bottom: 10px;
+	}
+	div.churech_author_text{
+		float: left;
+		width: 100%;
+		padding-left: 0px;
+	}
+	.sermon_detail_player_cap .other_information,
+	.sermon_detail_player_cap .sermon_caption,
+	.ch_comment_form .kf_commet_field{
+		width: 100%;
+		margin-right: 0px;
+	}
+	.sermon_video_player figure .share_social{
+		display: none;
+	}
+	div.sermon_video_player figure{
+		margin-bottom: 20px;
+	}
+	div.sermon_detail_player_cap div.sermon_caption .social-icons-simple{
+		float: none;
+		float: left;
+		margin-bottom: 10px;
+		width: 100%;
+	}
+	div.velues_adds ul.controls li{
+		margin: 0 2px 0 0;
+	}
+	div.wrapper div.default_arrows button.slick-arrow.slick-next{
+		left: auto;
+		right: 15px;
+	}
+	div.slider-version3.default_arrows button.slick-arrow{
+		margin: 0 0 -25px;
+	}
+	div.slider_full button.slick-arrow.slick-next{
+		right: -12px;
+	}
+	div.slider_full button.slick-arrow.slick-prev{
+		left: -12px;
+	}
+	.church_donate_rate div.slider_full_progress button.slick-prev.slick-arrow{
+		left: -10px;
+	}
+	.church_donate_rate div.slider_full_progress button.slick-next.slick-arrow{
+		right: -10px;
+	}
+	div.church_videoplayer_listing:after{
+		left: 0px;
+		right: 0px;
+		width: 100%;
+	}
+	div.videos_play_modal .modal-dialog{
+		width: 100%;
+	}
+	div.videos_play_modal div.modal-dialog iframe{
+		height: auto;
+	}
+	div.default_vides_playblack button{
+		margin: -42px 0px 0px;
+		left: auto;
+		right: 0px;
+	}
+	div.sab_banner_wrap div.container{
+		position: relative;
+		float: left;
+		width: 100%;
+		margin: 0 auto;
+		padding: 50px 0px;
+		background-color: #333;
+	}
+	.accordian_spacing .player_caption{
+		padding: 13px 10px 12px;
+	}
+	.footer_title.c-black{
+		font-size: 24px;
+	}
+	.default_arrows.default-btn22 button{
+		margin: 22px auto;
+	}
+	.default_arrows.default-btn22 .slick-arrow.slick-prev{
+		left: 0px;
+	}
+	div.wrapper div.default_arrows.default-btn22 button.slick-arrow.slick-next{
+		right: 0px;
+	}
+	.calender div.default-calender{
+		width: 100%;
+		float: left;
+		overflow: hidden;
+	}
+	.church_causes_fig, .church_causes_wrap{
+		overflow: hidden;
+	}
+
+}
+/*============	Media 480 Start ============ */
+@media (max-width: 480px) {
+	div.church_thumbnail_slider_wraper{
+		height: 158px;
+	}
+	.soft_column h4{
+		font-size: 18px;
+	}
+	
+
+}
+/*============ Media 360Px Star ============ */
+@media (max-width: 360px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,260 @@
+/*
+======================================================
+    CHURCH PROJECT VERSION 1.1
+=======================================================
+    Created BY KODEFOREST Date 5/12/2017 
+======================================================
+
+    ! SHORTCODES .CSS
+
+======================================================
+
+*/
+
+.widget_categories ul li,
+.widget_categories ul,
+.widget_categories,
+.widget_sidebar{
+	float:left;
+	width:100%;
+}
+.widget_categories{
+	margin-bottom:25px;
+}
+.widget_tittle{
+	font-weight:bold;
+	margin-bottom:25px;
+	margin-top: -4px;
+}
+.widget_categories ul li{
+	margin-bottom:25px;
+}
+.widget_categories ul li:last-child{
+	margin-bottom:0px;
+}
+.widget_categories ul li a{
+	display:block;
+	padding-left:20px;
+	position:relative;
+	color:#555;
+}
+.widget_categories ul li a:hover{
+	padding-left:25px;
+}
+.widget_categories ul li a:before{
+	position:absolute;
+	content:"\f105";
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	font-family:fontawesome;
+	color:#999999;
+}
+.widget_categories ul li a:hover:before{
+	left:10px;
+}
+
+/* widget social */
+.widget_social{
+	margin-bottom: 24px;
+}
+.widget_social ul,
+.widget_social{
+	float:left;
+	width:100%;
+}
+.widget_social ul li{
+	float:left;
+	width:48%;
+	margin-bottom:10px;
+	margin-right:10px;
+}
+.widget_social ul li:nth-child(6),
+.widget_social ul li:nth-child(4),
+.widget_social ul li:nth-child(2){
+	margin-right:0px;
+}
+.widget_social ul li a{
+	display:block;
+	color:#fff;
+	font-size:14px;
+	padding:8px;
+	text-transform:capitalize;
+}
+.widget_social ul li a span{
+	display:inline-block;
+	height:26px;
+	width:26px;
+	text-align:center;
+	line-height:26px;
+	color:#fff;
+	font-size:13px;
+	margin-right:10px;
+	border-right:1px solid rgba(240, 210, 121, 0.56);
+}
+.orange{
+	background-color:#ffa801;
+}
+.blue_light{
+	background-color:#31aae2;
+}
+.blue{
+	background-color:#3b59a1;
+}
+.green{
+	background-color:#6c9e32;
+}
+.pink{
+	background-color:#ea367e;
+}
+.red{
+	background-color:#dd4c39;
+}
+
+
+.widget_events{
+	float: left;
+	width: 100%;
+	margin-bottom: 26px;
+}
+.widget_event_slider{
+	float: left;
+	width: 100%;
+}
+.widget_event_slider li{
+	float: left;
+	width: 100%;
+}
+.widget_event_slider li a{
+	float: left;
+	width: 31.3333%;
+	overflow: hidden;
+	position: relative;
+	margin: 0 5px 5px 0;
+	z-index: 1;
+}
+.widget_event_slider li a:before{
+	position: absolute;
+	content: "";
+	top:0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	opacity: 0.55;
+	background: #000;
+	z-index: 1;
+}
+.widget_event_slider li a img{
+	width: 100%;
+	-moz-transform: scale(1) rotate(0deg);
+	-o-transform: scale(1) rotate(0deg);
+	-webkit-transform: scale(1) rotate(0deg);
+	transform: scale(1) rotate(0deg);
+}
+.widget_event_slider li a:hover:before{
+	opacity: 0;
+}
+.widget_event_slider li a:hover img{
+	transform: scale(1.4) rotate(5deg);
+	-moz-transform: scale(1.4) rotate(5deg);
+	-o-transform: scale(1.4) rotate(5deg);
+	-webkit-transform: scale(1.4) rotate(5deg);
+}
+
+
+.widget_event_slider.default_arrows .slick-arrow.slick-prev{
+	left: auto;
+	right: 13%;
+}
+.widget_event_slider.default_arrows .slick-arrow.slick-next{
+	left: auto;
+	right: 0%;
+}
+.widget_event_slider.default_arrows .slick-arrow.slick-prev:before{
+	content: "\f104";
+}
+.widget_event_slider.default_arrows .slick-arrow.slick-next:before{
+	content: "\f105";
+}
+.widget_event_slider.default_arrows .slick-arrow:before{
+	height: 26px;
+	width: 26px;
+	border:none;
+}
+.widget_event_slider.default_arrows .slick-arrow{
+	top:-27%;
+	bottom: auto;
+	background: #dadada;
+	height: 26px;
+	width: 26px;
+}
+
+
+
+.widget_recents_posts{
+	float: left;
+	width: 100%;
+	margin-bottom: 30px;
+}
+.widget_recents_posts h5{
+	margin-bottom: 17px;
+}
+.widget_recents_posts .footer_blog_post{
+	border-bottom: 1px solid #dadada;
+}
+.widget_recents_posts .footer_blog_post:last-of-type{
+	border-bottom: none;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+.widget_recents_posts .footer-post-content a{
+	margin-bottom: 3px;
+}
+
+
+.widget_writeform{
+	float: left;
+	width: 100%;
+	margin-bottom: 15px;
+}
+.widget-input-text{
+	float: left;
+	width: 100%;
+	margin-bottom: 15px;
+}
+.widget-input-text input{
+	height: 33px;
+	width: 100%;
+	border:1px solid #f1f1f1;
+	padding: 0px 15px;
+	text-transform: capitalize;
+	color:#999999;
+}
+.widget-input-text textarea{
+	resize:none;
+	width: 100%;
+	border:1px solid #f1f1f1;
+	padding: 15px;
+	text-transform: capitalize;
+	height: 82px;
+	color:#999999;	
+}
+
+.church_flicker{
+	float: left;
+	width: 100%;
+}
+.widget_church_flicker{
+	float: left;
+	width: 100%;
+	margin-bottom: 27px;
+}
+.widget_church_flicker .footer_tags li a{
+	padding: 7px 10px;
+	background: #333;
+	color:#fff;
+}
+.copyright-content.center p{
+	color:#999;
+}

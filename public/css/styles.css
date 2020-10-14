@@ -1,0 +1,6978 @@
+.nav-link{
+	font-weight: bold;
+}
+#sermonDiv{
+    margin-top: 3em;
+}
+
+/* Template CSS */
+.wrapper{
+	float: left;
+	width: 100%;
+}
+header,
+.content,
+footer{
+	float: left;
+	width: 100%;
+}
+header.position_relative{
+	position: relative !important;
+}
+section{
+	float: left;
+	width: 100%;
+	padding: 79px 0px 50px;
+	position: relative;
+}
+.bg_none.padding_none{
+	padding:0px 0px;
+}
+.divider_15{
+	float: left;
+	width: 100%;
+	margin-bottom: 15px;
+}
+.divider_30{
+	float: left;
+	width: 100%;
+	margin-bottom: 30px;
+}
+.no-padding{
+	padding: 0px !important;
+}
+.margin-bottom{
+	margin-bottom: 15px;
+}
+header{
+	z-index: 999999;
+}
+.ministry_detail.padding-bottom{
+	padding:80px 0px 43px;
+}
+/*
+======================================================
+    HEADER VERSION DEFAULT
+=======================================================*/
+.header_top_row{
+	float: left;
+	width: 100%;
+	background: #333;
+}
+.header_top_row .container{
+	background-color: transparent;
+}
+.church_container_version2{
+	float: left;
+	width: 100%;
+	padding: 30px 0px;
+	background: #fff;
+}
+.header_top_row .church_accounts_language li,
+.header_top_row .pull-right > ul li,
+.header_top_row .pull-right > ul{
+	float: left;
+}
+.header_top_row .pull-right > ul li a{
+	color:#fff;
+	display: inline-block;
+}
+.church_navigation_block{
+	float: left;
+	width: 100%;
+}
+.language_changer .selectric-wrapper{
+	background: transparent;
+	border:none;
+	min-height: auto;
+	min-height: normal;
+	padding-bottom: 0px;
+}
+.language_changer .selectric .label{
+	padding: 0px;
+	height: auto;
+	color:#fff;
+	line-height: normal;
+}
+.language_changer .selectric .button{
+	padding: 0px;
+	top:-7px;
+	line-height: normal;
+	color:#777777;
+	height: auto;
+}
+.language_changer .selectric{
+	padding:1px 20px 0 30px;
+}
+.language_velue{
+	position: absolute;
+	top:0px;
+	left: 0px;
+}
+.language_changer{
+	position: relative;
+	float: left;
+	width: 100%;
+}
+.language_changer .selectric-items ul,
+.language_changer .selectric-items li{
+	float: left;
+	width: 100%;
+	padding: 0px;
+}
+.language_changer .selectric-items li.selected:hover{
+	color:#fff;
+}
+.church_login_services,
+.church_accounts_language{
+	float: left;
+	padding: 16px 0 0px;
+}
+.church_login_services{
+	margin-right: 15px;
+}
+.language_changer .selectric-items li{
+	padding: 7px 20px;
+}
+.church_login_services li,
+.church_accounts_language > li{
+	margin-right: 15px;
+	position: relative;
+	padding-right: 15px;
+}
+.church_login_services li:before,
+.church_accounts_language > li:before{
+	position: absolute;
+	content: "";
+	right: 0px;
+	top:50%;
+	min-height: 12px;
+	width: 1px;
+	border-right:1px solid #777777;
+	margin-top: -6px;
+}
+.church_login_services li:last-child:before,
+.church_accounts_language > li:last-child:before{
+	display: none;
+}
+.church_login_services li a i,
+.church_accounts_language li a i{
+	margin-right: 10px;
+}
+.church_login_services li a,
+.language_changer .selectric .label,
+.church_accounts_language li a{
+	color:#fff;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: bold;
+}
+.church_container_version2 .audioplayer .info *{
+	color:#444444;
+	text-transform: uppercase;
+}
+.church_container_version2 .audioplayer .info{
+	border-right:none;
+	border-left:1px solid #eeeeee;
+	width: 42%;
+	margin: 2px 0px;
+}
+.church_container_version2 .audioplayer .info .title{
+	margin-bottom: 5px;
+}
+.church_container_version2 .audioplayer .info .artist{
+	color:#999;
+	text-transform: capitalize;
+}
+.church_container_version2 .church_audio_row{
+	width: 100%;
+	margin: 4px 0px;
+}
+.church_container_version2 .audioplayer .volume .volume-adjust{
+	display: block;
+	visibility: visible;
+	position: absolute;
+	right: 0px;
+	width: 70%;
+	background: #f1c9cf;
+}
+.church_container_version2 .audioplayer .player{
+	padding-right: 80px;
+}
+.church_container_version2 .audioplayer .timeHolder{
+    right: 108px;
+    width: 40%;
+}
+.church_container_version2 .audioplayer .player .progressbar,
+.church_container_version2 .audioplayer .timeHolder,
+.church_container_version2 .audioplayer .volume{
+	margin-top: 20px;
+}
+.church_container_version2 .audioplayer .volume{
+	width: 100px;
+	position: absolute;
+	right: 0px;
+}
+.church_container_version2 .audioplayer .volume-btn{
+	margin-right: 5px;
+}
+.church_container_version2 .audioplayer .player .progressbar{
+	left: 3px;
+}
+.church_container_version2 .audioplayer .controls .pause,
+.church_container_version2 .audioplayer .controls .play{
+	margin: 0px;
+	width: 60px;
+	height: 60px;
+}
+.church_audio_row.velues_adds .audioplayer .controls .play:hover{
+	color:#fff;
+	background-color:#000;
+}
+.church_container_version2 .audioplayer .controls .pause::before,
+.church_container_version2 .audioplayer .controls .play::before{
+	width: 60px;
+	height: 60px;
+	line-height: 57px;
+	padding: 0 22px;
+	font-size: 25px;
+}
+.church_container_version2 .audioplayer .controls .play:hover:before,
+.church_container_version2 .audioplayer .controls .pause:hover:before{
+	color:#fff;
+}
+.church_container_version2 .audioplayer .controls{
+	left: 0px;
+}
+.church_container_version2 .church_logo{
+	padding:0;
+}
+.church_navigation_block{
+	padding: 0;
+}
+.church_navigation_block .navigation ul li a{
+	padding: 27px 15px 26px;
+	color:#fff;
+}
+.church_navigation_block .cart_items_show{
+	color:#fff;
+	padding: 15px 0px;
+}
+.church_navigation_block .cart_items_show li a{
+	border: medium none;
+    color: #fff;
+    font-size: 20px;
+    margin-right: 0;
+    padding: 7px 20px;
+}
+.church_navigation_block .cart_items_show li a:hover{
+	color:#000;
+}
+.church_navigation_block .navigation ul > li:hover a{
+	background: rgba(0,0,0,0.1);
+	color:#fff;
+}
+/*
+======================================================
+    HEADER VERSION DEFAULT ENDS
+=======================================================*/
+/*
+======================================================
+    HEADER VERSION 1.1
+=======================================================*/
+.church_container{
+	float: left;
+	width: 100%;	
+}
+.church_social-menu,
+.church_container{
+	background:#f9f9f9;
+}
+.church_logo{
+	float: left;
+	width: auto;
+	padding: 22px 0;
+}
+.church_logo h1{
+	font-size: 0px;
+	margin-bottom: 0px;
+}
+.church_logo a{
+	display: inline-block;
+}
+.church_menu_row{
+	float: right;
+	width: 80%;
+	position: relative;
+}
+.church_container .container:before{
+   background-color: #393b3a;
+    bottom: 0;
+    content: "";
+    height: 53px;
+    position: absolute;
+   	left:auto;
+   	right: 0%;
+    top: 0;
+    width: 60%;
+}
+.church_container .church_menu_row{
+	 background-color: #393b3a;
+}
+/*
+======================================================
+    MUSIC PLAYER HEADER
+=======================================================*/
+.audioplayer .player,
+.audioplayer{
+	float: left;
+	width: 100%;
+}
+.church_audio_row{
+	float: left;
+	width: 82%;
+}
+.audioplayer,
+.audioplayer .player{
+	background-color: transparent;
+	height: auto;
+}
+.audioplayer .player{
+	text-align: center;
+	margin: 0px 0px 0px;
+}
+.audioplayer .cover{
+	display: none;
+}
+.audioplayer .info{
+	float: left;
+	margin-left: 0px;
+	position: relative;
+	width: 36%;
+	padding: 6px 25px 9px 30px;
+	border-right:1px solid #616161;
+}
+.audioplayer .info .title{
+	margin-bottom: 1px;
+}
+.audioplayer .info *{
+	color:#fff;
+	position: relative;
+	left: 0px;
+	right: 0px;
+	top:0px;
+	text-align: left;
+}
+.audioplayer .controls .fwd,
+.audioplayer .controls .stop,
+.audioplayer .controls .rew{
+	display: none;
+}
+.audioplayer .player .progressbar{
+	width: 260px;
+	height: 13px;
+	border-radius: 5px;
+	position: relative;
+	top:0px;
+	left: 6px;
+	right: 0px;
+	display: inline-block;
+	margin: 3px auto 0;
+	text-align: center;
+	margin-top: 3px;  
+}
+.audioplayer .player .progressbar{
+	background-color: transparent;
+}
+.audioplayer .player .progressbar div{
+	height: 13px;
+	border-radius: 5px;
+}
+.player .progressbar .bar-loaded{
+	border:1px solid;
+	width: 100% !important;
+}
+.player .progressbar .bar-played{
+	border-radius: 50px;
+}
+.audioplayer .pl{
+	display: none;
+}
+.audioplayer .playlist{
+	display: none;
+}
+.audioplayer .controls{
+	position: relative;
+	top:0px;
+	left: 25px;
+}
+header.church_version_1{
+	position: relative;
+}
+.church_version_1 div .controls .pause,
+.church_version_1 div .controls .play{
+	height: 35px;
+	width: 35px;
+	background-size: cover;
+	margin:9px 0;
+}
+.audioplayer .controls .pause.visible,
+.audioplayer .controls .play{
+	background-image: none;
+	position: relative;
+	border-radius: 100%;
+	text-indent: 0px;
+}
+.audioplayer .controls div.pause:before,
+.audioplayer .controls div.play:before{
+	position: absolute;
+	content: "\f04b";
+	font-family: fontawesome;
+	top:0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+    font-size: 16px;
+    line-height: 33px;
+    padding: 0 12px;
+    background-color: #fff;
+    border-radius: 100%;
+    border:1px solid;
+}
+.audioplayer .controls .pause.visible:before{
+	content: "\f04c";
+	padding: 1px 0px;
+}
+.audioplayer .timeHolder{
+	left: auto;
+    margin: 0 auto;
+    position: absolute;
+    right: 48px;
+    top: 0;
+    width: auto;
+    z-index: -1;
+    width: 48%;
+}
+.audioplayer .time-separator{
+	display: none;
+}
+.audioplayer .time-current,
+.audioplayer .time-duration{
+	position: absolute;
+	right: 0px;
+	left: 0px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: -3px;
+}
+.audioplayer .time-current{
+	left: 0;
+    right: auto;
+}
+.audioplayer .time-duration{
+	right: 0;
+    left: auto;
+}
+.audioplayer .volume{
+	left: auto;
+	right: 13px;
+	top:1px;
+	position: relative;
+	float: right;
+	width: auto;
+	height: auto;
+}
+.audioplayer .volume .volume-adjust{
+	visibility: hidden;
+	position: absolute;
+	display: none;
+}
+.audioplayer .volume-btn{
+	background-image: none;
+	position: relative;
+	cursor: pointer;
+}
+.audioplayer .volume-btn:before{
+	position: absolute;
+	content: "\f028";
+	font-family: fontawesome;
+	top:0px;
+	left: 0px;
+	font-size: 18px;
+	line-height: normal;
+	right: 0px;
+}
+.audioplayer .player.mute .volume-btn:before{
+	content: "\f026";
+}
+.audioplayer .player .volume,
+.audioplayer .player .timeHolder,
+.audioplayer .player .progressbar{
+	margin: 20px auto 0;
+	display: inline-block;
+	text-align: center;
+}
+/*
+===============================
+    MUSICPLAYER HEADER ENDS
+===============================*/
+
+/*
+======================================================
+    SOCIAL ICONS STARTS
+=======================================================*/
+.social-icons{
+	float: right;
+}
+.social-icons_list{
+	float: left;
+	width: 100%;
+	margin-bottom: 0px;
+}
+.social-icons_list li{
+	float: left;
+	margin-right: 0px;
+	border-right:1px solid #616161;
+}
+.social-icons_list li:hover a{
+	color:#fff;
+}
+.social-icons_list li:last-child{
+	border-right:none;
+}
+.social-icons_list li a{
+	display: inline-block;
+	height: 53px;
+	width: 40px;
+	text-align: center;
+	line-height: 54px;
+	color:#fff;
+}
+/*
+======================================================
+    SOCIAL ICONS ENDS
+=======================================================*/
+
+/*
+======================================================
+    NAVIGAION
+=======================================================*/
+.navigation,
+.church_social-menu{
+	float: left;
+	width: 100%;
+}
+
+.church_social-menu ul{
+	margin-bottom: 0px;
+}
+.church_navigation{
+	float: left;
+	width: auto;
+}
+.navigation ul{
+	float: left;
+	width: 100%;
+}
+.navigation ul li{
+	float: left;
+	width: auto;
+	position: relative;
+}
+.navigation ul li a{
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 19px 20px 20px;
+	display: inline-block;
+	color:#333;
+	font-size: 14px;
+	font-family: 'Zilla Slab', serif;
+}
+.navigation ul li:hover a{
+	color:#fff;
+}
+.navigation ul ul.children,
+.navigation ul ul.sub-menu{
+	position: absolute;
+	min-width: 230px;
+	left: 0px;
+	right: 0px;
+	top:100%;
+	z-index: 11;
+	visibility: hidden;
+	opacity: 0;
+	background: #333;
+}
+.navigation ul li:hover ul{
+	visibility: visible;
+	opacity: 1;
+}
+.navigation ul li ul.children li,
+.navigation ul li ul.sub-menu li{
+	float: left;
+	width: 100%;
+	padding: 10px 0px;
+}
+.navigation ul li ul.children > li > a,
+.navigation ul li ul.sub-menu > li > a{
+	padding: 5px 20px;
+	color:#fff;
+	width: 100%;
+	background: transparent !important;
+}
+.navigation ul li ul.sub-menu > li:hover{
+
+}
+.navigation ul li ul.children > li > a:before,
+.navigation ul li ul.sub-menu > li > a:before{
+	display: none;
+}
+/*
+======================================================
+    NAVIGAION ENDS
+=======================================================*/
+
+/*
+======================================================
+   CART BUYING ITEMS
+=======================================================*/
+.cart_items_show{
+	float: right;
+	width: auto;
+}
+.cart_items_show ul li{
+	float: left;
+	width: auto;
+}
+.cart_items_show ul{
+	float: left;
+	width: 100%;
+}
+.cart_items_show ul li a{
+	padding: 19px 20px 20px;
+	color:#898989;
+	display: inline-block;
+	position: relative;
+}
+.cart_items_show ul li a sup{
+	border-radius: 100%;
+    color: #fff;
+    display: inline-block;
+    font-size: 10px;
+    height: 14px;
+    left: auto;
+    line-height: 16px;
+    margin-top: -15px;
+    position: absolute;
+    right: 6px;
+    text-align: center;
+    top: 50%;
+    width: 14px;
+}
+.cart_items_show ul li:last-child a{
+	border-right:none;
+}
+/*
+==============================
+   CART BUYING ITEMS ENDS
+==============================*/
+.church_version_1 .cart_items_show ul li a{
+	padding: 19px 16px 17px 9px;
+}
+.church_version_1 .church_logo{
+	padding: 21px 0px;
+}
+/*
+======================================================
+    HEADER VERSION 1.1 ENDS
+=======================================================*/
+/*
+======================================================
+  		CHURCH VERSION HEADER 2.0
+=======================================================*/
+.header_version_2{
+	position: absolute;
+	top:30px;
+	left: 0px;
+	right: 0px;
+	margin: 0 auto;
+	z-index: 10;
+	width: 100%;
+}
+.header_version_2 > .container{
+	float: none;
+	margin: 0 auto;
+	background: #ffffff;
+	padding: 0px 30px;
+	border-bottom: 5px solid;
+}
+.header_version_2 .church_logo{
+	padding:15px 0px;
+}
+/*
+======================================================
+    NAVIGAION 1.2
+=======================================================*/
+.header_version_2 .cart_items_show ul{
+	padding: 36px 0;
+}
+.header_version_2 .cart_items_show ul li a{
+	padding: 0px 20px;
+	border:none;
+	font-weight: bold;
+	color:#444;
+	font-size: 18px;
+}
+.header_version_2 .cart_items_show ul li{
+	position: relative;
+}
+.header_version_2 .cart_items_show ul li:before{
+	position: absolute;
+	content: "";
+	top: 50%;
+	margin-top: -7px;
+	right: 0px;
+	border-right: 1px solid #666;
+	min-height: 15px;
+}
+.header_version_2 .cart_items_show ul li:last-child:before{
+	display: none;
+}
+.header_version_2 .church_menu_row{
+	padding: 0px 0px;
+	width: auto;
+	z-index: 999;
+}
+.header_version_2 .church_navigation nav li{
+	margin-right: 40px;
+	float: left;
+}
+.header_version_2 .church_navigation nav li:last-child{
+	margin-right: 0px;
+}
+.header_version_2 .church_navigation .navigation li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	position: relative;
+	padding: 39px 0px 36px;
+	display: inline-block;
+}
+.header_version_2 .church_navigation .navigation li > a:before{
+	position: absolute;
+	content: "";
+	bottom: 30px;
+	right: 0px;
+	left: 0px;
+	height: 2px;
+	width: 0%;
+	background: #444;
+	border-bottom: 2px solid transparent
+}
+.header_version_2 .church_navigation .navigation li:hover a{
+	background: transparent;
+	color:#444;
+}
+.header_version_2 .church_navigation .navigation li:hover > a:before{
+	width: 100%;
+}
+.header_version_2 .navigation ul li ul.children,
+.header_version_2 .navigation ul li ul.sub-menu{
+	text-shadow:101px -1px 2px rgba(255,255,255,1);
+	transform: translate(-80px) perspective(800px) scale(1) skewX(0deg);
+	visibility: hidden;
+	opacity: 0;
+	border:7px double #fff;
+}
+.header_version_2 .navigation ul li:hover ul.children,
+.header_version_2 .navigation ul li:hover ul.sub-menu{
+	transform: translate(-40px) perspective(800px) scale(1) skewX(0deg);
+	visibility: visible;
+	opacity: 1;
+}
+.header_version_2 .navigation ul li ul.children li:hover > a,
+.header_version_2 .navigation ul li ul.sub-menu li:hover > a{
+	
+}
+.header_version_2 .navigation ul li ul.children li a,
+.header_version_2 .navigation ul li ul.sub-menu li a{
+	padding: 5px 20px;
+	color:#fff !important;
+	width: 100%;
+}
+.header_version_2 .navigation ul li ul.children li > a:before,
+.header_version_2 .navigation ul li ul.sub-menu li > a:before{
+	display: none;
+}
+.header_version_2 .navigation ul li ul.children li:before,
+.header_version_2 .navigation ul li ul.sub-menu li:before{
+	position: absolute;
+	content: "";
+	left: 0px;
+	right: 0px;
+	top:0px;
+	bottom: 0px;
+	width: 0%;
+	height: 100%;
+	background: #fff;
+}
+.header_version_2 .navigation ul li ul.children li:hover:before,
+.header_version_2 .navigation ul li ul.sub-menu li:hover:before{
+	width: 100%;
+}
+/*
+======================================================
+    NAVIGAION ENDS
+=======================================================*/
+.church_countdown_timer{
+	float: left;
+	width: 450px;
+	background: #f0f0f0;
+	padding: 15px 20px 20px;
+	position: relative;
+}
+.church_countdown_timer small{
+	font-size: 14px;
+	display: inline-block;
+	margin-bottom: 15px;
+}
+.church_countdown_timer ul{
+	margin-bottom: 0px;
+}
+.church_countdown_timer ul li p{
+	font-size: 16px;
+	font-weight: bold;
+	color:#444444;
+	height: 40px;
+	width: 40px;
+	background: #fff;
+	float: left;
+	margin-bottom: 0px;
+	line-height: 40px;
+}
+.church_countdown_timer ul li{
+	margin-right: 0px;
+	padding-right: 0px;
+	float: left;
+}
+.church_countdown_timer ul li:before{
+	display: none;
+}
+.church_countdown_timer ul li span{
+	font-size: 14px;
+	font-weight: bold;
+	display: inline-block;
+	color:#666666;
+	padding: 9px 10px 0px;
+}
+.ch_add_events{
+	color: #fff;
+    display: inline-block;
+    float: right;
+    height: 100%;
+    padding: 42px 15px 40px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.header_version_2 .church_logo{
+	padding: 14px 0;
+}
+.header_version_2 .church_navigation ul > li:before{
+	display: none;
+}
+.header_version_2 .church_navigation ul > li {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.header_version_2 .church_navigation_block .church_navigation ul > li a{
+	padding: 12px 15px 11px;
+}
+.header_version_2 .church_navigation_block .church_navigation ul > li a:before{
+	background: #fff;
+}
+/*
+======================================================
+  		CHURCH VERSION HEADER 2.0 ENDS
+=====================================================
+*/	
+.padding{
+	padding:80px 0px 50px;
+}
+/*
+======================================================
+  		CHURCH HEADER VERSION 3.0
+=======================================================*/
+.church_menu_row .velues_adds .volume,
+.church_menu_row .velues_adds .timeHolder,
+.church_menu_row .velues_adds .progressbar,
+.church_menu_row .velues_adds .info{
+	display: none;
+}
+.control{
+	float: left;
+	width: 100%;
+}
+.header_version_3 .church_logo{
+	padding: 0px 0 0;
+}
+.control li{
+	float: left;
+	width: auto;
+	margin-right: 15px;
+}
+.church_container_version2 .velues_adds .controls{
+	float: right;
+	display: block;
+	position: relative;
+}
+.church_container_version2 .church_menu_row .velues_adds .player{
+	padding: 0px;
+}
+.header_version_3 .church_menu_row .church_audio_row.velues_adds .audioplayer > .player:last-of-type{
+	display: none !important;
+}
+.velues_adds .controls li *{
+	display: block;
+	height: 60px;
+	width: 60px;
+	position: relative;
+	line-height: 60px;
+	text-align: center;
+	font-size: 24px;
+	z-index: 10;
+	border:none !important;
+}
+.velues_adds .controls li{
+	border:1px solid;
+}
+.velues_adds .controls li *:before{
+	border:none !important;
+}
+.velues_adds .controls li *.pause{
+	position: absolute;
+	border-radius: 0px;
+	z-index: 0;
+	border:none;
+}
+.velues_adds .controls li:hover .play,
+.velues_adds .controls li:hover *,
+.velues_adds .controls li *.pause.visible:before{
+	color:#fff;
+}
+.velues_adds .controls li *.play:before,
+.velues_adds .controls li *.pause:before{
+	border-radius: 0px;
+	padding: 0 15px !important;
+}
+.velues_adds .controls li{
+	margin: 0px;
+	margin-right: 15px;
+	float: left;
+}
+.velues_adds .controls li:last-child{
+	margin-right: 0px;
+}
+#playlist:before{
+	position: absolute;
+	content: "\f02d";
+	font-family:fontawesome;
+	top:0px;
+	font-size: 24px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	height: 60px;
+	width: 60px;
+	line-height: 60px;
+	text-align: center;
+}
+.velues_adds .controls li .play:before{
+}
+.church_menu_row .velues_adds .playlist{
+	display: block;
+	position: absolute;
+	top:100%;
+	right: 0px;
+	max-width: 293px;
+}
+.church_container_version2 .velues_adds .controls .play:before{
+	border-radius: 0px;
+}
+.church_container_version2 .velues_adds #playlist{
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 0;
+    float: left;
+}
+.church_container_version2 .velues_adds li:hover #playlist:before{
+	color:#fff;
+}
+.velues_adds .playlist li a{
+	color:#fff;
+	display: inline-block;
+}
+.church_container_version2 .velues_adds .playlist li{
+	position: relative;
+	float: left;
+	width: 100%;
+	margin-bottom: 15px;
+}
+.church_container_version2 .velues_adds .playlist li .timeHolder,
+.church_container_version2 .velues_adds .playlist li .volume,
+.church_container_version2 .velues_adds .playlist li .progressbar{
+	display: block;
+}
+.church_container_version2 .velues_adds .playlist {
+	box-shadow:0px -1px 2px 1px rgba(255,255,255,0.5);
+}
+.header_version_3 .church_navigation ul > li{
+	position: relative;
+	padding: 0px 20px;
+}
+.header_version_3 .church_navigation ul > li:first-child{
+	padding-left: 0px;
+}
+.header_version_3 .church_navigation ul > li:before{
+	position: absolute;
+	content: "";
+	top:50%;
+	margin-top: -10px;
+	right: 0px;
+	min-height: 20px;
+	border-right: 1px solid rgba(255,255,255,0.5);
+}
+/*
+======================================================
+  		CHURCH HEADER VERSION 3.0 ENDS
+=======================================================*/
+
+/*
+======================================================
+  		CHURCH HEADER VERSION 4.0
+=======================================================*/
+.header_version_4{
+	float: left;
+	width: 100%;
+}
+.header_version_4 .social-icons_list li a{
+	/*background-color: #2a2a2a;*/
+}
+.header_version_4 .social-icons_list li:hover a{
+	color:#fff;
+}
+/*
+======================================================
+  		CHURCH HEADER VERSION 3.0 ENDS
+=======================================================*/
+
+/*
+======================================================
+  		CHURCH HEADER VERSION 5.0
+=======================================================*/
+.church_version-5{
+	float: left;
+	width: 100%;
+	
+}
+.header_version_5{
+	z-index: 11;
+}
+.church_version-5 .church_navigation{
+	width: auto;
+	padding: 55px 0px;
+}
+.church_version-5 .church_logo{
+	 display: inline-block;
+    float: none;
+    text-align: right;
+    width: 15%;
+}
+.social-icons .social-icons_list li{
+	background-color: #2a2a2a;
+}
+.header_version_5 .header_top_row{
+	background-color: #181818;
+}
+.church_version-5 .church_navigation nav > ul > li:hover > a{
+	background: transparent;
+	color:#333;
+}
+.church_version-5 .church_navigation nav ul li{
+	margin-right: 12px;
+}
+.church_version-5 .church_navigation nav > ul > li:before{
+	position: absolute;
+	content: "";
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 7.5px 10px 7.5px;
+	border-color: transparent transparent #333 transparent;
+	bottom: -10px;
+	left: 0px;
+	right: 0px;
+	margin: 0 auto;
+	opacity: 0;
+}
+.church_version-5 .church_navigation nav > ul > li:hover:before{
+	opacity: 1;
+	bottom: 0px;
+}
+.church_version-5 .church_navigation nav ul li:last-child{
+	margin-right: 0px;
+}
+
+/*
+======================================================
+  		CHURCH HEADER VERSION 5.0 ENDS
+=======================================================*/
+
+/*
+======================================================
+  		CHURCH VERSION HEADER 6.0
+=====================================================
+*/
+.header_version_6{
+	float: left;
+	width: 100%;
+	position: absolute;
+	top:0px;
+	left: 0px;
+	margin: 0 auto;
+	z-index: 10;
+	right: 0px;
+	background: rgba(0,0,0,0.55);
+	border-bottom: 2px solid;
+}
+.header_version_6 .header_top_row{
+	background: #000;
+}
+.header_version_6 .navigation ul li a{
+	color:#fff;
+	padding: 52px 20px;
+}
+.header_version_6.church_logo{
+	padding: 21px 0;
+}
+.slider-version3 .slider-detail.overlay-b:before{
+	z-index: 1;
+	opacity: 0.4;
+}
+.banner .slider-version3 .item_caption{
+	margin: 0px 0 auto;
+}
+.banner .slider-version3.default_arrows .slick-arrow{
+	margin: 0 0 -181px;
+}
+
+.church_version-7{
+	float: left;
+	width: 100%;
+}
+/*
+======================================================
+  		CHURCH VERSION HEADER 6.0 ends
+=====================================================
+*/
+
+
+/*
+======================================================
+  		SAB BANNER START
+=======================================================*/
+.sab_banner_text,
+.sub_slider,
+.sab_banner_wrap{
+	float:left;
+	width:100%;
+}
+.sub_slider .banner_slide{
+	float: left;
+	width: 100%;
+}
+.sab_banner_wrap{
+	padding:0px;
+	position: relative;
+	z-index: 1;
+}
+.sab_banner_wrap .sub_slider {
+
+}
+.sab_banner_wrap .slick-slider .slick-list{
+	z-index: -1;
+}
+.sab_banner_wrap .container{
+	position: absolute;
+	bottom: 50%;
+	left: 0px;
+	right: 0px;
+	margin: 0 auto -24px;
+	z-index: 100;
+}
+.sab_banner_text{
+	text-align:center;
+	position:relative;
+}
+.sab_banner_text h3{
+	font-weight:bold;
+	color:#fff;
+	margin-bottom:14px;
+	text-transform: capitalize;
+	line-height:normal;
+}
+.breadcrumb{
+	width:auto;
+	display:inline-block;
+	background:none;
+	padding:2px 15px 5px;
+	border:1px solid;
+	margin-bottom:0px;
+	border-radius:0px;
+}
+.breadcrumb li a,
+.breadcrumb > .active,
+.sab_banner_text .breadcrumb > li + li:before{
+	color:#fff;
+	font-size:14px;
+	font-weight:600;
+}
+.breadcrumb > li + li::before{
+	content:"\f105";
+	font-family:fontawesome;
+}
+ul.slick-dots{
+	width: 85px;
+	float: none;
+	z-index:99999;
+}
+.slick-dots{
+    bottom: -0px;
+    display: inline-block;
+    left: 0;
+    margin: auto;
+    padding:4px 0 13px;
+    position: absolute;
+    right: 0;
+    width: 85px;
+	
+}
+.slick-dots:after{
+    bottom: 0;
+    content: "";
+    left: -11px;
+    position: absolute;
+    right: 5px;
+    top: 0;
+    transform: translateX(-8%) skewX(-38deg);
+    width: 90px;
+}
+.slick-dots:before{
+    bottom: 0;
+    content: "";
+    left: -11px;
+    position: absolute;
+    right: 5px;
+    top: 0;
+    transform:translateX(26%) skewX(38deg);
+    width: 90px;
+}
+.slick-dots li button{
+	display:inline-block;
+	height:13px;
+	width:13px;
+	border-radius:100%;
+	background-color:#fff;
+	margin-right:10px;
+	cursor:pointer;
+	z-index: 999;
+	position:relative;
+}
+.slick-dots li:last-child button{
+	margin-right:0px;
+}
+.sub_slider ul.slick-dots li.slick-active button{
+	border:2px solid #fff;
+}
+/*
+======================================================
+  		SAB BANNER ENDS
+=======================================================*/
+/*
+======================================================
+  	BANNER DEFAULT
+=======================================================*/
+.full-banner,
+.church_banner{
+	float: left;
+	width: 100%;
+	position: relative;
+	z-index: 1;
+}
+.slider-caption{
+	text-align: center;
+	padding: 0px;
+	margin: -207px auto 0;
+	padding: 31px 0px 37px;
+}
+.full-banner li .slider-caption{
+	-moz-transform:scale(0); 
+	-o-transform:scale(0); 
+	-webkit-transform:scale(0); 
+	transform:scale(0); 
+}
+.full-banner .sb-current .slider-caption{
+	-moz-transform:scale(1); 
+	-o-transform:scale(1); 
+	-webkit-transform:scale(1); 
+	transform:scale(1); 
+}
+.slider-caption:after,
+.slider-caption:before{
+	position: absolute;
+	content: "";
+	top:0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	height: 122px;
+	width: 112px;
+}
+.slider-caption:before{
+	border-top:7px solid #fff;
+	border-left:7px solid #fff;
+	left: 45%;
+	top:50%;
+	bottom: auto;
+	right: auto;
+}
+.slider-caption:after{
+	border-bottom:7px solid #fff;
+	border-right:7px solid #fff;
+	bottom: 50%;
+	right: 45%;
+	left: auto;
+	top: auto;
+}
+.full-banner .sb-current .slider-caption:before{
+	top:0px;
+	left: 15%;
+}
+.full-banner .sb-current .slider-caption:after{
+	bottom: 0px;
+	right: 15%;
+}
+.large_text,
+.sb_title{
+	display: inline-block;	
+    font-size: 10em;
+    width: 100%;
+    display: inline-block;
+    line-height: normal;
+    margin-bottom: 18px;
+}
+.slider-caption span{
+	display: block;
+	font-weight: 500;
+	text-transform: capitalize;
+	font-size: 18px;
+	margin-bottom: 0px;
+}
+
+.banner_title_1{
+	font-size: 45px;
+	font-weight: bold;
+	font-family: 'Zilla Slab', serif;
+	text-transform: uppercase;
+	margin-bottom: 12px;
+}
+.banner_title_big{
+	font-size: 63px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: 'Zilla Slab', serif;
+	line-height: 50px;
+}
+.banner_caption_02 .banner_title_big{
+	margin-bottom: 34px;
+}
+.sliderone{
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+.sliderone .caption{
+	height:463px;
+	width:466px;
+	overflow: hidden;
+	margin: 0px auto 0;
+	position: relative;
+	-moz-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+	border-radius: 30px;
+}
+.sliderone .caption img{
+	-moz-transform: rotate(-45deg) translateY(-383px) translateX(-214px) scale(2);
+	-webkit-transform: rotate(-45deg) translateY(-383px) translateX(-214px) scale(2);
+	-o-transform: rotate(-45deg) translateY(-383px) translateX(-214px) scale(2);
+	transform: rotate(-45deg) translateY(-383px) translateX(-214px) scale(2);
+	width: 1200px;
+	height: auto;
+}
+.slider-showcase .slick-slide .sliderone .caption:before{
+  display: block;
+  content: "";
+  border:none;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  top:0px;
+  position: absolute;
+  background-color: #000;
+  opacity: 0.9;
+  height: auto;
+  width: 100%;
+}
+.banner_caption_02{
+	position: absolute;
+	top:50%;
+	margin: -114px auto 0;
+	left: 0px;
+	right: 0px;
+	z-index: 99;
+}
+.slider-showcase .slick-slide{
+	padding: 85px 0px;
+}
+.slider-showcase{
+	float: left;
+	width: 100%;
+}
+/*
+======================================================
+  		BANNER VERSION DEFAULT ENDS
+=======================================================*/
+
+
+/*
+======================================================
+  		BANNER VERSION 2
+=======================================================*/
+.banner_version_02{
+	float: left;
+	width: 100%;
+	position: relative;
+	z-index: 1;
+}
+.full-banner{
+	float: left;
+	width: 100%;
+	position: relative;
+}
+.large_text,
+.slider_item{
+	float: left;
+	width: 100%;
+}
+.large_text{
+	font-size: 180px;
+	font-weight:bold;
+	display:inline;
+	line-height:180px;
+}
+.version-02.slider-caption{
+	z-index: 10;
+	opacity: 1;
+}
+.version-02.slider-caption:after,
+.version-02.slider-caption:before{
+	display: none;
+}
+.version-02 .countdown{
+	margin-bottom: 0px;
+}
+.version-02 .countdown li span,
+.version-02 .countdown li p{
+	font-size: 40px;
+	font-weight: bold;
+	font-family: 'Zilla Slab', serif;
+}
+
+/*
+======================================================
+  	count down timer
+=======================================================*/
+.countdown{
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 54px;
+}
+.countdown li{
+	display: inline-block;
+	width: auto;
+	margin-right: 50px;
+	position: relative;
+}
+.countdown li:before{
+	position: absolute;
+	content: ":";
+	top:50%;
+	margin-top: -40px;
+	right: -30px;
+	font-size: 40px;
+}
+.countdown li:last-child:before{
+	display: none;
+}
+.countdown li:last-child{
+	margin-right: 0px;
+}
+.countdown li h3{
+	font-weight: bold;
+	color:#fff;
+	margin-bottom: 12px;
+}
+.countdown li span{
+	font-size: 18px;
+	color:#fff;
+	text-transform: capitalize;
+}
+.version-02 .countdown{
+	margin-bottom:10px;
+}
+.version-02 .countdown li:before{
+	margin-top:-20px;
+}
+.version-02 .map_location{
+	font-size:24px;
+}
+.version-02 .map_location i{
+	margin-right:24px;
+}
+.version-02 .cd-headline.clip .cd-words-wrapper:after {
+    background-color: #aebcb9;
+    content: "";
+    height: 74%;
+    position: absolute;
+    right: -1px;
+    top: 34px;
+    width: 2px;
+}
+.banner_version_02.banner_2 .nav-dots span {
+    background: #ffffff none repeat scroll 0 0;
+    border-radius: 100%;
+    display: inline-block;
+    height: 16px;
+    margin: 0 7px 0 -1px;
+    width: 16px;
+	position:relative;
+	cursor:pointer;
+}
+.banner_version_02.banner_2 .nav-dots .nav-dot-current:before{
+	background-color: #cc2222;
+    border-radius: 100%;
+    content: "";
+    height: 8px;
+    position:absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	right:0px;
+    margin: auto;
+	bottom:0px;
+    width: 8px;
+}
+.version-02 .sb_title{
+	font-size: 180px;
+}
+.version-02 > span{
+	margin-bottom: 30px;
+}
+.slider-version3{
+	float: left;
+	width: 100%;
+	overflow: hidden;
+	z-index: 1;
+}
+.slider-detail{
+	float: left;
+	width: 100%;
+	position: relative;
+}
+.slider-detail .item_caption{
+	background: rgba(0, 0, 0, 0.3) none repeat scroll 0 0;
+    margin: -87px 0 auto;
+	left: 20%;
+    opacity: 1;
+    padding: 23px 20px 22px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 40%;
+    z-index: 99;
+}
+.item_caption .custom-font-30px{
+	color:#fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	display: inline-block;
+	line-height: normal;
+}
+.position-left.item_caption{
+	text-align: left;
+}
+.position-center.item_caption{
+	text-align: center;
+}
+.position-right.item_caption{
+	text-align: right;
+}
+.slick-slider .slick-list{
+	padding: 0px !important;
+}
+.slider-version3 .slider-detail{
+	float: left;
+	width: 100%;
+}
+.slider-version3 .slider-detail img{
+	width: 100% !important;
+	float: left;
+}
+.slick-track{
+	float: left;
+	width: 100%;
+}
+/*
+======================================================
+  		CHURCH BANNER VERSION 2 ENDS
+=======================================================*/
+
+/*
+======================================================
+  		BANNER VERSION 3
+=======================================================*/
+.padding_banner{
+	float: left;
+	width: 100%;
+	z-index: 1;
+	position: relative;
+}
+.church_thumbnail_slider_wraper{
+	float: left;
+	width: 100%;
+	overflow: hidden;
+	max-height: 623px;
+	z-index: 1;
+}
+.slider_thumbnail{
+	float: left;
+	width: 72%;
+}
+.slider_thumbnail_items{
+	float: right;
+	width: 28%;
+	border-left: 1px solid #fff;
+}
+.slider_thumbnail_items .item,
+.slider_thumbnail .item{
+	position: relative;
+	float:left; 
+	width:100%;
+	border:none;
+}
+.slider_thumbnail .item_caption{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	background: rgba(0,0,0,0.5);
+	right: 0px;
+	min-height: 120px;
+	padding: 15px 20px 20px;
+	z-index: 12;
+}
+.slider_thumbnail .custom-font-30px{
+	text-transform: capitalize;
+	font-family: 'Zilla Slab', serif;
+	margin-bottom: 0px;
+}
+.slick-slide img,
+.slider_thumbnail img,
+.slider_thumbnail_items .item img{
+	width: 100%;
+}
+.slider_thumbnail .item:before,
+.slider_thumbnail_items .item:before{
+	position: absolute;
+	content: "";
+	top:0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	background: #000;
+	opacity: 0.5;
+	z-index: 1;
+}
+.slider_thumbnail_items .item .thumbnail_title{
+	position: absolute;
+	top:50%;
+	left: 0px;
+	right: 0px;
+	margin: -12px auto 0px;
+	text-align: center;
+	z-index: 12;
+}
+.slider_thumbnail_items .item{
+	overflow: hidden;
+	z-index: 1;
+}
+.slider_thumbnail_items .item img{
+	width: 100%;
+	-moz-transform:scale(1) translateX(0px); 
+	-webkit-transform:scale(1) translateX(0px);
+	-o-transform:scale(1) translateX(0px);
+	transform:scale(1) translateX(0px);
+}
+.slider_thumbnail_items .item:hover img{
+	width: 100%;
+	transform:scale(1.4) translateX(30px); 
+	-moz-transform:scale(1.4) translateX(30px); 
+	-webkit-transform:scale(1.4) translateX(30px);
+	-o-transform:scale(1.4) translateX(30px);
+}
+.thumbnail_title h4{
+	font-weight: bold;
+	color:#fff;
+	text-transform: capitalize;
+}
+.slider_thumbnail_items.default_arrows .slick-arrow{
+	left: auto;
+	bottom: 0px;
+	margin: 0 0 27px;
+}
+.slider_thumbnail_items.default_arrows .slick-arrow.slick-prev{
+	right: auto;
+	left: -50%;
+}
+.slider_thumbnail_items.default_arrows .slick-arrow.slick-next{
+	right: auto;
+	left: -30%;
+}
+/*
+======================================================
+  		CHURCH BANNER AUDIO PLAYER
+=======================================================*/
+.style_version_5{
+	float: left;
+	width: 100%;
+	background: #f9f9f9;
+	padding: 20px 30px;
+}
+.style_version_5 .audioplayer .info{
+	width: 20%;
+	border:none;
+	padding: 6px 25px 7px 0px;
+}
+.style_version_5 .audioplayer .info .title{
+	font-size: 16px;
+	color:#444444;
+	font-weight: bold;
+	font-family: 'Zilla Slab', serif;
+}
+.style_version_5 .audioplayer .info .artist{
+	font-size: 14px; 
+	color: #777777;
+	font-weight: bold;
+	font-family: 'Zilla Slab', serif;
+}
+.style_version_5 .audioplayer .controls *{
+	height: 60px;
+	width: 60px;
+	margin: 0px;
+}
+.style_version_5 .audioplayer .controls *:before{
+	 font-size: 20px;
+    line-height: 56px;
+    padding: 0 24px;
+    text-align: center;
+}
+.style_version_5 .controls div.pause:before,
+.style_version_5 .controls div.play:before{
+	font-size: 24px;
+	padding: 0px 24px;
+	line-height: 57px;
+}
+.style_version_5 .audioplayer .timeHolder{
+	 bottom: auto;
+    height: auto;
+    line-height: normal;
+    margin: -6px auto;
+    right: 116px;
+    top: 50%;
+    width: 59%;
+}
+.style_version_5 .audioplayer .player .volume,
+.style_version_5 .audioplayer .player .progressbar{
+	margin-top: 24px;
+}
+.style_version_5 .audioplayer .player .progressbar{
+	width: 530px;
+}
+.style_version_5 .audioplayer .volume .volume-adjust{
+	width: 50px;
+	display: block;
+	visibility: visible;
+	right: 0px;
+	position: relative;
+	height: 8px;
+	margin-top: 2px;
+	min-height: 8px;
+	background-color: rgba(198,38,65,0.5);
+}
+.style_version_5 .audioplayer .time-current, 
+.style_version_5 .audioplayer .time-duration{
+	margin: -2px auto 0;
+}
+.style_version_5 .audioplayer .volume{
+	right: 0px;
+}
+.audioplayer .volume-btn{
+	margin-right: 8px;
+}
+.style_version_5 .volume-adjust > div > div{
+	height: 8px;
+}
+/*
+======================================================
+  		CHURCH BANNER AUDIO PLAYER ENDS
+=======================================================*/
+/*
+======================================================
+  		CHURCH BANNER VERSION 3 ENDS
+=======================================================*/
+
+.church_soft_services{
+	padding:80px 0px 46px;
+}
+/*
+======================================================
+  	ABOUT US SECTION
+=======================================================*/
+.church_aboutus{
+	float: left;
+	width: 100%;
+	position: relative;
+	background-image: url(../images/about_bg_img_01.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 81px 0px 0px;
+}
+.church_about_us{
+	position: relative;
+	float: left;
+	width: 50%;
+	padding: 0px;
+}
+.church_picture{
+	float: right;
+	width: 50%;
+	position: relative;
+	min-height:554px;
+	background-image: url(../images/image.png);
+	background-size: contain;
+	background-position: right bottom;
+	background-repeat: no-repeat;
+}
+/*
+======================================================
+  	ABOUT US SECTION ENDS
+=======================================================*/
+
+
+/*
+======================================================
+  	CONTENT STARTS
+=======================================================*/
+
+/*
+======================================================
+  	OUR SERVICES
+=======================================================*/
+.content,
+.our_services_col,
+.church_our_services{
+	float: left;
+	width: 100%;
+}
+.our_services_col{
+	text-align: center;
+	padding-top: 29px;
+	padding-bottom: 25px;
+	background: #f6f4f4;
+	margin-bottom: 30px;
+	box-shadow: 0px 0px 11px -1px #f6f4f4;
+}
+.our_services_col:hover h5 a,
+.our_services_col:hover span{
+	color:#fff;
+}
+.our_services_col span{
+	border-bottom: 2px solid #b0b0b0;
+    display: inline-block;
+    font-size: 42px;
+    margin-bottom: 9px;
+    padding-bottom: 8px;
+    position: relative;
+}
+.our_services_col span:after{
+	position: absolute;
+	content: "";
+	left: 0px;
+	bottom: -2px;
+	right: 0px;
+	border-bottom: 2px solid #fff;
+	width: 0%;
+}
+.our_services_col:hover span:after{
+	border-color: #fff;
+	width: 100%;
+}
+.our_services_col h5{
+	margin-bottom: 0px;
+}
+.our_services_col h5 a{
+	color:#666666;
+	font-weight: bold;
+	display: inline-block;
+	width: 100%;
+}
+
+/*
+=========================
+  	OUR SERVICES ENDS
+=========================*/
+/*
+======================================================
+  	
+=======================================================*/
+
+/*
+======================================================
+  	SOFT SERVICES COLUMNS
+=======================================================*/
+.church_soft_services{
+	float: left;
+	width: 100%;
+	position: relative;
+}
+.church_soft_services .church_heading{
+	margin-bottom: 24px;
+}
+.soft_column{
+	float: left;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+	border:4px solid transparent;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.soft_column figure{
+	position: relative;
+}
+.soft_column figure img{
+	width: 100%;
+	-moz-transform: scale(1) rotate(0deg);
+	-o-transform: scale(1) rotate(0deg);
+	-webkit-transform: scale(1) rotate(0deg);
+	transform: scale(1) rotate(0deg);
+}
+.soft_column:hover figure img{
+	-moz-transform: scale(1.5) rotate(5deg);
+	-o-transform: scale(1.5) rotate(5deg);
+	-webkit-transform: scale(1.5) rotate(5deg);
+	transform: scale(1.5) rotate(5deg);
+}
+.soft_column figure:before{
+	position: absolute;
+	content: "";
+	top:0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	background: #161616;
+	opacity: 0.75;
+	z-index: 1;
+}
+.soft_column .soft_column_caption{
+	/*padding: 77px 15px 73px;*/
+	position: absolute;
+	top:50%;
+	left: 0px;
+	right: 0px;
+	z-index: 20;
+	margin: -54px auto 0;
+	padding: 0px 15px;
+}
+.soft_column p,
+.soft_column h4{
+	color:#fff;
+	margin-bottom: 0px;
+	-moz-transform: translateY(-0px);
+	-o-transform: translateY(-0px);
+	-webkit-transform: translateY(-0px);
+	transform: translateY(-0px);
+}
+.soft_column h4{
+	font-weight: bold;
+	margin-bottom: 9px;
+	text-transform: uppercase;
+}
+.soft_column a{
+	left: 0;
+    margin: 0px auto -25px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: auto;
+    bottom: 50%;
+    width: 40%;
+    -moz-transform: scale(0);
+	-o-transform: scale(0);
+	-webkit-transform: scale(0);
+	transform: scale(0);
+}
+.soft_column:hover a{
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+.soft_column:hover p{
+	-moz-transform: translateY(150px);
+	-o-transform: translateY(150px);
+	-webkit-transform: translateY(150px);
+	transform: translateY(150px);
+	opacity: 0;
+}
+.soft_column:hover h4{
+	-moz-transform: translateY(-150px);
+	-o-transform: translateY(-150px);
+	-webkit-transform: translateY(-150px);
+	transform: translateY(-150px);
+	opacity: 0;
+}
+.extra-center .soft_column_caption{
+	margin: -12px auto 0;
+}
+.extra-center .soft_column_caption a{
+	margin: 0px auto -20px;
+	top:auto;
+	bottom: 50%;
+}
+
+/*
+======================================================
+  	SOFT SERVICES COLUMNS ENDS
+=======================================================*/
+
+/*
+======================================================
+  	VIDEO PLAY SECTION
+=======================================================*/
+.church_videoplayer_listing{
+	float: left;
+	width: 100%;
+	position: relative;
+}
+.church_videoplayer_listing:after{
+	background-image: url(../extra-images/video_playback_img.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: left top;
+	position: absolute;
+	content: "";
+	left: 0px;
+	width: 51%;
+	top:0px;
+	bottom: 0px;
+	height: 100%;
+	z-index: -1;
+}
+.church_videoplay{
+	float: left;
+	width: 51%;
+	position: relative;
+	padding:225px 0;
+}
+.church_videoplay{
+	
+	background-image: url(../images/comingsoon.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.church_listing_player{
+	float: right;
+	width:49%;
+	padding: 15px;
+	background-color: #fff;
+}
+.church_play_track{
+	float: left;
+	width: 100%;
+}
+.church_listing_player .church_play_track{
+	margin-bottom: 10px;
+}
+.church_play_track a{
+	float: left;
+	width: 100%;
+	display: inline-block;
+	color:#555;
+	background: #fcfcfc;
+	margin-bottom: 0px;
+}
+.church_play_track a i{
+	height: 70px;
+	width: 60px;
+	font-size: 24px;
+	text-align: center;
+	line-height: 70px;
+	background: #f9f9f9;
+	color:#666;
+	margin-right: 15px;
+}
+.church_play_track a:hover i{
+	color:#fff;
+}
+.player_caption{
+	float: left;
+	width: 100%;
+	padding: 13px 15px 12px 65px;
+	background: #f9f6f6;
+}
+.player_caption p{
+	margin-bottom: 8px;
+}
+.player_caption .meta_tag_list{
+	border-bottom: 1px solid #cecece;
+	padding-bottom: 15px;
+	margin-bottom: 12px;
+}
+/*
+======================================================
+  	META LIST
+=======================================================*/
+.meta_tag_list{
+	float: left;
+	width: 100%;
+}
+.meta_tag_list li{
+	float: left;
+	width: auto;
+	margin-right: 10px;
+}
+.meta_tag_list li a,
+.meta_tag_list li span{
+	color:#999999;
+	font-size: 14px;
+	display: inline-block;
+	font-family: 'Zilla Slab', serif;
+}
+.meta_tag_list li span,
+.meta_tag_list li:first-child span i{
+	margin-right: 10px;
+}
+.meta_tag_list li:first-child span i{
+	font-size: 15px;
+}
+/*
+======================================================
+  	META LIST ENDS
+=======================================================*/
+.links-shareing{
+	float: left;
+	width: auto;
+}
+.links-shareing li{
+	float: left;
+	width: auto;
+	margin-right: 16px;
+}
+.links-shareing li a{
+	display: inline-block;
+}
+.links-shareing li a,
+.accordian_spacing.pull-right a{
+	display: inline-block;
+	font-size: 15px;
+	color:#999999;
+}
+.accordian_spacing .pull-right a i{
+	margin-right: 13px;
+}
+.accordian_spacing{
+	width: 100%;
+	display: none;
+}
+/*
+======================================================
+  	ACCORDIAN SECTION
+=======================================================*/
+.church_listing_player ~ .church_play_track:last-of-type,
+.church_listing_player ~ .church_play_track:last-child{
+	margin-bottom: 0px;
+}
+#section4{
+	margin-bottom: 0px;
+}
+.church_play_track.accordion-open{
+	margin-bottom: 0px;
+}
+.church_play_track.accordion-open a i{
+	background-color: #333333;
+	color:#fff;
+}
+.church_play_track.accordion-open a{
+	color:#fff;
+}
+.play_black_btn{
+	position: relative;
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+.btn_radius{
+	display: inline-block;
+	font-size: 70px;
+	color:#fff;
+	background: transparent;
+}
+.default_vides_playblack button{
+	border: 6px solid #fff;
+	border-radius: 100%;
+	color: #fff;
+	cursor: pointer;
+	font-size: 29px;
+	height: auto;
+	line-height: 11px;
+	margin: -30px 0 0;
+	opacity: 1;
+	padding: 5px 5px 8px;
+	position: absolute;
+	right: auto;
+	top: 0;
+	width: auto;
+}
+.default_vides_playblack button:hover{
+	border-color: #fff;
+	color:#fff;
+}
+.default_vides_playblack .modal-content{
+	border-color: #fff;
+}
+.videos_play_modal.modal{
+	padding: 0px 0px;
+	text-align: center;
+}
+.videos_play_modal .modal-dialog{
+	display: inline-block;
+	width: 50%;
+	text-align: center;
+	margin: -250px 0 0;
+	left: 0px;
+	right:0px;
+	top:50%;
+}
+.videos_play_modal .modal-dialog iframe{
+	height: 530px;
+}
+.videos_play_modal .modal-content {
+    border-color: #fff;
+    border-width: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    float: left;
+    width: 100%;
+}
+/*
+======================================================
+  	VIDEO PLAY SECTION ENDS
+=======================================================*/
+
+/*
+======================================================
+  	CAUSES SECTION
+=======================================================*/
+.church_causes_content,
+.church_causes{
+	float: left;
+	width: 100%;
+}
+.church_causes .church_heading {
+	margin-bottom: 27px;
+}
+.border-left-right{
+	border-left:1px solid #cdcdcd;
+	border-right:1px solid #cdcdcd;
+}
+.col-md-4:last-of-type .church_causes_post{
+	border-right:1px solid #cdcdcd;
+}
+.church_causes_post{
+	float: left;
+	width: 100%;
+	text-align: center;
+	position: relative;
+	padding: 0px 15px;
+	margin-bottom: 29px;
+}
+.church_causes_post figure{
+	float: none;
+	width: 50%;
+	display: inline-block;
+	border-radius: 100%;
+}
+.church_causes_post figure img{
+	border-radius: 100%;
+}
+.church_causes_content span{
+	display: inline-block;
+	font-size: 16px;
+	color:#555;
+	font-weight: 600;
+	margin-bottom: 12px;
+	margin-top: 6px;
+}
+.church_causes_content{
+	padding: 5px 0px 0px;
+}
+.church_causes_content h4{
+	margin-bottom: 0px;
+}
+.church_causes_content h4 a{
+	font-weight: bold;
+	color:#333;
+	display: inline-block;
+	text-transform: capitalize;
+	margin-bottom: 18px;
+	font-size: 24px;
+}
+.church_causes_content p{
+	margin-bottom: 14px;
+}
+.church_causes_content a{
+	font-size: 18px;
+	font-weight: 600;	
+	color:#555;
+	text-transform: capitalize;
+	font-family: 'Zilla Slab', serif;
+	display: inline-block;
+}
+/*
+======================================================
+  	CAUSES SECTION ENDS
+=======================================================*/
+
+
+/*
+======================================================
+  	HOVER EFFECT 02
+=======================================================*/
+.hover_effect_02{
+	float: left;
+	width: 100%;
+}
+.hover_effect_02 figure{
+	position: relative;
+}
+.hover_effect_02 .simple_effect{
+	position: absolute;
+	top:10px;
+	left: 10px;
+	right: 10px;
+	bottom: 10px;
+	content: "";
+	border-radius: 100%;
+	line-height: 127px;
+	background: #fff;
+	border:10px solid transparent;
+	-moz-transform:perspective(800px) rotate(10deg) scale(0);
+	-moz-filter:blur(100px);
+	-o-transform:perspective(800px) rotate(10deg) scale(0);
+	-o-filter:blur(100px);
+	-webkit-transform:perspective(800px) rotate(10deg) scale(0);
+	-webkit-filter:blur(100px);
+	transform:perspective(800px) rotate(10deg) scale(0);
+	filter:blur(100px);
+}
+.hover_effect_02:hover .simple_effect{
+	-moz-transform:perspective(800px) rotate(0deg) scale(1);
+	-moz-filter:blur(0px);
+	-o-transform:perspective(800px) rotate(0deg) scale(1);
+	-o-filter:blur(0px);
+	-webkit-transform:perspective(800px) rotate(0deg) scale(1);
+	-webkit-filter:blur(0px);
+	transform:perspective(800px) rotate(0deg) scale(1);
+	filter:blur(0px);
+}
+/*
+======================================================
+  	HOVER EFFECT 03
+=======================================================*/
+.hover-effect-03{
+	float: left;
+	width: 100%;
+	position: relative;
+}
+.hover-effect-03 figure{
+	position: relative;
+}
+.hover-effect-03 figure:before{
+	position: absolute;
+	content: "";
+	top:10px;
+	right: 10px;
+	left: 10px;
+	bottom: 10px;
+	opacity: 0;
+}
+.hover-effect-03:hover figure:before{
+	opacity: 0.75;
+}
+.hover-effect-03 .simple_effect{
+	position: absolute;
+	top:50%;
+	left: 0px;
+	right: 0px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: -18px;
+	opacity: 0;
+	transform: rotateY(370deg) perspective(1200px) skewX(0deg);
+}
+.hover-effect-03:hover .simple_effect{
+	transform: rotateY(0deg) perspective(1200px) skewX(0deg);
+	opacity: 1;
+}
+.hover-effect-03 .simple_effect a{
+	height: 37px;
+	width: 37px;
+	text-align: center;
+	line-height: 37px;
+	border:1px solid #fff;
+	border-radius: 100%;
+	color:#fff;
+	display: inline-block;
+	margin-right: 15px;
+}
+.hover-effect-03 .simple_effect a:hover{
+	background: #fff;
+	color:#666;
+}
+.hover-effect-03 .simple_effect a:last-child{
+	margin-right: 0px;
+}
+/*
+======================================================
+  	OUR TEAM SECTION
+=======================================================*/
+.our-team{
+	float: left;
+	width: 100%;
+	padding: 79px 0px 50px;
+}
+.our_team_caption,
+.our_team_column{
+	float: left;
+	width: 100%;
+}
+.our_team_column{
+	margin-bottom: 30px;
+	background: #fff;
+}
+.our_team_caption{
+	text-align: center;
+	padding: 14px 0 10px;
+}
+.our_team_caption a{
+	font-size: 20px;
+	font-weight: bold;
+	color:#333;
+	text-transform: capitalize;
+	width: 100%;
+	display: inline-block;
+	margin-bottom: 0px;
+	line-height: normal;
+}
+.our_team_caption span{
+	display: inline-block;
+	font-size: 14px;
+	color:#555;	
+	line-height: normal;
+}
+.our_team_services{
+	position: absolute;
+	bottom: 0px;
+	left: 10px;
+	right: 10px;
+	background: #fff;
+	margin: 0 auto;
+	-o-transform:perspective(1200px) translateY(60px) skewX(0deg) rotateX(-20deg);
+	-moz-transform:perspective(1200px) translateY(60px) skewX(0deg) rotateX(-20deg);
+	-webkit-transform:perspective(1200px) translateY(60px) skewX(0deg) rotateX(-20deg);
+	transform:perspective(1200px) translateY(60px) skewX(0deg) rotateX(-20deg);
+	opacity: 0;
+}
+.our_team_services .social-icons{
+	float: left;
+	width: 100%;
+	text-align: center;
+	padding: 10px 0px;
+}
+.our_team_services .social-icons li{
+	display: inline-block;
+	margin-right: 10px;
+}
+.our_team_services .social-icons li a{
+	display: inline-block;
+	width: 33px;
+	height: 33px;
+	text-align: center;
+	border:1px solid #dbdbdb;
+	border-radius: 100%;
+	line-height: 34px;
+}
+.our_team_services .social-icons li:hover a{
+	color:#fff;
+	border-color: transparent;
+}
+.our_team_column:hover .our_team_services{
+	-o-transform: perspective(1200px) translateY(0px) skewX(0deg) rotateX(0deg);
+	-moz-transform: perspective(1200px) translateY(0px) skewX(0deg) rotateX(0deg);
+	-webkit-transform: perspective(1200px) translateY(0px) skewX(0deg) rotateX(0deg);
+	transform: perspective(1200px) translateY(0px) skewX(0deg) rotateX(0deg);
+	opacity: 1;
+}
+/*
+======================================================
+  	OUR TEAM SECTION ends
+=======================================================*/
+
+/*
+======================================================
+  	TESTIMONIAL SECTION
+=======================================================*/
+.church_template_testimonial{
+	float: left;
+	width: 100%;
+	background-image: url(../images/testimonial_bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	z-index: 1;
+	padding: 80px 0px 50px;
+}
+.church_template_testimonial:before{
+	position: absolute;
+	content: "";
+	top:0px;
+	right: 0px;
+	left: 0px;
+	bottom: 0px;
+	background-color: #000;
+	opacity: 0.5;
+	z-index: -1;
+}
+.slider_full{
+	float: left;
+	width: 100%;
+}
+.slider_full .item{
+	float: left;
+	width: 100%;
+	text-align: center;
+	padding: 50px 0 31px;
+}
+.testimonial_content{
+	float: none;
+	display: inline-block;
+	width:100%;
+	text-align: center;
+	padding: 0 0 25px;
+	margin: 0 auto;
+	background: #fff;
+}
+.testimonial_content figure{
+	 border-radius: 100%;
+    display: inline-block;
+    float: none;
+    margin-top: -50px;
+    min-height: 100px;
+    width: 100px;
+    margin-bottom: 13px;
+}
+.testimonial_content figure img{
+	width: 100%;
+	border-radius: 100%;
+}
+.testimonial_content p{
+	float: none;
+	width: 60%;
+	color:#333;
+	line-height:25px;
+	display: block;
+	margin: 0 auto 3px;
+}
+.testimonial_content a{
+	display: inline-block;
+	width: 100%;
+	font-weight: bold;
+	color:#333;
+	font-family: 'Zilla Slab', serif;
+}
+
+/*
+======================================================
+  	TESTIMONIAL SECTION ENDS
+=======================================================*/
+
+
+/*
+======================================================
+  	LASTEST BLOG POST 
+=======================================================*/
+.lastest-blog-posts{
+	float: left;
+	width: 100%;
+}
+.post_column{
+	float: left;
+	width: 100%;
+	margin-bottom: 30px;
+	background: #fff;
+}
+.post_column figure{
+	float: left;
+	width: auto;
+	position: relative;
+}
+.post_column figure:after{
+	position: absolute;
+	content: "";
+	top:50%;
+	right: 0px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 22px 23px 22px 0;
+	border-color: transparent #fafafa transparent transparent;
+	margin-top: -22px;
+}
+.post-content{
+	float: none;
+	width: auto;
+	overflow: hidden;
+	padding: 15px 15px 15px 30px;
+}
+.post-content .date{
+	font-size: 30px;
+	background: #333333;
+	display: inline-block;
+	padding: 7px 13px;
+	line-height: 24px;
+	position: relative;
+	font-family: 'Zilla Slab', serif;
+}
+.post-content .date:before{
+	border-right: 1px solid #666;
+    content: "";
+    margin-top: -25px;
+    min-height: 50px;
+    position: absolute;
+    right: -20px;
+    top: 50%;
+    width: 1px;
+}
+.post-content .date b{
+	font-size: 16px;
+	display: block;
+	line-height: normal;
+	color:#fff;
+	font-family: 'Zilla Slab', serif;
+	margin-top: 3px;
+}
+.post-content span{
+	float: left;
+	margin-right: 37px;
+	margin-bottom: 12px;
+}
+.post-content p{
+	width: 100%;
+	display: inline-block;
+	margin-bottom: 13px;
+}
+.post-content h6{
+	display: inline-block;
+	margin-bottom: 0px;
+	width: 69%;
+	float: right;
+}
+.post-content h6 a{
+	display: inline-block;
+	font-size: 18px;
+	padding: 4px 0px 0px;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+.rtl_content{
+	float: none;
+	float: right;
+	text-align: right;
+}
+.rtl_content figure{
+	float: none;
+	float: right;
+}
+.rtl_content figure:after{
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 22px 0 22px 23px;
+	border-color: transparent transparent transparent #fafafa;
+	right: auto;
+	left: 0px;
+}
+.rtl_content .post-content{
+	float: left;
+	width: 50%;
+	padding: 15px 30px 15px 15px;
+}
+.rtl_content .post-content span{
+	float: none;
+	float: right;
+	margin-left: 37px;
+	margin-right: 0px;
+}
+.rtl_content .post-content span:before{
+	right: auto;
+	left: -20px;
+}
+.blog-cn figure:after{
+	left: 0px;
+	right: 0px;
+	top:auto;
+	margin: 0 auto;
+	bottom: 0px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 22px 23px 22px;
+	border-color: transparent transparent #fafafa transparent;
+}
+.blog-cn .post-content{
+	float: left;
+	width: 100%;
+	padding: 26px 18px;
+}
+/*
+======================================================
+  	LASTEST BLOG POST ENDS
+=======================================================*/
+
+/*
+======================================================
+  	SLIDER IMAGES INSTAGRAM
+=======================================================*/
+.slider_images{
+	float: left;
+	width: 100%;
+}
+.item_images{
+	position: relative;
+	text-align: center;
+	margin: 0 0 -5px;
+	min-height: 0px;
+}
+.item_images a{
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	position:relative;
+}
+.item_images a:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	background-color:#000;
+	opacity:0.7;
+}
+.item_images a:hover:before{
+	background:none;
+}
+.item_images a i{
+	position: absolute;
+	top:50%;
+	left: 0px;
+	right: 0px;
+	margin: -19px auto 0px;
+	font-size: 40px;
+	color:#fff;
+	opacity: 0.30;
+}
+.item_images a:hover i{
+	transform:scale(0);
+	-moz-transform:scale(0);
+	-webkit-transform:scale(0);
+}
+.footer_tags li a:hover{
+	color:#fff;
+}
+/*
+======================================================
+  	SLIDER IMAGES INSTAGRAM ENDS
+=======================================================*/
+
+/*
+======================================================
+  	CHURCH FOOTER CONTENT STARTS
+=======================================================*/
+.footer_board{
+	float: left;
+	width: 100%;
+	position: relative;
+	background: #222222;
+}
+.background-logos{
+	position: relative;
+	float: left;
+	width: 100%;
+	padding: 77px 0px 62px;
+}
+.background-logos:before{
+	position: absolute;
+	content: "";
+	top:0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	background-image: url(images/logo_footer.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center right;
+}
+.footer_blog{
+	float: left;
+	width: 100%;
+}
+.footer_blog .padding-top-0{
+	padding-top: 4px;
+}
+.footer_blog_post{
+	float: left;
+	width: 100%;
+	border-bottom: 1px dashed rgba(51,51,51,0.9);
+	margin-bottom: 7px;
+	padding-bottom: 15px;
+	padding-top: 8px;
+}
+.footer_blog_post:last-of-type{
+	margin-bottom: 0px;
+}
+.footer_blog_post figure{
+	float: left;
+	width: auto;
+	margin-right: 15px;
+}
+.footer-post-content{
+	float: none;
+	width: auto;
+	display: block;
+	overflow: hidden;
+}
+.footer-post-content a{
+	display: inline-block;	
+	line-height: 18px;	
+	color:#555;
+	margin-bottom: 11px;
+}
+footer .footer-post-content a{
+	color:#999;
+}
+.footer-post-content span{
+	font-size: 14px;
+	color:#848484;
+	font-family: 'Zilla Slab', serif;
+}
+.church_flicker span,
+.footer_blog span{
+	display: block;
+	font-size: 14px;	
+	margin-bottom: 10px;
+}
+.church_flicker span:last-child,
+.footer_blog span:last-child{
+	margin-bottom: 0px;
+}
+.church_flicker span i,
+.footer_blog span i{
+	margin-right: 8px;
+}
+.copyright-content{
+	float: left;
+	width: 100%;
+	background-color: #1c1c1c;
+	padding: 13px 0px 12px;
+}
+.copyright-content p{
+	margin-bottom: 0px;
+}
+.copyright-content p i{
+	margin-right: 10px;
+}
+.copyright-content p a{
+	color:#848484;
+}
+.footer_title{
+	font-weight: bold;
+	color:#fff;
+	text-transform: capitalize;
+	position: relative;
+	display: inline-block;
+	padding-bottom: 13px;
+	margin-bottom: 17px;
+}
+.footer_title:before{
+	position: absolute;
+	content: "";
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	border-bottom: 1px solid;
+	width: 150px;
+}
+.footer_twitter{
+	float: left;
+	width: 100%;
+	background: #373737;
+	margin-bottom: 80px;
+}
+.footer_twitter span{
+	width: 93px;
+	height: 86px;
+	line-height:91px;
+	font-size: 40px;
+	display: inline-block;
+	float: left;
+	text-align: center;
+	color:#fff;
+}
+.footer_twitter .footer_twitter_caption{
+	float: left;
+	width: 76%;
+	padding: 20px 0px 20px 25px;
+}
+.footer_twitter_caption p{
+	line-height: normal;
+}
+.footer_twitter_caption p a{
+	display: inline-block;
+}
+.footer_twitter_caption small{
+	color:#999;
+}
+.footer_twitter .default_btn{
+	float: right;
+	padding: 10px 35px;
+	font-size: 14px;
+	color:#999;
+}
+.footer_twitter .pull-right{
+	padding: 23px 19px 23px 0px;
+}
+.church_flicker_gallery{
+	float: left;
+	width: 100%;
+}
+.church_flicker_gallery li{
+	float: left;
+	width: 33.333%;
+	padding: 0px 15px 15px 0px;
+}
+.church_flicker_gallery li a{
+	display: inline-block;
+	width: 100%;
+	overflow:hidden;
+}
+.church_flicker_gallery li a img{
+	width: 100%;
+}
+.footer_tags{
+	float: left;
+	width: 100%;
+}
+.footer_tags li{
+	float: left;
+	margin: 0px 6px 6px 0px;
+}
+.footer_tags li a{
+	display: inline-block;
+	padding: 7px 25px;
+	border:1px solid #666;
+	font-size: 14px;
+	color:#aaaaaa;
+}
+.padding-top-0{
+	padding-top: 0px;
+}
+.church_flicker .footer_blog_post {
+	padding-bottom: 6px;
+    padding-top: 15px;
+    margin-bottom: 7px;
+}
+.church_flicker .padding-top-0{
+	padding-top: 0px !important;
+	margin-bottom: 0px;
+}
+.church_flicker .footer_title{
+	margin-bottom: 25px;
+}
+.footer_other_sections{
+	float: left;
+	width: 100%;
+	padding: 0 0 66px;
+}
+/*
+======================================================
+  	CHURCH FOOTER CONTENT ENDS
+=======================================================*/
+
+/*
+======================================================
+  	SERVICES ICONS STARTS
+=======================================================*/
+.services_icons{
+	background-color: #fafafa;
+}
+.services_post,
+.block_services,
+.services_icons{
+	float: left;
+	width: 100%;
+}
+.block_services li{
+	float: left;
+	width: 20%;
+	text-align: center;
+	position: relative;
+}
+.block_services li:hover{
+	background-color: #fff;
+}
+.block_services li:hover:before{
+	border-color: transparent;
+}
+.block_services li:before{
+	border-right:1px solid #d9d7d5;
+	position: absolute;
+	content: "";
+	top:50%;
+	min-height: 260px;
+	margin-top: -130px;
+	right: 0px;
+}
+.block_services li:hover span{
+	color:#fff; 
+}
+.services_post {
+	padding: 80px 0px 80px;
+}
+.services_post span{
+	font-size: 70px;
+	display: inline-block;
+	width: 110px;
+	height: 110px;
+	border-radius: 100%;
+	border:1px solid #333;
+	text-align: center;
+	line-height: 110px;
+	color:#333;
+	margin-bottom: 20px;
+}
+.heading_title{
+	display: block;
+	margin-bottom: 4px;
+}
+.heading_title a{
+	display: inline-block;
+	font-size: 20px;
+	font-weight: bold;
+	color:#444444;
+}
+.services_post p{
+	font-size: 16px;
+	color:#666;
+	margin-bottom: 0px;
+}
+/*
+======================================================
+  	SERVICES ICONS ENDS
+=======================================================*/
+
+
+/*
+======================================================
+  	POST EASTER STARTS
+=======================================================*/
+.post_easter_blog{
+	float: left;
+	width: 100%;
+	margin-bottom: 30px;
+}
+.post_easter{
+	float: left;
+	width: 100%;
+}
+.post_easter ul{
+	float: left;
+	width: 100%;
+}
+.post_event_first{
+	float: left;
+	width: 47.9%;
+}
+.post_easter ul li.small_easter{
+	float: left;
+	width: 25.6%;
+	position: relative;
+}
+.post_event_first figure{
+	float: left;
+	width: 100%;
+	position: relative;
+}
+.post_event_first figure:before{
+	position: absolute;
+	content: "";
+	top:10px;
+	left: 10px;
+	right: 10px;
+	bottom: 10px;
+	border:10px solid #cbc9c4;
+	opacity: 0.5;
+}
+.post_event_first .easter_event h4{
+	display: inline-block;
+	font-weight: bold;
+	color:#fff;
+	line-height: normal;
+}
+.easter_event{
+	position: absolute;
+	top:50%;
+	left: 0px;
+	right: 0px;
+	margin: -37px auto 0px;
+	text-align: center;
+	padding: 0px 30px;
+}
+.small_easter-caption{
+	float: left;
+	width: 100%;
+	text-align: center;
+	padding: 70px 0 66px;
+}
+.small_easter-caption i{
+	font-size: 50px;
+	color:#fff;
+	margin-bottom: 13px;
+}
+.small_easter-caption h6 a{
+	font-size: 24px;
+	font-weight: bold;
+	display: inline-block;
+	color:#fff;
+}
+/*
+======================================================
+  	POST EASTER ENDS
+=======================================================*/
+
+/*
+======================================================
+  	LISTING BLOG STARTS
+=======================================================*/
+.listing_picture_news{
+	float: left;
+	width: 30%;
+	position: relative;
+	padding: 0px 15px;
+}
+.church_listing_news{
+	float: right;
+	width: 70%;
+}
+.church_lastest_news{
+	float: left;
+	width: 100%;
+}
+.church_lastest_news .church_heading{
+	margin-bottom: 27px;
+}
+.church_row{
+	float: left;
+	width: 100%;
+}
+.church_listing_news{
+	float: right;
+}
+.church_listing_block{
+	float: left;
+	background-color: #fff;
+	margin-bottom: 30px;
+}
+.church_listing_block figure{
+	float: left;
+	width: 36%;
+}
+
+.church_listing_block .church_date{
+	position: absolute;
+	top:0px;
+	left: 0px;
+	width: 64px;
+	height: 64px;
+	text-align: center;
+	margin: 0 auto;
+	color:#fff;
+	font-weight: bold;
+	padding: 8px 0 0;
+	font-size: 18px;
+	margin: 10px;
+	z-index:4;
+	font-family: 'Zilla Slab', serif;
+}
+.church_listing_block .church_date b{
+	display: block;
+	line-height: normal;
+}
+.church_listing_block .church_date span{
+	line-height: normal;
+	font-weight: 600;
+	display: inline-block;
+	font-family: 'Zilla Slab', serif;
+}
+.count-down-timer{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	z-index:4;
+	background-color: rgba(0,0,0,0.5);
+}
+.count-down-timer .countdown{
+	margin: 0px;
+}
+.count-down-timer .countdown li{
+	margin: 0 0px 0 0;
+	float: left;
+	border-right:1px solid #fff;
+	padding: 13px 22px 10px;
+}
+.count-down-timer .countdown li:before{
+	display: none;
+}
+.count-down-timer .countdown li:last-child{
+	margin-right: 0px;
+	border-right:none;
+	padding-right: 0px;
+}
+.count-down-timer .countdown li p{
+	font-size: 16px;
+	line-height: 14px;
+	margin-bottom: 2px;
+	color:#fff;
+	font-weight: 600;
+	font-family: 'Zilla Slab', serif;
+}
+.count-down-timer .countdown li span{
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 14px;
+	font-family: 'Zilla Slab', serif;
+}
+.church_listing_caption{
+	float: right;
+	width: 64%;
+	overflow: hidden;
+	padding: 20px 0 0;
+}
+.church_listing_caption div{
+	padding: 0 20px 0 30px;
+	float: left;
+	width: 100%;
+}
+.church_listing_caption h4{
+	margin-bottom: 0px;
+}
+.church_listing_caption p{
+	margin-bottom: 17px;
+}
+.church_listing_caption h4 a{
+	display: inline-block;
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: capitalize;
+	color:#444444;
+	border-bottom: 1px solid rgba(68,68,68,0.1);
+	margin-bottom: 18px;
+	padding-bottom: 21px;
+}
+/*
+======================================================
+  	LISTING BLOG ENDS
+=======================================================*/
+
+
+/*
+======================================================
+  	CHURCH HELPING STARTS
+=======================================================*/
+.church_help_hall{
+	float: left;
+	width: 100%;
+	background-image: url(images/church_help_bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	text-align: center;
+	padding:80px 0 157px;
+}
+.skillbar1{
+	background-color: #ffd2c7;
+	height: 27px;
+	border-radius: 5px;
+	width: 65%;
+	margin: 0 auto;
+}
+.skillbar1-bar{
+	height: 27px;
+	width: 580px;
+	border-radius: 5px;
+}
+.skillbar1-bar.bar_2{
+	width: 220px;
+}
+.church_help_content .skillbar1{
+	margin-bottom: 32px;
+}
+.church_help_content{
+	float: left;
+	width: 100%;
+}
+.church_help_content h4,
+.church_help_content h3{
+	line-height: normal;
+	color:#fff;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+.church_help_content h3{
+	margin-bottom: 29px;
+	margin-top: -8px;
+}
+.church_help_content h4{
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+.slider_full_progress{
+	float: left;
+	width: 100%;
+}
+.slider_progress_items{
+	float: none;
+	width: 80%;
+	display: inline-block;
+}
+.church_donate_rate{
+	float: left;
+	text-align: center;
+	width: 100%;
+	background: #fff;
+}
+.church_progress_menu{
+	display: inline-block;
+    height: 159px;
+    margin: -80px auto 0;
+    text-align: center;
+}
+.slider_progress_items li{
+	margin: 0px 15px;
+	border:3px solid transparent;
+	cursor:pointer;
+}
+.slider_progress_items li img{
+	width: 100%;
+	border:1px solid #fff;
+	cursor:pointer;
+}
+.slider_progress_items li.slick-slide.slick-current.slick-active img{
+	border-color: transparent;
+}
+/*
+======================================================
+  	CHURCH HELPING ENDS
+=======================================================*/
+
+/*
+======================================================
+  	CHURCH BLOG CONTENT STARTS
+=======================================================*/
+.church_blog_content,
+.church_blog_columns figure,
+.church_blog_columns,
+.church_blog_posts,
+.church_lastest_blog{
+	float: left;
+	width: 100%;
+}
+.church_lastest_blog{
+	background: #fff;
+	padding:76px 0px 50px;
+}
+.church_blog_columns{
+	position: relative;
+	margin-bottom: 30px;
+}
+.church_blog_content{
+	background: #fafafa;
+}
+.ch_position-up{
+	float: none;
+	min-height: 50px;
+    left: 0;
+    margin: -24px auto 28px;
+    padding: 16px 20px 10px;
+    position: relative;
+    right: 0;
+    top: 50%;
+    width: 75%;
+}
+.ch_position-up li a{
+	font-size: 14px;
+}
+.ch_position-up li:before{
+	display: none;
+}
+.ch_position-up li{
+	padding-right: 0px; 
+}
+.church_blog_content{
+	text-align: center;
+}
+.church_blog_content h4{
+	margin-bottom: 19px;
+}
+.church_blog_content h4 a{
+	display: inline-block;
+	color:#444444;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+.church_blog_content p{
+	margin-bottom: 22px;
+	width: 84%;
+	float: none;
+	display: inline-block;
+}
+.ch_position-bottom{
+	border-right: 1px solid #ddd;
+    float: left;
+	background:transparent;
+    margin-right: 30px;
+    padding: 0;
+    width: auto;
+}
+.ch_position-bottom li:before{
+	display: none;
+}
+.church_blog_footer .social-icons{
+	float: left;
+}
+.church_blog_footer .social-icons li{
+	float: left;
+	margin-right: 15px;
+}
+.church_blog_footer .social-icons li:last-child{
+	margin-right: 0px;
+}
+.church_blog_footer{
+	float: left;
+	width: 100%;
+	background: #f0f0f0;
+	padding: 17px 60px 15px;
+}
+.church_blog_footer li a{
+	font-size: 14px;
+}
+.ch_position-bottom li{
+	padding-right: 0px;
+	margin-right: 15px;
+}
+.ch_position-bottom li:last-child{
+	margin-right: 30px;
+}
+/*
+======================================================
+  	CHURCH BLOG CONTENT ENDS
+=======================================================*/
+
+
+/*
+======================================================
+  	WEEKLY GROUPS CONTENT STARTS
+=======================================================*/
+.weekly-groups_services{
+	float: left;
+	width: 100%;
+	background: #fff;
+}
+.services_weekly{
+	float: left;
+	width: 100%;
+}
+.services_weekly li{
+	float: left;
+	width: 33.3333%;
+	position: relative;
+	overflow: hidden;
+}
+.services_weekly li:before,
+.services_weekly li:after{
+	position: absolute;
+	content: "";
+	z-index: 999;
+}
+.services_weekly li:before{
+	width: 0;
+	right: -30px;
+	bottom: 0px;
+	top:auto;
+	height: 0;
+	border-style: solid;
+	border-width: 0 0 114px 102px;
+	border-color: transparent transparent #c62641 transparent;
+	opacity: 1;
+}
+.services_weekly li:last-child:after{
+	width: 0;
+	height: 0;
+	right: 0px;
+	opacity: 1;
+	border-style: solid;
+	border-width: 0 102px 114px 0;
+	border-color: transparent #fff transparent transparent;
+}
+.services_weekly li:last-child:before{
+	width: 0;
+	right: 0px;
+	bottom: 0px;
+	top:auto;
+	height: 0;
+	border-style: solid;
+	border-width: 0 0 114px 102px;
+	border-color: transparent transparent #fff transparent;
+	opacity: 1;
+}
+.weekly_column{
+	float: left;
+	width: 100%;
+	padding: 58px 50px 51px;
+}
+.weekly_column span{
+	bottom: 0;
+    font-size: 145px;
+    position: absolute;
+    right: 0;
+    color:#fff;
+    opacity: 0.1;
+}
+.weekly_column h4 a{
+	display: inline-block;
+	color:#fff;
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+.weekly_column h4,
+.weekly_column p{
+	color:#fff;
+	margin-bottom: 0px;
+}
+/*
+======================================================
+  	WEEKLY GROUPS CONTENT ENDS
+=======================================================*/
+
+/*
+======================================================
+  	CHURCH PLAYING CONTENT STARTS
+=======================================================*/
+.church_playing-player{
+	float: left;
+	width: 100%;
+	background-color: #fff;
+}
+.church_playing_music{
+	float: left;
+	width: 100%;
+	margin-bottom: 30px;
+}
+.church_playing_music figure{
+	float: left;
+	width: auto;
+}
+.church_playing_music figure img{
+	width: 100%;
+}
+.church_music_caption{
+	float: none;
+	width: auto;
+	overflow: hidden;
+	padding: 0 0px 0px 30px;
+}
+.church_music_caption h4{
+	margin-bottom: 21px;
+}
+.church_music_caption h4 a{
+	display: inline-block;
+	font-weight: bold;
+}
+.church_music_caption .meta_address{
+	padding: 0px;
+	background: transparent;
+}
+.church_music_caption .meta_address li:before{
+	display: none;
+}
+.church_playing-options ul,
+.church_playing-options{
+	float: left;
+	width: 100%;
+}
+.church_playing-options ul li{
+	float: left;
+}
+.church_music_caption .meta_address li a{
+	font-size: 14px;
+}
+.church_playing-options li{
+	margin-right: 26px;
+}
+.church_music_caption .meta_address{
+	padding-bottom: 14px;
+	border-bottom: 1px solid #b2b2b2;
+	margin-bottom: 13px;
+}
+.church_playing-options li:last-child{
+	margin-right: 0px;
+}
+.church_playing-options li a{
+	width: 70px;
+	height: 70px;
+	background: #f0f0f0;
+	line-height: 70px;
+	text-align: center;
+	color:#b2b2b2;
+	font-size: 24px;
+	display: inline-block;
+}
+.church_playing-options li a:hover{
+	color:#fff;
+}
+.church_music_caption p{
+	margin-bottom: 32px;
+}
+.church_play_track{
+	margin-bottom: 6px;
+}
+.church_play{
+	display: inline-block;
+	float: right;
+}
+.church_play_track .church_play i{
+	margin-right: 0px;
+	width: 50px;
+	font-size: 18px;
+	line-height: 74px;
+}
+/*
+======================================================
+  	CHURCH PLAYING CONTENT ENDS
+=======================================================*/
+
+/*
+======================================================
+  	CHURCH PASTORS CONTENT STARTS
+=======================================================*/
+.church_pastors_blog{
+	float: left;
+	width: 100%;
+	background: #fff;
+	padding-top:0px;
+}
+.church_pastors_column{
+	float: left;
+	width: 100%;
+	margin-bottom: 22px;
+}
+.church_pastors_column figure{
+	float: left;
+	width: 100%;
+}
+.church_pastor_content{
+	float: left;
+	width: 100%;
+	padding: 25px 0px 0px;
+}
+.church_pastor_content h4 a{
+	display: inline-block;
+	font-weight: bold;
+}
+.church_pastor_content h4{
+	margin-bottom: 11px;
+}
+.church_pastor_content small{
+	font-size: 16px;
+	color:#666666;
+	display: inline-block;
+	float: left;
+}
+.church_pastor_social,
+.church_pastor_content p{
+	float: left;
+	width: 100%;
+}
+.church_pastor_social{
+	padding-bottom: 14px;
+	border-bottom: 1px solid #e6e6e6;
+	margin-bottom: 13px;
+}
+.church_pastor_content p{
+	margin-bottom: 0px;
+}
+.church_pastor_content .social-icons{
+	float: right;
+}
+.church_pastor_content .social-icons li{
+	float: left;
+	margin-right: 10px;
+}
+.church_pastor_content .social-icons li:last-child{
+	margin-right: 0px;
+}
+/*
+======================================================
+  	CHURCH PASTORS CONTENT ENDS
+=======================================================*/
+
+/*
+======================================================
+  	CHURCH TESTIMONIAL CONTENT STARTS
+=======================================================*/
+.church_testimonial_02{
+	float: left;
+	width: 100%;
+	background-image: url(images/testimonial_bg_02.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	padding:82px 0 10px;
+}
+.church_lastest_blog.padding{
+	padding:80px 0px 50px;
+}
+.church_testimonial_nav{
+	float: none;
+	margin: 0 auto 40px;
+	width: 80%;
+}
+.church_testimonial_slider{
+	float: left;
+	width: 100%;
+	margin-bottom: 30px;
+}
+.ch_testimonial_item{
+	margin: 0px 15px;
+	border:3px solid transparent;
+	width: auto;
+}
+.ch_testimonial_item img{
+	width: 100%;
+	cursor:pointer;
+}
+.church_testimonial_nav .slick-list{
+	width: 70%;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0px 0px !important;
+}
+.testimonial_item{
+	float: left;
+	width: 100%;
+	padding: 43px 47px 42px; 
+	text-align:center;
+}
+.testimonial_item p{
+	color:#fff;
+	margin-bottom: 15px;
+}
+.testimonial_item span{
+	font-weight: bold;
+	display: inline-block;
+	font-size: 20px;
+	color:#fff;
+}
+.slick-dots{
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+.slick-dots li{
+	float: none;
+	width: auto;
+	display: inline-block;
+	margin-right: 6px;
+}
+.slick-dots li:last-child{
+	margin-right: 0px;
+}
+.slick-dots li button{
+	font-size: 0px;
+	width: 12px;
+	height: 12px;
+	border-radius: 100%;
+	padding: 0px;
+	border:1px solid transparent;
+}
+.slick-dots li.slick-active button{
+	border-color: transparent;
+}
+.church_testimonial_slider .slick-list{
+	margin-bottom: 40px;
+}
+/*
+======================================================
+  	CHURCH TESTIMONIAL CONTENT ENDS
+=======================================================*/
+
+
+/*
+======================================================
+  	CHURCH OUR SHOP CONTENT STARTS
+=======================================================*/
+.ch_our_shop{
+	float: left;
+	width: 100%;
+	background: #fff;
+	padding:82px 0 50px;
+}
+.ch_ourshop_content{
+	float: left;
+	width: 100%;
+}
+.church_ourshop_content,
+.ch_ourshop_column{
+	float: left;
+	width: 100%;
+}
+.ch_ourshop_column{
+	margin-bottom: 30px;
+}
+.ch_ourshop_column figure{
+	float: left;
+	width: 100%;
+	background: #f0f0f0;
+}
+.church_ourshop_content small{
+	font-size: 18px;
+	font-weight: bold;
+	color:#a2a5a9;
+	text-transform: capitalize;
+	float: left;
+}
+.rateing_stars{
+	float: right;
+	padding: 4px 0 0;
+	line-height: n
+}
+.rateing_stars li{
+	float: left;
+	margin-right: 2px;
+}
+.rateing_stars li i{
+	font-size: 16px;
+	color:#e2ae4c;
+}
+.church_ourshop_content h5{
+	float: left;
+	margin-bottom: 0px;
+	font-weight: bold;
+	display: inline-block;
+	color:#333;
+}
+.church_ourshop_content h5 a{
+	display: inline-block;
+	font-weight: bold;
+}
+.church_ourshop_content .pull-right{
+	font-weight: bold;
+}
+.clearfix{
+	width: 100%;
+	float: left;
+	margin-bottom: 14px;
+}
+.church_ourshop_content{
+	background: #e6e6e6;
+	padding: 16px 20px 20px;
+	border-left: 5px solid;
+}
+/*
+======================================================
+  	CHURCH OUR SHOP CONTENT ENDS
+=======================================================
+*/
+
+/*
+======================================================
+  	CH PRODUCT WRAP START
+=======================================================
+*/
+.ch_product_item,
+.ch_product_wrap{
+	float:left;
+	width:100%;
+}
+.ch_product_wrap{
+	padding:80px 0px;
+}
+.ch_product_item{
+	border:1px solid #e8e8e8;
+	padding-bottom:11px;
+	background:#f9f9f9;
+}
+.ch_product_item:hover{
+	box-shadow:0 0 8px 2px #e7e7e7;
+}
+.ch_product_item figure{
+	border-bottom:1px solid #e8e8e8;
+	position:relative;
+	margin-bottom:11px;
+	overflow:visible;
+}
+.ch_product_item .ch_product_span{
+	background-color: #1a1a1a;
+    color: #ffffff;
+    font-size: 11px;
+    left: -7px;
+    padding: 4px 11px 2px;
+    position: absolute;
+    text-transform: uppercase;
+    top: 16px;
+}
+.ch_product_item .ch_product_span:before{
+	position:absolute;
+	content:"";
+	top:-5px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 0 5px 7px;
+	border-color: transparent transparent #1a1a1a transparent;
+}
+.ch_product_item:hover .ch_product_span:before{
+	border-color: transparent transparent #c62641 transparent;
+}
+.ch_product_icon{
+    position: absolute;
+    right: 20px;
+    top: 9px;
+	opacity:0;
+}
+.ch_product_item:hover .ch_product_icon{
+	top:86px;
+	opacity:1;
+}
+.ch_product_icon li a{
+	border: 1px solid #777777;
+    color: #333;
+    display: inline-block;
+    height: 27px;
+    line-height: 23px;
+    margin-bottom: 10px;
+    text-align: center;
+    transform: rotate(46deg);
+	-moz-transform: rotate(46deg);
+	-webkit-transform: rotate(46deg);
+    width: 27px;
+}
+.ch_product_icon li a.active,
+.ch_product_icon li a:hover{
+	color:#fff;
+}
+.ch_product_icon li a i{
+	transform: rotate(-46deg);
+	-moz-transform: rotate(-46deg);
+	-webkit-transform: rotate(-46deg);
+}
+.ch_product_detail{
+	float:left;
+	width:100%;
+	text-align:center;
+	padding:0px 15px;
+}
+.ch_product_detail h6{
+	font-weight:bold;
+	text-transform:uppercase;
+	margin-bottom:10px;
+}
+.ch_product_dolar{
+	float:left;
+}
+.ch_product_dolar li{
+	float:left;
+}
+.ch_product_dolar li span{
+	 color: #000000;
+    display: inline-block;
+    font-weight: bold;
+    margin-right: 12px;
+	font-size:14px;
+}
+.ch_product_dolar li span:last-child{
+	font-weight:400;
+	color:#d1d1d1;
+	margin-right:0px;
+}
+.ch_product_star{
+	float:right;
+}
+.ch_product_star li{
+	float:left;
+}
+.ch_product_star li a{
+	display:inline-block;
+	color:#f5d506;
+}
+/*
+======================================================
+  	CH PRODUCT WRAP END
+=======================================================
+*/
+.bg_none.padding_1 {
+    padding: 80px 0 75px;
+}
+/*
+======================================================
+  	CHURCH PRAYER BLOCK CONTENT STARTS
+=======================================================*/
+.church_prayer_block{
+	float: left;
+    padding: 50px 0 65px;
+    width: 100%;
+}
+.church_prayer_detail{
+	float: left;
+    padding: 24px 0 20px;
+    width: 50%;
+}
+.church_prayer_block .pull-right{
+	width: 50%;
+}
+.church_prayer_detail h3{
+	line-height: normal;
+	color:#fff;
+	margin-bottom: 8px;
+	font-size: 36px;
+}
+.church_prayer_detail p{
+	color:#fff;
+	margin-bottom: 42px;
+}
+/*
+======================================================
+  	CHURCH PRAYER BLOCK CONTENT ENDS
+=======================================================*/
+
+/*
+======================================================
+  		CHURCH LATEST EVENTS
+=======================================================*/
+.church_lastest_events{
+	float: left;
+	width: 100%;
+}
+.church_event_blog{
+	float: left;
+	width: 100%;
+}
+.church_event_blog .meta_address a{
+	font-size: 14px;
+}
+.church_event_blog .church_listing_caption p{
+	margin-bottom: 27px;
+    padding: 9px 0 0;
+}
+.church_event_blog .church_listing_caption div{
+	padding: 0px 15px;
+}
+/*
+======================================================
+  		CHURCH LATEST EVENTS ENDS
+=======================================================*/
+
+/*
+======================================================
+  		CHURCH SERVICES
+=======================================================*/
+.background-color{
+	background: #f9f9f9;
+	padding:80px 0 43px;
+}
+.open_services{
+	float: left;
+	width: 100%;
+	margin-bottom: 30px;
+}
+.open_services span{
+	float: left;
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	border:1px solid #444444;
+	line-height: 58px;
+	text-align: center;
+	color:#444444;
+	font-size: 40px;
+	margin-right: 20px;
+}
+.open_services:hover span{
+	border-color:#000;
+}
+.open_services_content{
+	float: none;
+	width: auto;
+	overflow: hidden;
+}
+.open_services_content h5{
+	margin-bottom: 8px;
+	color:#444444;
+}
+.open_services_content p{
+	margin-bottom: 0px;
+	color:#555;
+}
+
+/*
+======================================================
+  		CHURCH SERVICES ENDS
+=======================================================*/
+
+/*
+======================================================
+  		CHURCH BLOG COLUMNS
+=======================================================*/
+.donate_progress-blog .church_blog_footer .meta_address{
+	float: left;
+	padding: 0px;
+	width: auto;
+	background:none;
+}
+.donate_progress-blog .church_blog_footer .meta_address li:before{
+	display: none;
+}
+.donate_progress-blog .church_blog_footer .social-icons{
+	float: right;
+}
+.donate_progress-blog .church_blog_footer{
+	padding: 17px 15px 15px;
+}
+.church_blog_columns .donate_info{
+	position: absolute;
+	top:15px;
+	right: 20px;
+	z-index:4;
+}
+.church_blog_columns .donate_info > span{
+	display: inline-block;
+	width: 65px;
+	height: 65px;
+	text-align: center;
+	color:#fff;
+	border-radius: 100%;
+	line-height: 65px;
+	background: #444;
+}
+.donate_progress-blog .ch_position-up{
+	padding: 11px 15px;
+	background: #f0f0f0;
+	margin: -33px auto 29px;
+	min-height: 59px;
+	overflow: hidden;
+	z-index:4;
+}
+.donate_progress-blog .ch_position-up > span{
+	font-size: 13px;
+	color:#555;
+	margin-bottom: 4px;
+}
+.ch_position-up .skillbar1{
+	height: 10px;
+	margin-bottom: 0px;
+	border-radius: 0px;
+	background: #fff;
+	width: 100%;
+}
+.ch_position-up .skillbar1-bar{
+	height: 10px;
+	border-radius: 0px;
+	width: 100px;
+}
+.donate_progress-blog .church_blog_content{
+	text-align: left;
+}
+.church_caption_blog{
+	float: left;
+	width: 100%;
+	padding: 0px 15px;
+}
+.donate_progress-blog .ch_position-up .skillbar1-bar{
+	background: #333;
+}
+/*
+======================================================
+  		CHURCH BLOG COLUMNS ENDS
+=======================================================*/
+
+/*
+======================================================
+  		CHURCH BLOG SIMPLE
+=======================================================*/
+.cu_blog_1 .church_listing_caption,
+.cu_blog_1 figure,
+.cu_blog_1{
+	float: left;
+	width: 100%;
+}
+.cu_blog_1 .church_listing_caption{
+	background-color: #f9f9f9;
+	padding: 16px 0px 0px;
+}
+.cu_blog_1 .church_listing_caption div{
+	padding:0px 15px 5px;
+}
+.cu_blog_1 .church_listing_caption h5{
+	font-weight: bold;
+	color:#444444;
+	text-transform: capitalize;
+}
+.cu_blog_1 .meta_address{
+	border-top: 1px solid #e0e0e0;
+	padding-left: 0px;
+	text-align: center;
+}
+.cu_blog_1 .meta_address li{
+	float: left;
+	padding:0px 0px 0px 15px;
+}
+.cu_blog_1 .meta_address li:before{
+	display: none;
+}
+/*
+======================================================
+  		CHURCH BLOG SIMPLE ENDS
+=======================================================*/
+
+/*
+======================================================
+  		TRIANGLE SERVICES FULL WIDTH
+=======================================================*/
+.full-width-services .services_weekly li:last-child:before,
+.full-width-services .services_weekly li:last-child:after{
+	display: none;
+}
+.full-width-services .services_weekly li:before{
+	border-color: transparent transparent rgba(0,0,0,0.1);
+	right: 0px;
+	border-width: 0 0 108px 114px;
+}
+.full-width-services .services_weekly li:after{
+	border-color: transparent rgba(0,0,0,0.1) transparent transparent;
+    border-style: solid;
+    border-width: 0 108px 114px 0;
+    height: 0;
+    opacity: 1;
+    right: 0;
+    width: 0;
+}
+.full-width-services .services_weekly li:nth-child(2):before{
+	border-color: transparent transparent #c62641;
+}
+.full-width-services .services_weekly li:nth-child(2):after{
+	border-color: transparent #c62641 transparent transparent;
+}
+.full-width-services.weekly-groups_services li:nth-child(2) .weekly_column:before{
+	position: absolute;
+	content: "";
+	top:0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	background-color: #000;
+	opacity: 0.1;
+	z-index: -1;
+}
+.full-width-services.weekly-groups_services li .weekly_column{
+	position: relative;
+	z-index: 10;
+}
+.full-width-services .services_weekly li span{
+	font-size: 200px;
+    right: -9px;
+    top: 55px;
+}
+.full-width-services .services_weekly li p{
+	margin-bottom: 7px;
+}
+/*
+======================================================
+  		TRIANGLE SERVICES FULL WIDTH ENDS
+=======================================================*/
+
+/*
+======================================================
+  		404 PAGE 
+=======================================================*/
+.content_404{
+	float: left;
+	width: 100%;
+	background-image: url(../images/404.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	text-align: center;
+	padding: 278px 0;
+}
+.content_404:before{
+	opacity: 0.80;
+}
+.content_caption_404{
+	float: left;
+	width: 100%;
+	text-align: center;
+	position: relative;
+}
+.content_caption_404 h3{
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: 'Zilla Slab', serif;
+	margin-bottom: 15px;
+}
+.content_caption_404 p{
+	font-weight: bold;
+	color:#fff;
+	margin-bottom: 22px;
+}
+.content_caption_404 h2{
+	font-size: 80px;
+	font-weight: bold;
+	line-height: normal;
+	color:#fff;
+	font-family: 'Zilla Slab', serif;
+	margin-bottom: 21px;
+}
+.content_caption_404 form{
+	float: left;
+	width: 100%;
+	margin-bottom: 35px;
+}
+.church_search_02{
+	float: none;
+	display: inline-block;
+	width: 475px;
+	position: relative;
+}
+.church_search_02 input{
+	width: 100%;
+	float: left;
+	height: 50px;
+	border:1px solid #fff;
+	background: transparent;
+	padding: 0px 15px;
+	font-size: 15px;
+	color:#fff;
+}
+.church_search_02 button{
+	position: absolute;
+	top:50%;
+	right: 9px;
+	margin-top: -12px;
+	font-size: 16px;
+	color:#fff;
+	font-weight: bold;
+	background: transparent;
+}
+/*
+======================================================
+  		404 PAGE  ENDS
+=======================================================*/
+
+/*
+======================================================
+  		COMING SOON PAGE
+=======================================================*/
+.content_comingsoon{
+	float: left;
+	width: 100%;
+	position: relative;
+	background-image: url(images/comingsoon.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	padding: 205px 0px;
+}
+.comingsoon_content_caption{
+	float: left;
+	width: 100%;
+}
+.padding-lt-rt{
+	display: inline-block;
+    float: none;
+    width: 65%;
+}
+.comingsoon_content_caption h2{
+	font-weight: bold;
+	line-height: normal;
+	color: #fff;
+	margin-bottom: 0px;
+	margin-top: -15px;
+}
+.comingsoon_content_caption h6{
+	float: bold;
+	color:#fff;
+	font-family: 'Zilla Slab', serif;
+	width: 82%;
+	display:inline-block;
+	margin-bottom: 60px;
+	float: none;
+}
+.comingsoon_content_caption span{
+	display: inline-block;
+	width: 100%;
+	font-size: 18px;
+	margin-bottom: 36px;
+	font-family: 'Zilla Slab', serif;
+}
+.comingsoon_content_caption span i{
+	margin-right: 10px;
+}
+.comingsoon_content_caption .countdown li:before{
+	content: "";
+	border-left: 1px solid rgba(255,255,255,0.5);
+	margin: 0px;
+	left: 0px;
+	top:0px;
+	bottom: 0px;
+	right: auto;
+	min-height: 77px;
+}
+.comingsoon_content_caption .countdown li:last-child:before{
+	display: block;
+	border-right: 1px solid rgba(255,255,255,0.5);
+	right: 0px;
+	height: auto;
+	z-index: -1;
+}
+.comingsoon_content_caption .countdown li{
+	margin-right: 0px;
+	padding: 0 47px 0 50px;
+}
+.comingsoon_content_caption .countdown{
+	margin-bottom: 72px;
+}
+.comingsoon_content_caption .countdown li span{
+	font-size: 50px;
+	font-weight: bold;
+	color:#ffffff;
+	line-height: normal;
+	margin-bottom: 6px;
+}
+.comingsoon_content_caption .countdown li p{
+	font-size: 14px;
+	font-weight: bold;
+	color:#969595;
+	margin-bottom: 0px;
+	line-height: normal;
+}
+.comingsoon_content_caption form{
+	margin-bottom: 36px;
+	float: left;
+	width: 100%;
+}
+.submit_email{
+	display: inline-block;
+}
+.submit_email input{
+	height: 40px;
+	background: transparent;
+	width: 395px;
+	margin-right: 15px;
+	padding: 0px 15px;
+	float: left;
+}
+.submit_email button{
+	float: right;
+}
+.church_social_icons{
+	float: left;
+	width: 100%;
+}
+.church_social_icons li{
+	display: inline-block;
+	margin-right: 20px;
+}
+.church_social_icons li:last-child{
+	margin-right: 0px;
+}
+.church_social_icons li a{
+	display: inline-block;
+	color:rgba(255,255,255,0.5);
+	font-size: 20px;
+}
+.church_social_icons li:hover a{
+	color:#fff;
+}
+/*
+======================================================
+  		COMING SOON PAGE ENDS
+=======================================================*/
+
+/*
+======================================================
+  		CHURCH CAPTION WRAP START 
+=======================================================*/
+.bg_none{
+	background-color:#fff;
+	padding:79px 0 50px;
+}
+.church_home_fig,
+.church_text,
+.church_caption_wrap{
+	float:left;
+	width:100%;
+}
+.church_caption_wrap{
+	padding:80px 0 64px;
+}
+.church_text  h3{
+	line-height:normal;
+	padding-bottom:22px;
+	margin-bottom:23px;
+	position:relative;
+	font-weight:600;
+}
+.church_text  h3:before{
+	position:absolute;
+	content:"";
+	left:0px;
+	right:0px;
+	bottom:0px;
+	border-bottom:2px solid;
+	width:117px;
+}
+.church_text p{
+	font-weight:bold;
+	font-size:16px;
+	line-height:25px;
+}
+/*
+======================================================
+  		CHURCH CAPTION WRAP ENDS
+=======================================================*/
+
+
+/*
+======================================================
+  		CHURCH SERVICE POST START
+=======================================================*/
+.church_service_post_fig,
+.church_service_post{
+	float:left;
+	width:100%;
+}
+section.church_service_post{
+	background-color: #f8f8f8;
+	padding-bottom: 80px;
+}
+.church_service_post_fig:hover figure img{
+	transform:scale(1.8);
+	-moz-transform:scale(1.8);
+	-webkit-transform:scale(1.8);
+}
+.church_service_post_fig{
+	padding: 0px;
+}
+.extra-padding{
+	padding: 15px 0px 0px;
+}
+.church_service_post_fig .overlay:before{
+	z-index:9;
+}
+.post_fig_text{
+	position:absolute;
+	left:0px;
+	right:0px;
+	bottom:5px;
+	padding:0px 15px;
+	z-index:10;
+}
+.post_fig_text .countdown{
+	margin-bottom:30px;
+    position: relative;
+    top: -50px;
+	opacity:0;
+}
+.church_service_post_fig:hover .post_fig_text .countdown{
+	top:0px;
+	opacity:1;
+}
+.post_fig_text .countdown li {
+	margin-right:30px;
+}
+.post_fig_text .countdown li:last-child{
+	margin-right:0px;
+}
+.post_fig_text .countdown li h6{
+	font-weight:bold;
+	color:#fff;
+	margin-bottom:0px;
+}
+.post_fig_text .countdown li  span{
+	font-size:14px;
+	font-weight:bold;
+}
+.post_fig_text  .countdown li:before {
+    font-size: 31px;
+    position: absolute;
+    right: -22px;
+    top: 84%;
+	color:#fff;
+	border-radius:0px;
+}
+.post_fig_text > h6{
+	float:left;
+	font-weight:bold;
+}
+.post_fig_text > h6 a{
+	color:#fff;
+}
+/*
+======================================================
+  		CHURCH BLOG MEDIUM WRAP START 
+=======================================================*/
+.church_blog_fig_text,
+.church_blog_fig,
+.church_blog_medium_wrap{
+	float:left;
+	width:100%;
+}
+.church_blog_fig{
+	margin-bottom: 30px;
+}
+.church_blog_medium_wrap{
+	padding:82px 0 50px;
+}
+.church_blog_post_fig .overlay:before,
+.post_img_list .overlay:before,
+.church_news_fig .overlay:before,
+.church_latest_fig .overlay:before,
+.church_blog_fig .overlay:before{
+	opacity:0;
+	transform:scale(1) rotate(0deg);
+	-moz-transform:scale(1) rotate(0deg);
+	-webkit-transform:scale(1) rotate(0deg);
+	z-index:999;
+}
+.church_blog_post_fig:hover .overlay:before,
+.post_img_list:hover .overlay:before,
+.church_news_fig:hover  .overlay:before,
+.church_latest_fig:hover .overlay:before,
+.church_blog_fig:hover .overlay:before{
+	opacity:0.5;
+	transform:scale(1) rotate(0deg);
+	-moz-transform:scale(1) rotate(0deg);
+	-webkit-transform:scale(1) rotate(0deg);
+}
+.church_blog_post_fig:hover figure img,
+.post_img_list:hover figure img,
+.church_news_fig:hover figure img,
+.church_latest_fig:hover figure img,
+.church_blog_fig:hover figure img{
+	transform:scale(1.5);
+	-moz-transform:scale(1.5);
+	-webkit-transform:scale(1.5);
+}
+.church_blog_fig_text{
+	text-align:center;
+	padding:30px 0px 0px;
+}
+.church_blog_fig_text h4{
+	font-weight:600;
+	margin-bottom:19px;
+}
+.church_blog_fig_text p{
+	margin-bottom:22px;
+}
+/*
+======================================================
+  		CHURCH BLOG MEDIUM WRAP END
+=======================================================*/
+
+/*
+======================================================
+  		CHURCH LATEST WRAP START 
+=======================================================*/
+.church_meta_date,
+.church_latest_des,
+.church_latest_text,
+.church_latest_fig,
+.church_full_row,
+.church_latest_wrap{
+	float:left;
+	width:100%;
+}
+.church_full_row > li{
+	float:left;
+	width:20%;
+	border-right:1px solid #fff;
+}
+.church_playing-options.icon ul li{
+	margin-right:0px;
+	border-right:1px solid #dadada;
+	width: 25%;
+}
+.church_playing-options.icon ul li:last-child{
+	border-right:none;
+}
+.church_playing-options.icon ul li a{
+	width:100%;
+	height:70px;
+	line-height:70px;
+	font-size:24px;
+	background-color:#e6e6e6;
+}
+.church_playing-options.icon ul li a:hover{
+	color:#fff;
+}
+.church_playing-options.icon ul li a:hover i{
+	transform:scale(1.2);
+	-moz-transform:scale(1.2);
+	-webkit-transform:scale(1.2);
+}
+.church_latest_des{
+	background-color:#f0f0f0;
+	padding:0px 30px 30px 30px;
+}
+.church_latest_des > p{
+	float:left;
+	margin-bottom:22px;
+}
+.church_meta_date{
+	padding:21px 0 20px;
+	border-bottom:1px solid #dadada;
+	margin-bottom:13px;
+}
+.church_meta_date li{
+	float:left;
+	width:auto;
+	margin-right:15px;
+}
+.church_meta_date li:last-child{
+	margin-right:0px;
+}
+.church_meta_date li a{
+	display:inline-block;
+	font-size:14px;
+}
+.church_meta_date li a span{
+	color:#666666;
+	display:inline-block;
+	margin-left:6px;
+}
+/*
+======================================================
+  		CHURCH LATEST WRAP END
+=======================================================*/
+
+/*
+======================================================
+  		CHURCH NEWS WRAP START 
+=======================================================*/
+.church_news_text,
+.church_news_fig,
+.church_news_wrap{
+	float:left;
+	width:100%;
+}
+.church_news_wrap{
+	padding:80px 0px;
+}
+.church_news_wrap .col-md-4{
+	padding:0px 0px;
+}
+.church_news_text{
+	padding:60px 30px;
+	background-color:#f0f0f0;
+}
+.church_news_text h4{
+	font-weight:600;
+	margin-bottom:15px;
+}
+.church_meta_date.meta_2{
+	padding:0px 0px;
+	border-bottom:none;
+	margin-bottom:15px;
+}
+.church_meta_date.meta_2 li{
+	margin-right:32px;
+}
+.church_meta_date.meta_2 li:last-child{
+	margin-right:0px;
+}
+.church_meta_date.meta_2 li a i{
+	margin-right:18px;
+	font-size:18px;
+}
+.church_news_text > p{
+	margin-bottom:22px;
+}
+/*
+======================================================
+  		CHURCH NEWS WRAP ENDS
+=======================================================*/
+
+
+/*
+======================================================
+  		CHURCH CAUSES WRAP START
+=======================================================*/
+.church_causes_fig,
+.church_causes_wrap{
+	float:left;
+	width:100%;
+}
+.church_causes_wrap{
+	padding-bottom:36px;
+}
+.church_causes_fig{
+	text-align:center;
+	margin-bottom: 30px;
+}
+.church_causes_fig > h4{
+	font-weight:600;
+}
+.church_causes_fig .progress-bar {
+    height: 307px;
+    position: relative;
+    width: 100%;
+	box-shadow:0px 0px 0px 0px;
+	background:none;
+}
+.church_causes_fig  .progress-bar div span {
+    background:none;
+    border-radius: 50%;
+    font-size: 25px;
+    height: 279px;
+    left: 13px;
+    line-height: 278px;
+    position: absolute;
+    text-align: center;
+    top: 12px;
+    width: 278px;
+	color:transparent;
+}
+.church_causes_fig  .progress-bar div span:before{
+	background-image: url("extra-images/cause.png");
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    bottom: -7px;
+    content: "";
+    height: 260px;
+    left: 9px;
+    position: absolute;
+    right: 0;
+    top: 9px;
+    width: 260px;
+    z-index:99;
+	background-image:fixed;
+}
+.church_causes_fig  .progress-bar div span:after{
+	bottom: 0px;
+    content: "";
+    left: 0px;
+    position: absolute;
+	border-radius: 100%;
+    right: 0;
+    top: 0px;
+    border:16px solid #a82248;
+	z-index:9;
+}
+.church_causes_fig:hover .progress-bar div span::after{
+	left:2px;
+	top:3px;
+	z-index:999;
+}
+.church_causes_fig .progress-bar .right {
+    clip: rect(0px, 0px, 0px, -11px);
+    opacity: 0;
+    transform: rotate(180deg);
+}
+.church_causes_fig .progress-bar .rotate {
+    background-color:#d1325f;
+    clip:rect(60px, 308px, 360px, -61px);
+}
+.church_causes_fig  .progress-bar div {
+    border-radius: 50%;
+    height: 307px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    width: 307px;
+} 
+.church_causes_fig .position{
+	margin:0px 0px 28px 0px;
+}
+.church_causes_fig .progress-bar.position .progress_text {
+    background-color: #f0f0f0;
+    border-radius: 100%;
+    bottom: 0;
+    height: 245px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0px;
+    width: 245px;
+    z-index:9999;
+	padding:60px 0px;
+}
+.church_causes_fig .progress-bar.position .progress_text h3{
+	font-weight: 600;
+    text-transform: uppercase;
+	margin-bottom:16px;
+}
+.church_causes_fig .progress-bar.position .progress_text h5{
+	font-weight: 600;
+	margin-bottom:17px;
+}
+.church_prayer_block.height.padding-0{
+	padding:0px 0px;
+}
+/*
+======================================================
+  		CHURCH CAUSES WRAP ENDS
+=======================================================*/
+/*
+======================================================
+  		CHURCH POSTAR WRAP START
+=======================================================*/
+.church_postor_row,
+.church_postor_fig,
+.church_postor_wrap{
+	float:left;
+	width:100%;
+}
+.church_postor_wrap{
+	background-size:cover;
+	padding:80px 0px;
+	position:relative;
+}
+.church_postor_wrap{
+	animation: 10s linear 0s normal none infinite running ridingon;
+	background: rgba(0, 0, 0, 0) url("images/postar_bg.png") repeat scroll 0 0;
+}
+	@-webkit-keyframes ridingon{
+	  0%{background-position:50% 0}
+	  100%{background-position:330px 0%}
+	}
+	@-moz-keyframes ridingon{
+	  0%{background-position:50% 0}
+	  100%{background-position:330px 0%}
+	}
+	@-ms-keyframes ridingon{
+	  0%{background-position:50% 0}
+	  100%{background-position:330px 0%}
+	}
+	@keyframes ridingon{
+	  0%{background-position:50% 0}
+	  100%{background-position:330px 0%}
+	}
+	 
+.church_postor_wrap.overlay:before{
+	opacity:0.7;
+}
+.church_postor_row{
+	background-color:#fff;
+	position:relative;
+	padding:30px;
+}
+.church_postor_fig{
+	position:relative;
+	z-index:99;
+	background-image:url("images/postar_mandar.png");
+	background-position:right;
+	background-repeat:no-repeat;
+}
+.church_postor_fig figure{
+	width:auto;
+}
+.church_postor_wrap.overlay figure:before{
+	opacity:0;
+}
+.church_postor_wrap.overlay figure:hover:before{
+	opacity:0.5;
+}
+.church_postor_text{
+	float:left;
+	width:530px;
+	padding:30px 0px 30px 30px;
+}
+.church_postor_text h4{
+	font-weight:600;
+	margin-bottom:15px;
+}
+.church_postor_text h6{
+	font-weight:600;
+}
+/*
+======================================================
+  		CHURCH POSTAR WRAP END
+=======================================================*/
+
+/*
+======================================================
+  		CHURCH BLOG POST WRAP START
+=======================================================*/
+.post_img_list ul,
+.post_img_list,
+.post_comment,
+.church_blog_post_fig,
+.church_blog_post_row,
+.church_blog_post_wrap{
+	float:left;
+	width:100%;
+}
+.church_blog_post_row{
+	margin-bottom: 30px;
+}
+.church_blog_post_wrap{
+	padding:80px 0px 50px;
+}
+.church_blog_post_fig{
+	margin-bottom:30px;
+}
+.church_blog_post_fig figure{
+	width:auto;
+}
+.church_blog_post_text{
+	overflow:hidden;
+	padding-left:30px;
+}
+.church_blog_post_text h4{
+	font-weight:600;
+}
+.post_comment {
+	padding-bottom:25px;
+	border-bottom:1px solid #dadada;
+}
+.post_comment span{
+	display:inline-block;
+	margin-right:10px;
+	color:#444;
+}
+.post_comment a{
+	display:inline-block;
+	font-size:14px;
+	color:#444;
+}
+.church_blog_post_text .countdown{
+	padding:18px 0px 20px;
+	border-bottom:1px solid #dadada;
+	margin-bottom:10px;
+}
+.church_blog_post_text .countdown li:before{
+	font-size:20px;
+	top:84%;
+	color:#444444;
+}
+.church_blog_post_text .countdown li h3{
+	color:#444;
+	margin-bottom:2px;
+	font-size: 22px;
+}
+.church_blog_post_text .countdown li span{
+	display:inline-block;
+	font-size:16px;
+	color:#444;
+	font-weight:600;	
+}
+.church_blog_post_text > p{
+	margin-bottom:0px;
+}
+.post_img_list ul li{
+	float:left;
+	/* width: */
+} 
+
+/*
+======================================================
+  		CHURCH BLOG POST WRAP END
+=======================================================*/
+
+/*
+======================================================
+  		CHURCH PRAYER BLOCK HEIGHT START
+=======================================================*/
+.church_prayer_detail.padding{
+	padding:91px 0px 100px;
+	margin-bottom:0px;
+}
+.padding_2{
+	padding:80px 0px 47px;
+}
+.church_prayer_block.height{
+	overflow:hidden;
+}
+.church_prayer_block.height .pull-right {
+    height: 418px;
+    width: 50%;
+}
+/*
+======================================================
+  		CHURCH PRAYER BLOCK HEIGHT END
+=======================================================*/
+
+.copyright-content.center{
+	text-align:center;
+}
+
+/*
+====================================================================================
+						BLOG DETAIL PAGE START
+====================================================================================*/
+
+
+
+/*
+======================================================
+  		CAUSES DETAIL CONTENT
+=======================================================*/
+.church_causes_detail{
+	float: left;
+	width: 100%;
+	border:1px solid #e8e8e8;
+	margin-bottom: 30px;
+}
+.church_causes_caption{
+	float: left;
+	width: 100%;
+}
+.blog_title_1{
+	font-size: 30px;
+	font-weight: bold;
+	color:#444;
+	text-transform: capitalize;
+}
+.church_causes_cap h4{
+	margin-bottom: 15px;
+}
+.chu_progress_causes{
+	float: left;
+	width: 50%;
+	padding: 42px 30px 15px 30px;
+	border-top: 1px solid #e8e8e8;
+}
+.church_causes_cap{
+	float: left;
+	width: 100%;
+	padding: 30px 30px 22px;
+}
+.church_causes_cap p{
+	margin-bottom: 0px;
+}
+.church_causes_cap .ch_position-bottom{
+	width: 100%;
+	border:none;
+	margin-right: 0px;
+	background: transparent;
+	margin-bottom: 7px;
+}
+.chu_progress_causes .skillbar1{
+	height: 15px;
+	border-radius:30px;
+}
+.chu_progress_causes .skillbar1-bar{
+	position: relative;
+	overflow: visible !important;
+	height: 15px;
+	border-radius:30px;
+}
+.chu_progress_causes .skillbar1-bar span{
+	background: #fff none repeat scroll 0 0;
+    border: 2px solid;
+    border-radius: 100%;
+    height: 40px;
+    line-height: 36px;
+    margin-right: -5px;
+    margin-top: -20px;
+    position: absolute;
+    right: 0;
+	color:#000;
+	font-weight:bold;
+    text-align: center;
+    top: 50%;
+    width: 40px;
+    z-index: 9999;
+}
+.donars_right{
+	float: left;
+	width: 100%;
+}
+.donars_right li{
+	width: 32.777%;
+	display: inline-block;
+	text-align: center;
+	border-left: 1px solid #e8e8e8;
+	padding: 25px 0 22px;
+}
+.donars_right li small{
+	display: block;
+	font-size: 14px;
+	color:#333;
+	
+	margin-bottom: 3px;
+}
+.donars_right li span{
+	font-size: 20px;
+	font-weight: bold;
+	display: inline-block;
+	color:#444444;
+	font-family: 'Zilla Slab', serif;
+}
+.chu-detail_donars{
+	float: right;
+	width: 50%;
+	border-top: 1px solid #e8e8e8;
+}
+/*
+======================================================
+  		DOWNLOAD DOCOTYPE
+=======================================================*/
+.church_causes_documents{
+	float: left;
+	width: 100%;
+}
+.church_causes_documents h4{
+	margin-bottom: 29px;
+}
+.donate_amount_focus{
+	float: left;
+	width: 100%;
+}
+.documents_download{
+	float: left;
+	width: 100%;
+	margin-bottom: 15px;
+}
+.documents_download li{
+	float: left;
+	width: 100%;
+	padding: 15px 20px;
+	background: #f9f9f9;
+	margin-bottom: 15px;
+}
+.documents_download li .pull-left{
+	padding: 9px 0px 0px;
+}
+.documents_download li .pull-left span{
+	display: inline-block;
+	font-size: 18px;
+}
+.documents_download li .pull-left span i{
+	margin-right: 15px;
+	font-size: 24px;
+}
+.documents_download li .default_btn{
+	background: #C62641;
+	color:#fff;
+	margin-right: 10px;
+}
+.documents_download li .default_btn:last-child{
+	margin-right: 0px;
+}
+.amount_focus{
+	float: left;
+	width: 100%;
+}
+.donate_amount_focus{
+	float: left;
+	width: 100%;
+	margin-bottom: 30px;
+}
+.donate_amount_focus li{
+	float: left;
+	margin-right: 24px;
+}
+.donate_amount_focus li:last-child{
+	margin-right: 0px;
+}
+.amount_focus input[type="radio"]{
+	display: none;
+}
+.amount_focus label{
+	width: 86px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	background: #f0f0f0;
+	margin-bottom: 0px;
+}
+.amount_focus label span{
+	display: inline-block;
+	font-size: 18px;
+	font-weight: bold;
+	color:#444444;
+}
+.amount_focus input[type="radio"]:checked ~ label{
+	color:#fff;
+}
+.amount_focus input[type="radio"]:checked ~ label span{
+	color:#fff;
+}
+.write_amount_focus{
+	float: left;
+	width: 100%;
+	margin-bottom: 30px;
+}
+.write_amount_focus input{
+	height: 50px;
+	width: 100%;
+	padding: 0px 15px;
+	border-color: #e8e8e8;
+}
+/*
+======================================================
+  		LOGIN REGISTOR BUTTONS
+=======================================================*/
+.login_registor{
+	float: left; 
+	position: relative;
+	margin-bottom: 30px;
+	width: auto;
+	padding: 0px 11px;
+}
+.login_registor a{
+	float: left;
+	border-right: 1px solid #fff;
+	margin: 0px -11px;
+}
+.login_registor a:last-child{
+	border-right: none;
+}
+.login_registor sup{
+	background: #fff none repeat scroll 0 0;
+    border-radius: 100%;
+    color: #444444;
+    font-size: 12px;
+    height: 22px;
+    line-height: 20px;
+    margin: 11px 0px;
+    top: auto;
+    position: relative;
+    text-align: center;
+    float: left;
+    width: 22px;
+}
+/*
+======================================================
+  		LOGIN REGISTOR BUTTONS ENDS
+=======================================================*/
+
+/*
+======================================================
+  		INPUT FELIDS
+=======================================================*/
+.church_input_felids{
+	float: left;
+	width: 100%;
+}
+.input-text{
+	float: left;
+	width: 100%;
+	margin-bottom: 15px;
+}
+.input-text input{
+	height: 50px;
+	border-color: #e8e8e8;
+	width: 100%;
+	padding: 0px 15px;
+}
+.title_felid{
+	display: inline-block;
+	font-size: 20px;
+	font-weight: bold;
+	color:#444444;
+	text-transform: capitalize;
+	font-family: 'Zilla Slab', serif;
+}
+/* ch comment form */
+.kf_commet_field{
+	float:left;
+	width:30.9%;
+	margin-right:30px;
+	margin-bottom:30px;
+}
+.kf_commet_field:last-child{
+	margin-right:0px;
+}
+.ch_textarea textarea,
+.kf_commet_field input{
+	height:50px;
+	width:100%;
+	border:1px solid #cccccc;
+	background-color:#f9f9f9;
+	padding:0px 20px;
+	box-shadow:0px 0px;
+}
+.ch_textarea textarea:focus,
+.kf_commet_field input:focus{
+	background-color:#fff;
+}
+.ch_textarea{
+	margin-bottom:30px;
+}
+.ch_textarea textarea{
+	height:210px;
+	padding:20px 20px;
+	resize:none;
+}
+.form_submit .default_small_btn.btn_2{
+	border:none;
+}
+.form_submit .default_small_btn.btn_2:hover{
+	background-color:#000;
+}
+.form_submit{
+	float:left;
+	width:auto;
+	margin-bottom:0px;
+}
+.orange{
+	background-color:#ffa801;
+}
+/*
+======================================================
+  		INPUT FELIDS ENDS
+=======================================================*/
+/*
+======================================================
+  		CHURECH BLOG DETAIL WRAP START
+=======================================================*/
+.ch_textarea,
+.comment_form,
+.ch_comment_form,
+.comment,
+.ch_comments,
+.ch_social_share ul,
+.ch_share_meta,
+.churech_author_head,
+.church_authore_list,
+.churech_author,
+.church_blog_next,
+.ch_content,
+.church_blog_caption,
+.ch_blog_detail_list,
+.blockquote_text,
+.church_blog_detail_text,
+.ch_blog_detail_row,
+.church_blog_detail_wrap{
+	float:left;
+	width:100%;
+}
+.church_blog_detail_wrap{
+	padding:80px 0 50px;
+}
+.church_blog_detail_wrap.wrap_2{
+	padding:80px 0 60px;
+}
+.church_blog_detail_wrap.wrap_3{
+	padding:80px 0px;
+}
+.church_blog_detail_text figure{
+	margin-bottom:30px;
+	position: relative;
+}
+.church_blog_detail_text h3{
+	font-weight:600;
+	width:100%;
+	float:left;
+	margin-bottom:24px;
+}
+.church_meta_date.meta_2.meta_3{
+	margin-bottom:23px;
+}
+.church_meta_date.meta_2.meta_3 li{
+	border-right:1px solid #999999;
+	margin-right:0px;
+	line-height:15px;
+	padding:0px 15px;
+}
+.church_meta_date.meta_2.meta_3 li:first-child{
+	padding-left:0px;
+}
+.church_meta_date.meta_2.meta_3 li:last-child{
+	border-right:none;
+}
+.church_meta_date.meta_2.meta_3 li a{	
+	color:#555;
+}
+.ch_code p,
+.church_blog_detail_text p{
+	margin-bottom:20px;
+}
+/* blockquote text start */
+.blockquote_text{
+	padding:33px 70px 64px;
+	border-left:none;
+	border:2px solid #f7f7f7;
+	margin-top:7px;
+	margin-bottom:0px;
+}
+.blockquote_text p{
+	margin-bottom:3px;
+	position:relative;
+}
+.blockquote_text p:before{
+	position:absolute;
+	content:"\f10d";
+	color:#f1f1f1;
+	font-size:30px;
+	top:7px;
+	left:-40px;
+	bottom:0px;
+	font-family:fontawesome;
+}
+.blockquote_text a{
+	font-size:14px;
+	position:relative;
+	display:inline-block;
+	padding-left:20px;
+}
+.blockquote_text a:hover{
+	color:#000;
+}
+.blockquote_text a:before{
+	position:absolute;
+	content:"";
+	top:8px;
+	left:0px;
+	width:14px;
+	border-bottom:2px solid;
+}
+/*ch blog detail list */
+.ch_blog_detail_list{
+	margin-top:7px;
+}
+.church_blog_caption a{
+	float:left;
+}
+.ch_code{
+	overflow:hidden;
+	padding-left:20px;
+}
+.ch_blog_detail_list > p{
+	margin-bottom:0px;
+	width:100%;
+	float:left;
+}
+.ch_content{
+	margin-bottom:0px;
+	padding:53px 0px;
+}
+/* church blog next */
+.church_blog_next{
+	margin-bottom:50px;
+}
+.church_blog_next li{
+	float:left;
+	width:48.8%;
+	margin-right:0px;
+}
+.church_blog_next li:last-child{
+	margin-right:0px;
+	float: right;
+}
+.church_blog_next li a{
+	display:block;
+	padding:11px 0px 9px;
+	background-color:#444444;
+	color:#fff;
+	text-align:center;
+}
+.church_blog_next li a i{
+	margin:0px 30px;
+}
+/* churech author */
+.church_authore_list{
+	margin-bottom:68px;
+}
+.churech_author{
+	padding:18px;
+	border:1px solid #f5f5f5;
+}
+.churech_author figure{
+	float:left;
+	width:auto;
+	border-radius:100%;
+}
+.churech_author_text{
+	overflow:hidden;
+	padding-left:30px;
+}
+.churech_author_head h4{
+	display:inline-block;
+	font-weight:600;
+	margin-right:11px;
+}
+.churech_author_head  span{
+	display:inline-block;
+	font-size:14px;
+}
+.churech_author_text > p{
+	float:left;
+	margin-bottom:0px;
+}
+/*ch share meta */
+.ch_share_meta{
+	padding:10px;
+	border:1px solid #f5f5f5;
+	border-top:none;
+}
+.ch_share_meta span{
+	float:left;
+	padding:7px 0px;
+}
+.ch_share_meta span i{
+	margin-right:10px;
+}
+.ch_social_share{
+	float:right;
+	width:auto;
+}
+.ch_social_share ul li{
+	float:left;
+	width:auto;
+	margin-right:10px;
+}
+.ch_social_share ul li:last-child{
+	margin-right:0px;
+}
+.ch_social_share ul li a{
+	display:inline-block;
+	height:36px;
+	width:36px;
+	text-align:center;
+	line-height:36px;
+	background-color:#f1f1f1;
+	font-size:12px;
+	box-shadow:0px 0px 4px 2px #f8f8f8;
+	color:#969595;
+}
+.ch_social_share ul li a:hover{
+	color:#fff;
+}
+/* ch_comments */
+.ch_comments{
+	margin-bottom:68px;
+}
+.comment li{
+	float:left;
+	width:100%;
+	margin-bottom:30px;
+}
+.comment_title{
+	font-weight:600;
+	margin-bottom:30px;
+}
+.comment li:last-child{
+	margin-bottom:0px;
+}
+.churech_author.comment{
+	position:relative;
+}
+.churech_author.comment:hover{
+	box-shadow:1px 3px 7px -5px;
+}
+.churech_author.comment h5{
+	display:inline-block;
+	margin-right:15px;
+	font-weight:600;
+}
+.churech_author.comment span{
+	color:#999;
+}
+.churech_author.comment figure{
+	border-radius:0px;
+} 
+.churech_author.comment > a{
+	position:absolute;
+	top:0px;
+	right:0px;
+	display:inline-block;
+	padding:5px 12px;
+	box-shadow:0px 0px 4px 2px #f2f2f2;
+	font-size:12px;
+	color:#999;
+}
+.churech_author.comment:hover a{
+	background-color:#f1f1f1;
+}
+
+.post-margin{
+	float: left;
+	width: 100%;
+	margin-bottom: 50px;
+}
+.box_span{
+	position: absolute;
+	top:0px;
+	left: 0px;
+	z-index:4;
+}
+.box_span .date{
+	border:none;
+	display: block;
+	text-align: center;
+	width: 58px;
+	height: 52px;
+	padding: 6px 0;
+	text-transform: uppercase;
+}
+.box_span .date:before{
+	display: none;
+}
+.box_span span{
+	font-size: 20px;
+	color:#fff;
+}
+.box_span span b{
+	font-size: 11px;
+}
+.box_span a{
+	font-size: 20px;
+	display: inline-block;
+	color:#fff;
+	line-height: 40px;
+}
+.blog_item{
+	position: relative;
+	float: left;
+	width: 100%;
+}
+.blog_slider_posts{
+	float: left;
+	width: 100%;
+	margin-bottom: 30px;
+}
+.blog_slider_posts .slick-dots{
+	position: absolute;
+	bottom: 30px;
+	margin: 0 auto;
+	left: 0px;
+	right: 0px;
+}
+.blog_slider_posts .slick-dots li button{
+	background: transparent;
+	border-color: #fff;
+}
+.church_blog_detail_text .blog_slider_posts .slick-arrow{
+	display: none !important;
+}
+.blog_slider_posts.arrows_redios .slick-arrow{
+	display: block !important;
+}
+.church_blog_detail_text .slick-dots{
+	display:none !important;
+}
+
+/*
+======================================================
+  		CHURECH BLOG DETAIL Ends
+=======================================================*/
+/*
+======================================================
+  		CHURECH CONTACT US PAGE
+=======================================================*/
+.contact_us{
+	float: left;
+	width: 100%;
+}
+.church_map{
+	float: left;
+	width: 100%;
+	height: 500px;
+}
+.church_location{
+	float: left;
+	width: 100%;
+	border:1px solid #cccccc;
+	margin-bottom: 30px;
+}
+.church_location span{
+	width: 80px;
+	float: left;
+	padding: 52px 0;
+	text-align: center;
+	font-size: 24px;
+	color:#b2b2b2;
+	display: inline-block;
+	margin-right: 30px;
+	border-right:1px solid #cccccc;
+	background: #f9f9f9;
+}
+.church_location h6{
+	margin-bottom: 0px;
+}
+.church_location h6 a{
+	font-weight: bold;
+	color:#444444;
+	display: inline-block;
+	margin-bottom: 17px;
+}
+.church_location p{
+	margin-bottom: 0px;
+}
+.church_location h6 a{
+	display: inline-block;
+}
+.church_location div{
+	float: none;
+    overflow: hidden;
+    width: auto;
+    padding: 24px 0px 0px;
+}
+.church_location.active span,
+.church_location:hover span{
+	color:#fff;
+}
+.content_contact_us{
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.content_contact_us .custom-font-30px{
+	font-weight: bold;
+	color:#444;
+}
+.content_contact_us > p{
+	margin-bottom: 32px;
+}
+.content_contact_us .kf_commet_field input,
+.content_contact_us .kf_commet_field{
+	width: 100%;
+}
+.content_contact_us .ch_textarea{
+	margin-bottom: 40px;
+} 
+
+.content_contact_us .form_submit{
+	float: none;
+	display: inline-block;
+}
+/*
+======================================================
+  		CHURECH CONTACT US PAGE ENDS
+=======================================================*/
+
+
+/*
+======================================================
+  		CHURECH MINISTRY PAGE
+=======================================================*/
+.ministry_detail{
+	float: left;
+	width: 100%;
+}
+.ministry_column{
+	float: left;
+	width: 100%;
+}
+.ministry_column p{
+	float: left;
+	width: 100%;
+	margin-bottom: 0px;
+}
+.ministry_column .custom-font-30px{
+	font-weight: bold;
+	color:#444;
+	text-transform: capitalize;
+	margin-bottom: 22px;
+	font-weight: bold;
+	float: left;
+}
+.left_side-content{
+	float: left;
+	width: 100%;
+	margin-bottom: 21px;
+}
+.left_side-content figure{
+	float: left;
+	width: 50%;
+}
+.ministry_content{
+	float: none;
+	width: auto;
+	overflow: hidden;
+	padding: 0px 0px 0px 30px;
+}
+.right_side-content{
+	float: left;
+	width: 100%;
+	margin-bottom: 30px;
+}
+.right_side-content figure{
+	float: right;
+	width: 50%;
+}
+.right_side-content .ministry_content{
+	float: left;
+	width: 50%;
+	overflow: hidden;
+	padding: 0px;
+}
+.normal-lines{
+	float: left;
+	width: auto;
+	margin: 0px;
+	padding: 10px 0px 0px;
+}
+.ministry_content .normal-lines li p{
+	margin-bottom: 0px;
+}
+.ministry_content .normal-lines li{
+	margin-bottom: 15px;
+	display: block;
+	width: 100%;
+	float: left;
+}
+.ministry_content .normal-lines li:last-child{
+	margin-bottom: 0px
+}
+/*
+======================================================
+  		CHURECH MINISTRY PAGE ENDS
+=======================================================*/
+
+/*
+======================================================
+  		CHURECH MINISTRY COLUMNS
+=======================================================*/
+.church_ministry_cols{
+	float: left;
+	width: 100%;
+	margin-bottom: 27px;
+}
+.church_ministry_cols figure{
+	float: left;
+	width: 100%;
+	margin-bottom: 27px;
+}
+.church_ministry_cols figure img{
+	width: 100%;
+}
+.church_ministry_cols h4 a{
+	display: inline-block;
+	color:#444444;
+	text-transform: capitalize;
+	font-family: 'Zilla Slab', serif;
+	font-weight: bold;
+}
+.church_ministry_cols h4{
+	margin-bottom: 0px;
+}
+/*
+======================================================
+  		CHURECH MINISTRY COLUMNS ENDS
+=======================================================*/
+
+/*
+======================================================
+  		CHURCH Causes
+=======================================================*/
+.church_causes_columns{
+	float: left;
+	width: 100%;
+	position: relative;
+	border:1px solid #e8e8e8;
+	margin-bottom: 30px;
+}
+.church_causes_columns figure{
+	position: relative;
+	float: left;
+	width: 100%;
+}
+.church_causes_columns .meta_address{
+	padding: 0 0 0 30px;
+	width: 100%;
+}
+.church_causes_columns .meta_address li:before{
+	top:0px;
+	min-height: 100%;
+	margin: 0px;
+	border-color: #fff;
+}
+.ch_position-up.meta_address{
+	position: relative;
+    text-align: center;
+    z-index: 3;
+}
+.ch_position-up.meta_address li{
+	display:inline-block;
+	float:none;
+}
+.church_causes_columns .meta_address li{
+	padding: 10px 15px 10px 0;
+	margin-right: 15px;
+}
+.church_causes_columns .meta_address li a{
+	color:#fff;
+	display: inline-block;
+}
+.church_absolute_middel{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	opacity: 0;
+	right: 0px;
+}
+.church_causes_columns:hover .church_absolute_middel{
+	opacity: 1;
+	z-index:4;
+}
+.church_causes_columns .chu-detail_donars,
+.church_causes_columns .chu_progress_causes{
+	width: 100%;
+}
+.church_causes_columns .donars_right li{
+	width: 32.333%;
+}
+.church_causes_columns .donars_right li:first-child{
+	border:none;
+}
+.church_causes_columns .chu_progress_causes{
+	padding: 0 20px 29px;
+	border-top: none;
+}
+.church_causes2_caption{
+	float: left;
+	width: 100%;
+	padding: 27px 20px 0;
+}
+
+.church_causes_columns .church_blog_content p{
+	margin-bottom: 24px;
+}
+.church_causes_columns .church_blog_content{
+	background: #fff;
+}
+/*
+======================================================
+  		CHURCH Causes listing
+=======================================================*/
+.church_causes_listing{
+	float: left;
+	width: 100%;
+	border:1px solid #e8e8e8;
+	margin-bottom: 30px;
+}
+.church_causes_listing figure{
+	float: left;
+	width: auto;
+}
+.church_causes_listing .church_blog_content{
+	float: none;
+	width: auto;
+	overflow: hidden;
+	background: transparent;
+	text-align: left;
+}
+.church_causes_listing .church_causes2_caption{
+	padding: 27px 30px 0;
+}
+.church_causes_listing .meta_address{
+	padding: 0px;
+	background: transparent;
+	margin-bottom: 7px;
+}
+.church_causes_listing .meta_address li:before{
+	display: none;
+}
+.church_causes_listing .church_blog_content h4{
+	margin-bottom: 12px;
+}
+.church_causes_listing .church_blog_content p{
+	width:100%;
+}
+.church_causes_listing .donars_right li{
+	padding: 28px 0 26px;
+}
+/*
+======================================================
+  		CHURCH music book
+=======================================================*/
+.church_music_book{
+	float: left;
+	width: 100%;
+	margin-bottom: 30px;
+}
+.church_music_book .church_causes2_caption{
+	width: 90%;
+}
+.share_social{
+	float: right;
+	width: 10%;
+}
+.share_social li{
+	float: left;
+	width: 100%;
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+}
+.share_social li:last-child{
+	border-bottom: none;
+}
+.share_social li a{
+	display: inline-block;
+	font-size: 18px;
+	color:#b2b2b2;
+	padding:21px 0 20px;
+	width: 100%;
+}
+.church_music_book .meta_address li a{
+	font-size: 14px;
+}
+.share_social li.spacial-padding a{
+	padding: 43px 0 44px;
+	display: inline-block;
+}
+.share_social a:hover{
+	color:#fff;
+}
+.church_music_book{
+	position: relative;
+}
+.church_music_book .caption p{
+	margin-bottom: 80px;
+	float: left;
+}
+.church_music_book .caption{
+	float: left;
+	width: 100%;
+	padding: 0px 20px;
+}
+.church_music_book .church_causes2_caption{
+	padding: 24px 0px 0;
+	border-right: 1px solid #ccc;
+}
+.church_music_book .padding_div{
+	float: left;
+	width: 100%;
+	padding: 0px 20px;
+	border-bottom: 1px solid #ccc;
+	margin-bottom:13px;
+}
+.church_music_book .church_blog_content h4{
+	margin-bottom: 22px;
+}
+.church_music_book .church_blog_content h4 a{
+	font-size: 30px;
+}
+.church_music_book .meta_address{
+	margin-bottom: 20px;
+}
+.style_audio_2{
+	bottom: 0px;
+    float: left;
+    left: 0;
+    position: absolute;
+    right: 82px;
+    width: auto;
+    background: #333;
+    padding: 8px 0 9px;
+}
+.church_causes_listing.church_music_book .style_audio_2{
+	background:#333;
+}
+.style_audio_2 .info{
+	display: none;
+}
+.style_audio_2.audioplayer .controls .pause:before,
+.style_audio_2.audioplayer .controls .play:before{
+	border:none;
+	font-size: 24px;
+	color:#b2b2b2;
+	background: transparent;
+}
+
+.style_audio_2.audioplayer .controls .pause,
+.style_audio_2.audioplayer .controls .play{
+	background-size: cover;
+    height: 35px;
+    margin: 8px 0;
+    width: 35px;
+}
+.style_audio_2.audioplayer .player .progressbar{
+	left: 5px;
+    width: 730px;
+}
+.style_audio_2.audioplayer .player .progressbar .bar-loaded{
+	border-color: #dbdbdb !important;
+}
+.style_audio_2.audioplayer .player .progressbar .bar-played{
+	background: #f0f0f0;
+}
+.style_audio_2.audioplayer .timeHolder{
+	right: 135px;
+    width: 79%;
+}
+.style_audio_2.audioplayer .volume{
+	width: 94px;
+}
+.style_audio_2.audioplayer .volume .volume-adjust{
+	width: 70%;
+	visibility: visible;
+	display: block;
+	position: relative;
+	background: #fff;
+}
+.style_audio_2.audioplayer .volume .volume-adjust > div > div{
+	background: #dbdbdb;
+}
+.style_audio_2.audioplayer .volume-btn:before,
+.style_audio_2.audioplayer .time-current, 
+.style_audio_2.audioplayer .time-duration{
+	color:#dbdbdb;
+}
+.church_map_menus{
+	float: left;
+	width: 100%;
+	border:1px solid #ccc;
+}
+.subcontrols{
+	float: left;
+	width: auto;
+}
+.subcontrols a{
+	float: left;
+	margin-right: 30px;
+	padding: 13px 20px 14px;
+}
+.church_map_footer{
+	float: left;
+	width: 100%;
+	padding: 30px;
+}
+
+.social_icons_simple{
+	float: left;
+	width: 100%;
+	padding: 13px 0px;
+}
+.social_icons_simple li{
+	float: left;
+	margin-right: 20px;
+}
+.social_icons_simple li a{
+	display: inline-block;
+	font-size: 16px;
+	color:#919191;
+}
+.kode_write_form_detail{
+	float: left;
+	width: 100%;
+	padding: 50px 0px;
+}
+.ch_textarea.c2 textarea{
+	background: transparent;
+	border-color: #e8e8e8;
+}
+.input-text.c2{
+	margin-bottom: 24px;
+}
+.chu_prayer_dashboard{
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+.chu_prayer_dashboard .custom-font-30px{
+	font-weight: bold;
+	color:#444444;
+	text-transform: capitalize;
+	margin-bottom: 50px;
+}
+.chu_prayer_columns{
+	float: left;
+	width: 100%;
+	text-align: left;
+	padding: 30px;
+	border: 1px solid #d9d8d4;
+	margin-bottom: 30px;
+}
+.prayer_title h4{
+	line-height: normal;
+	margin-bottom: 4px;
+	display: block;
+	margin-top: -6px;
+}
+.prayer_title h4 a{
+	display: inline-block;
+	font-weight: bold;
+	text-transform: capitalize;
+	color:#444444;
+}
+.prayer_title small{
+	font-size: 14px;
+	color:#c8c8c8;
+	display: block;
+	margin-bottom: 12px;
+}
+.prayer_icons_styles a{
+	display: inline-block;
+	font-size: 18px;
+}
+.prayer_icons_styles span{
+	display: inline-block;
+	font-size: 14px;
+	border: 1px solid #d9d8d4;
+	color:#919191;
+	padding: 2px 4px;
+	border-radius: 10px;
+	margin: 0px 15px;
+}
+.prayer_icons_styles div{
+	padding:4px 0 0;
+	float: left;
+}
+.prayer_icons_styles div > a{
+	float: left;
+	padding: 2px 0 0;
+}
+.aouthar_detail{
+	float: left;
+	width: auto;
+}
+.aouthar_detail figure{
+	float: left;
+	width: auto;
+	border-radius: 100%;
+	margin-right: 15px;
+}
+.aouthar_detail figure img{
+	border-radius: 100%;
+	border: 1px solid #d9d8d4;
+}
+.aouthar_detail .chu_prayer_caption{
+	float: left;
+	width: auto;
+}
+.chu_prayer_caption h6{
+	margin-bottom: 5px;
+	line-height: normal;
+	font-weight: bold;
+	color:#444444;
+	text-transform: capitalize;
+}
+.chu_prayer_caption .social_icons_simple{
+	padding: 0px;
+}
+.chu_prayer_caption .social_icons_simple li{
+	margin-right: 10px;
+}
+.chu_prayer_caption .social_icons_simple li a{
+	font-size: 14px;
+	color:#919191;
+}
+.chu_prayer_columns .pull-right sup{
+	font-size: 14px;
+	color:#c8c8c8;
+	top:0px;
+	margin-right: 15px;
+}
+.chu_caption{
+	float: left;
+	width: 100%;
+	margin-bottom: 8px;
+}
+.chu_caption p{
+	margin-bottom: 0px;
+}
+.flows_btn{
+	padding: 3px 0px 0px;
+}
+/*
+======================================================
+  		SERMON PAGE
+=======================================================*/
+.sermon_video_player{
+	float: left;
+	width: 100%;
+}
+.sermon_video_player figure{
+	position: relative;
+	float: left;
+	width: 100%;
+	margin-bottom: 50px;
+}
+.sermon_video_player figure .share_social{
+	position: absolute;
+	top:30px;
+	left: 30px;
+	border:none;
+}
+.sermon_video_player figure .share_social ul li{
+	background: #444444;
+	width: 90px;
+	height: 70px;
+}
+.sermon_video_player figure .share_social ul li a{
+	font-size: 24px;
+	color:#fff;
+	padding: 19px 0 18px;
+}
+.sermon_absolute{
+	position: absolute;
+	top:50%;
+	left: 0px;
+	right: 0px;
+	margin: -34px auto 0px;
+	text-align: center;
+}
+.sermon_absolute button{
+	height: 68px;
+	width: 68px;
+	text-align: center;
+	line-height: 68px;
+	font-size: 18px;
+	color: #fff;
+}
+.sermon_caption{
+	float: left;
+	width: 78%;
+	margin-bottom: 42px;
+}
+.sermon_caption p{
+	float: left;
+	width: 100%;
+	margin-bottom: 0px;
+}
+.sermon_caption .custom-font-30px{
+	font-weight: bold;
+	color:#444;
+	text-transform: capitalize;
+	float: left;
+	margin-bottom: 22px;
+	padding: 2px 0px 0px;
+}
+.social-icons-simple{
+	float: right;
+}
+.social-icons-simple li{
+	float: left;
+	margin-right: 15px;
+}
+.social-icons-simple li a{
+	width: 33px;
+	height: 33px;
+	line-height: 37px;
+	text-align: center;
+	border-radius: 100%;
+	background: #f1f1f1;
+	color:#969595;
+	display: inline-block;
+}
+.social-icons-simple li:hover a{
+	color:#fff;
+}
+.other_information{
+	float: right;
+	width: 22%;
+	padding: 0px 15px;
+}
+.other_information ul li,
+.other_information ul{
+	float: left;
+	width: 100%;
+}
+.other_information ul li{
+	margin-bottom: 20px;
+}
+.other_information ul li span{
+	display: inline-block;
+	float: left;
+	width: 100%;
+	font-size: 14px;
+	color:#555;
+	font-family: 'Zilla Slab', serif;
+}
+.other_information ul li span i{
+	margin-right: 10px;
+	font-size: 18px;
+}
+.sermon_detail_player_cap{
+	float: left;
+	width: 100%;
+	border-bottom: 1px solid #d9d8d4;
+}
+.sermon_slider{
+	padding-bottom: 80px;
+}
+.sermon_slider .slick-arrow{
+	bottom: 0px;
+	margin: 0px 0px 0px;
+	width: 36px;
+	height: 36px;
+}
+.sermon_slider.default_arrows .slick-arrow.slick-prev{
+	left: 0px;
+}
+.sermon_slider.default_arrows .slick-arrow.slick-prev:before{
+	content: "\f104";
+}
+.sermon_slider.default_arrows .slick-arrow.slick-next:before{
+	content: "\f105";
+}
+.sermon_slider.default_arrows .slick-arrow.slick-next{
+	left: auto;
+	right: 0px;
+}
+.sermon_slider.default_arrows .slick-arrow:before{
+	border:1px solid #d9d8d4;
+	color:#666;
+	width: 36px;
+	color:#d9d8d4;
+	height: 36px;
+	line-height: 33px;
+	margin-top: -18px;
+}
+.sermon_system_slider{
+	float: left;
+	width: 100%;
+	position: relative;
+	margin-bottom: 30px;
+}
+.windows_btn{
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	margin: 0 auto;
+	text-align: center;
+}
+.windows_btn a{
+	width: 36px;
+	height: 36px;
+	line-height: 34px;
+	text-align: center;
+	font-size: 16px;
+	color:#d9d8d4;
+	display: inline-block;
+	border:1px solid #d9d8d4;
+}
+.slick-slider .slick-track, .slick-slider .slick-list {
+    transform: none;
+}
+.church_testimonial_02 .church_testimonial_slider .slick-dots{
+	display:none !important;
+}
+
+/* hover scale effect */
+.footer_blog_post:hover  figure img,
+.church_blog_detail_text:hover figure img,
+.church_causes_detail:hover figure img,
+.church_causes_listing:hover figure img,
+.church_causes_columns:hover figure img,
+.church_causes_listing.church_music_book:hover figure img,
+.right_side-content:hover figure img,
+.left_side-content:hover figure img,
+.church_ministry_cols:hover figure img,
+.church_pastors_column:hover figure img,
+.church_playing_music:hover figure img,
+.church_blog_columns:hover figure img,
+.church_listing_block:hover figure img, 
+.church_flicker_gallery li a img:hover{
+	transform:scale(1.3) rotate(10deg);
+	-moz-transform:scale(1.3) rotate(10deg);
+	-webkit-transform:scale(1.3) rotate(10deg);
+}
+.church_flicker_gallery li a,
+.church_blog_detail_text figure,
+.church_causes_detail figure,
+.church_causes_listing figure,
+.church_causes_columns figure,
+.church_causes_listing.church_music_book figure,
+.right_side-content figure,
+.left_side-content figure,
+.church_ministry_cols figure,
+.church_pastors_column figure,
+.church_playing_music figure,
+.church_listing_block figure, 
+.church_blog_columns figure,
+.slider_progress_items li{
+	position:relative;
+}
+.church_flicker_gallery li a:before,
+.church_blog_detail_text figure:before,
+.church_causes_detail figure:before,
+.church_causes_listing figure:before,
+.church_causes_columns figure:before,
+.church_causes_listing.church_music_book figure:before,
+.right_side-content figure:before,
+.left_side-content figure:before,
+.church_ministry_cols figure:before,
+.church_pastors_column figure:before,
+.church_playing_music figure:before, 
+.church_listing_block figure:before, 
+.church_blog_columns figure:before,
+.slider_progress_items li:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	background-color:#000;
+	opacity:0;
+}
+.church_blog_detail_text:hover figure:before,
+.church_causes_detail:hover figure:before,
+.church_causes_listing:hover figure:before,
+.church_causes_columns:hover figure:before,
+.church_causes_listing.church_music_book:hover figure:before,
+.right_side-content:hover figure:before,
+.left_side-content:hover figure:before,
+.church_ministry_cols:hover figure:before,
+.church_pastors_column:hover figure:before,
+.church_playing_music:hover figure:before, 
+.church_listing_block:hover figure:before,
+.church_blog_columns:hover figure:before,
+.slider_progress_items li:hover:before{
+	opacity:0.5;
+	z-index:2;
+}
+.church_flicker_gallery li a:hover:before{
+	opacity:0.7;
+}
+footer .church_flicker span,footer  .footer_blog span,
+footer .footer_board p{
+	color:#999;
+}
+
+/*=============================================*/
+/*===== Short codes ===========================*/
+/*=============================================*/
+
+.template_tabs .church_testimonial_nav{
+	float: left;
+	width: 100%;
+	margin-bottom: 10px;
+}
+div.template_tabs ul.slick-dots{
+	display: none !important;
+}
+.ch_testimonial_item{
+	float: left;
+	width: auto;
+}
+.church_testimonial_slider{
+	float: left;
+	width: 100%;
+}
+.template_tabs .church_testimonial_nav .slick-list,
+.template_tabs{
+	float: left;
+	width: 100%;
+}
+
+.heading-sizes{
+	float: left;
+	width: 100%;
+}
+.heading-sizes h1 ,.heading-sizes h2 ,.heading-sizes h3 ,.heading-sizes h4 ,.heading-sizes h6{
+	line-height: normal;
+}
+.c-black{
+	color:#444;
+}
+.floating{
+	float: left;
+	width: 100%;
+	margin-bottom: 50px;
+}
+div.simple-social{
+	position: relative;
+	float: left;
+	opacity: 1;
+	-moz-transform:none;
+	-webkit-transform:none;
+	-o-transform:none;
+	transform:none;
+}
+div.simple-social .social-icons{
+	padding: 0px;
+}
+.black-bg{
+	float: left;
+	width: 100%;
+	padding: 30px;
+	background-color: #2a2a2a;
+}
+.buttons{
+	 background: #2a2a2a;
+    float: left;
+    padding: 35px;
+    width: 100%;
+}
+.default-btn22{
+	float: left;
+	width: 100%;
+}
+.default_arrows.default-btn22 button{
+	position: relative;
+	margin: 15px 0px;
+}
+
+.video-section .church_videoplay{
+	padding: 155px 0px;
+	width: 100%;
+}
+.reletive_place{
+	float: none;
+	display: inline-block;
+	margin:0 auto;
+	text-align: center;
+	position: relative;
+	width: 100%;
+	margin-bottom: 30px;
+}
+.reletive_place button{
+	position: relative;
+	margin:0 auto;
+}
+.church_blog_menu_full .chu_progress_causes{
+	float: left;
+	width: 100%;
+}
+.floating h3.footer_title{
+	width: 100%;
+}
+.margin-20{
+	float: left;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.default-calender{
+	width: 400px;
+}
+.calender{
+	float: left;
+	width: 100%;
+}
+div.buttons .church_blog_next{
+	margin-bottom: 0px;
+}
+/*=============================================*/
+/*===== Short codes ===========================*/
+/*===========================Ends==============*/
+.church_login{
+	float: none;
+	display: inline-block;
+	text-align: center;
+	width: 360px;
+	box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.3);
+	padding: 26px 0 0;
+	background: #fff;
+}
+.church_login form{
+	float: left;
+	width: 100%;
+}
+.church_login h4{
+	border-bottom: 1px solid #ccc;
+	float: left;
+	width: 100%;
+	padding-bottom: 26px;
+	font-weight: bold;
+	text-transform: capitalize;
+	margin-bottom: 15px;
+}
+.church_login .input-text input{
+	border:none;
+	border-bottom: 1px solid #ccc;
+	font-size: 18px;
+	text-transform: capitalize;
+	appearance: none;
+  	-moz-transition: all 0.2s ease-in-out;
+  	-webkit-transition: all 0.2s ease-in-out;
+  	-o-transition: all 0.2s ease-in-out;
+  	transition: all 0.2s ease-in-out;
+}
+.types_felids{
+	float: left;
+	width: 100%;
+	padding: 0px 30px;
+}
+.types_felids p{
+	font-size: 16px;
+	margin-bottom: 21px;
+    margin-top: 8px;
+}
+.church_login .pull-right,
+.church_login .pull-left{
+	width: 50%;
+}
+.church_login .default_btn{
+	width: 100%;
+	float: left;
+}
+.checkbox{
+	float: left;
+	width: 100%;
+}
+.church_login .checkbox{
+	margin: 15px 0px 30px;
+}
+.checkbox input[type="checkbox"]{
+	display: none;
+}
+.checkbox span{
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	position: relative;
+	float: left;
+	background: transparent;
+	margin-right: 15px;
+	border:1px solid #c62641;
+}
+.checkbox span:before{
+	position: absolute;
+	content: "\f00c";
+	font-family:fontawesome;
+	top:50%;
+	left: 0px;
+	right: 0px;
+	margin: -10px auto;
+	font-size: 14px;
+	color: #fff;
+	opacity: 0;
+}
+.checkbox input[type="checkbox"]:checked + span{
+	background: #c62641;
+}
+.checkbox input[type="checkbox"]:checked + span:before{
+	opacity: 1;
+}
+.church_login .checkbox p{
+	width: auto;
+	float: left;
+	margin-bottom: 0px;
+	line-height: normal;
+	margin-top: 0px;
+}
+.church_login .footer_blog_post{
+	padding: 0 30px 18px;
+	text-align: left;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 0px;
+}
+.church_login .footer-post-content  a.black-color{
+	font-size: 16px;
+	color:#555;
+	display: inline-block;
+}
+.church_login .footer-post-content a{
+	margin-bottom: 0px;
+	color:#444;
+}
+.total_amounts{
+	float: left;
+	width: 100%;
+	padding: 14px 10px 12px 40px;
+}
+.total_amounts p{
+	width: auto;
+	float: left;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+.total_amounts .theme-color{
+	font-size: 18px;
+
+}
+.bg-color-w{
+	background: #dbdbdb;
+	color:#333;
+	text-transform: capitalize;
+}
+.bg-color-w:hover{
+	color:#fff;
+}
+.dropdown-menu{
+	box-shadow: none;
+	border:none;
+	padding: 0px;
+	background: transparent;
+	margin: 0 auto;
+}
+
+div.checked_links label.checkbox{
+	float: left;
+	width: auto;
+}
+div.checked_links .theme-color{
+	float: right;
+	width: auto;
+	margin-top: 11px;
+	margin-bottom: 0px;
+}
+div.checked_links .theme-color a{
+	color:#444;
+}
+
+.church_login .footer-post-content a.black-color{
+	padding: 0px;
+}
+.dropdown .church_login .theme-color{
+	padding: 0px;
+}

@@ -1,0 +1,428 @@
+/*
+======================================================
+    CHURCH PROJECT VERSION 1.1
+=======================================================
+    Created BY KODEFOREST Date 5/12/2017 
+======================================================
+
+    ! COLORS .CSS
+
+======================================================
+
+*/
+
+
+/*
+color:#a82248;
+
+*/
+
+
+
+.church_container_version2 .volume-adjust > div > div,
+.language_changer .selectric-items li:hover{
+	color: #fff;
+}
+
+.block_services li:hover .heading_title a,
+div.dl-menuwrapper li a:hover:after, 
+.no-touch div.dl-menuwrapper li a:hover,
+.footer_twitter_caption p a,
+.chu_prayer_columns:hover .prayer_icons_styles div > a,
+.widget_recents_posts .footer-post-content span,
+.post-content h6 a:hover,
+.date,
+.our_team_services .social-icons li a,
+.church_causes_post:hover .church_causes_content a,
+.church_causes_post:hover .church_causes_content h4 a,
+.player_caption p a,
+.align_center span sup,
+.church_heading h3:before,
+.timeHolder *,
+/*===============================================*/
+.widget_categories ul li a:hover:before,
+.widget_categories ul li a:hover,
+.churech_author.comment h5,
+.ch_share_meta span i,
+.ch_share_meta span a,
+.churech_author_head  span,
+.blockquote_text a,
+.breadcrumb li a:hover,
+.post_fig_text > h6 a:hover,
+.copyright-content.center p a:hover,
+.post_comment a:hover,
+.church_postor_text h4,
+.church_causes_fig > h4 a:hover,
+.church_meta_date.meta_2 li a:hover,
+.church_heading.align_center.color span sup,
+/*===============================================*/
+.comingsoon_content_caption span,
+.content_caption_404 h3,
+.audioplayer .volume-btn:before,
+.audioplayer .controls .pause:before,
+.audioplayer .controls .play:before,
+.church_caption_blog:hover h4 a,
+.open_services:hover span,
+.open_services:hover .open_services_content h5 a,
+.church_countdown_timer small,
+.header_version_2 .navigation ul li ul.children li:hover a,
+.header_version_2 .navigation ul li ul.sub-menu li:hover a,
+.navigation > li:hover a,
+#playlist:before,
+.ch_product_star li a:hover,
+.church_blog_footer li a:hover,
+.church_music_book .meta_address li a:hover,
+.velues_adds .controls li *,
+.church_container_version2 .audioplayer .volume-btn:before,
+.church_container_version2 .audioplayer .controls .pause:before, 
+.church_container_version2 .audioplayer .controls .play:before,
+.church_container_version2 .audioplayer .time-current,
+.church_container_version2 .audioplayer .time-duration,
+.church_login_services li a i,
+.item_images a i:hover,
+.language_changer .selectric-items li.selected,
+.church_accounts_language li a i{
+	color:#c62641;
+}
+
+
+
+.pagination span:hover,
+.pagination a:hover,
+.arrows_redios .slick-arrow:hover,
+.widget_church_flicker .footer_tags li:hover a,
+.header_version_6,
+.church_version_overflow .container,
+.footer_title:before,
+.soft_column:hover,
+.align_center span:after,
+.align_center span:before,
+.church_heading h3:after,
+.nav-arrows a,
+.progressbar,
+.social-icons_list li:hover,
+.audioplayer .controls .pause:before,
+.audioplayer .controls .play:before,
+.audioplayer .player .progressbar .bar-loaded,
+/*===============================================*/
+.ch_textarea textarea:focus,
+.kf_commet_field input:focus,
+.blockquote_text a:before,
+.breadcrumb,
+.align_center span:after, 
+.align_center span:before,	
+.church_text  h3:before,
+.block_services li:hover span,
+/*===============================================*/
+.chu_progress_causes .skillbar1-bar span,
+.open_services:hover span,
+.default_arrows .slick-arrow:hover:before,
+.header_version_2 .church_navigation .navigation li:hover a:before,
+.header_version_2 > .container,
+.velues_adds .controls li,
+.church_ourshop_content,
+.slick-dots li:hover button,
+.ch_testimonial_item.slick-slide.slick-current.slick-active.slick-center,
+.slider_progress_items li.slick-slide.slick-current.slick-active img,
+.slider_progress_items li.slick-slide.slick-current.slick-active,
+.meta_address li:before,
+.footer_tags li a:hover,
+.ch_product_icon li a.active,
+.ch_product_icon li a:hover,
+.header_version_5 .social-icons_list li:hover,
+.church_container_version2 .audioplayer .controls .play:hover,
+.church_container_version2 .audioplayer .player .progressbar div,
+.church_container_version2 .audioplayer .controls .pause:before, 
+.church_container_version2 .audioplayer .controls .play:before{
+	border-color: #c62641 !important;
+}
+
+
+.share_social a:hover,
+.footer_twitter span,
+.navigation ul li ul li:hover,
+.sermon_caption .social-icons-simple li:hover a,
+.sermon_absolute button,
+.chu_prayer_columns:hover .flows_btn .default_btn,
+.church_causes_columns .meta_address,
+.church_location.active span,
+.church_location:hover span,
+.pagination span:hover,
+.pagination a:hover,
+.arrows_redios .slick-arrow:hover,
+.blog_slider_posts .slick-dots li.slick-active button,
+.box_span span,
+.widget_church_flicker .footer_tags li:hover a,
+.church_menu_row .velues_adds .playlist,
+.church_listing_player .church_play_track.accordion-open a,
+.our_team_services .social-icons li:hover a,
+.theme-bg_btn,
+.our_services_col:hover,
+.nav-dots span.nav-dot-current,
+.nav-arrows a:hover,
+.border-white:hover,
+.navigation ul li:hover a,
+.cart_items_show ul li a sup,
+.social-icons_list li:hover a,
+.player .progressbar .bar-played,
+.hover-effect-03 figure:before,
+/*===============================================*/
+.form_submit .default_small_btn.btn_2,
+.ch_social_share ul li a:hover,
+.church_blog_next li a:hover,
+.banner_dots,
+.banner_dots:before,
+.banner_dots:after,
+.church_playing-options.icon ul li a:hover,
+.church_blog_fig:hover .default_small_btn.btn_2,
+.default_small_btn.btn_2:hover,
+/*===============================================*/
+.amount_focus input[type="radio"]:checked ~ label,
+.weekly-groups_services .weekly_column,
+.full-width-services,
+.style_version_5 .volume-adjust > div > div,
+.donate_progress-blog:hover .ch_position-up .skillbar1-bar,
+.church_blog_columns:hover .donate_info > span,
+.ch_add_events,
+.default_arrows .slick-arrow:hover,
+.header_version_2 .navigation ul li ul.children,
+.header_version_2 .navigation ul li ul.sub-menu,
+.church_menu_row .velues_adds .playlist,
+.church_container_version2 li:hover #playlist:before,
+.velues_adds .controls li:hover,
+.velues_adds .controls li *.pause.visible:before,
+.church_prayer_block,
+.slick-dots li.slick-active button,
+.testimonial_item,
+.services_weekly li,
+.theme2-bg_btn,
+.skillbar1-bar,
+.btn_2:hover,
+ul.slick-dots,
+ul.slick-dots:before,
+ul.slick-dots:after,
+.block_services li:hover span,
+div.dl-menuwrapper ul,
+div.dl-menuwrapper button,
+.church_listing_block .church_date,
+.post_event_first figure:before,
+.header_version_5 .social-icons_list li:hover a,
+.church_navigation_block,
+.church_container_version2 .volume-adjust > div > div,
+.language_changer .selectric-items li:hover,
+.footer_tags li a:hover,
+.ch_product_icon li a.active,
+.ch_product_icon li a:hover,
+.church_play_track a:hover i,
+.ch_product_item:hover .ch_product_span,
+.church_playing-options li a:hover,
+.church_container_version2 .audioplayer .controls .play:hover:before,
+.church_container_version2 .audioplayer .controls .pause:hover:before,
+.church_container_version2 .audioplayer .controls .play:hover,
+.church_container_version2 .player .progressbar .bar-played{
+	background-color:#c62641;
+}
+
+
+.btn_2:hover,
+.church_container_version2 .volume-adjust > div > div,
+.language_changer .selectric-items li:hover{
+	color: #fff;
+}
+.theme-bg_btn:hover{
+	background: #333;
+	color:#fff;
+}
+.footer_blog_post figure img,
+.item_images a i,
+.item_images a:before,
+.church_blog_detail_text figure img,
+.church_causes_detail figure img,
+.church_causes_listing figure img,
+.church_causes_columns figure img,
+.share_social a,
+.church_causes_listing.church_music_book figure img,
+.right_side-content figure img,
+.church_ministry_cols figure img,
+.church_ministry_cols figure,
+.left_side-content figure img,
+.church_pastors_column figure img,
+.church_flicker_gallery li a img,
+.church_play_track a i,
+.church_blog_columns figure img,
+.church_listing_block figure img, 
+.church_container_version2 .audioplayer .controls .play,
+.widget_church_flicker .footer_tags li a,
+.form_submit .default_small_btn.btn_2,
+.churech_author.comment,
+.church_blog_next li a,
+.church_service_post_fig figure img,
+.post_fig_text .countdown,
+.copyright-content.center p a,
+.church_blog_post_fig figure img,
+.church_blog_post_fig .overlay:before,
+.post_img_list .overlay:before,
+.post_img_list figure img,
+.church_postor_wrap.overlay figure:before,
+.church_causes_fig  .progress-bar div span:after,
+.church_news_fig figure img,
+.church_news_fig .overlay:before,
+.church_latest_fig .overlay:before,
+.church_latest_fig figure img,
+.church_blog_fig .overlay:before,
+.church_blog_fig figure img,
+.btn_2,
+.church_playing_music figure img,
+.default_small_btn.btn_2{
+
+	-webkit-transition:all 1s ease-in-out;
+		-moz-transition:all 1s ease-in-out;
+			-ms-transition:all 1s ease-in-out;
+				-o-transition:all 1s ease-in-out;
+					transition:all 1s ease-in-out;
+
+}
+.church_flicker_gallery li a:before,
+.church_blog_footer li a,
+.church_navigation_block .cart_items_show li a,
+.church_playing_music figure:before,  
+.church_playing-options li a,
+.church_listing_block figure:before,
+.church_blog_columns figure:before,
+.slider_progress_items li:before,
+.church_container_version2 .audioplayer .controls .play:before,
+.church_container_version2 .audioplayer .controls .pause:before,
+.item_images a i,
+.no-touch .dl-menuwrapper li a,
+.soft_column figure img,
+.full-banner .sb-current .slider-caption{
+	-webkit-transition:all 0.4s ease-in-out 0s;
+		-moz-transition:all 0.4s ease-in-out 0s;
+			-ms-transition:all 0.4s ease-in-out 0s;
+				-o-transition:all 0.4s ease-in-out 0s;
+					transition:all 0.4s ease-in-out 0s;
+}
+
+
+.church_blog_detail_text figure:before,
+.church_causes_detail figure:before,
+.church_causes_listing figure:before,
+.church_causes_columns figure:before,
+.church_music_book .meta_address li a,
+.church_causes_listing.church_music_book figure:before,
+.right_side-content figure:before,
+.left_side-content figure:before,
+.church_ministry_cols figure:before,
+.church_playing-options.icon ul li a,
+.ch_product_star li a,
+.ch_product_item .ch_product_span,
+.ch_product_icon li a,
+.ch_product_icon,
+.church_pastors_column figure:before,
+.services_post span,
+.block_services li,
+.block_services li:before,
+.footer_tags li a,
+.church_version-5 .church_navigation nav > ul > li:before,
+.navigation ul li ul li,
+.navigation ul li ul,
+.chu_prayer_columns .flows_btn .default_btn,
+.chu_prayer_columns .prayer_icons_styles div > a,
+.social-icons li a,
+.our_team_column .our_team_services,
+.our_services_col span:after,
+.our_services_col h5 a,
+.our_services_col span,
+.our_services_col,
+.nav-arrows a:before,
+.nav-arrows a,
+.border-white,
+.navigation ul li a,
+.social-icons_list li a,
+.header_version_2 .church_navigation li a,
+.header_version_2 .church_navigation li,
+.header_version_2 .church_navigation li a:before,
+.velues_adds .controls li,
+.velues_adds .controls li *.pause.visible:before,
+.black-bg_btn,
+.theme2-bg_btn,
+.church_caption_blog h4 a,
+.post-content h6 a,
+.church_blog_columns .donate_info > span,
+.donate_progress-blog .ch_position-up .skillbar1-bar,
+.church_causes_post .church_causes_content a,
+.soft_column,
+.default_arrows .slick-arrow:before,
+.default_arrows .slick-arrow,
+.slider-caption:after,
+.open_services span,
+.church_social_icons li,
+.church_social_icons li a,
+.open_services .open_services_content h4,
+.slider-caption:before,
+.widget_categories ul li a:before,
+.widget_categories ul li a,
+textarea,
+input,
+.pagination span,
+.pagination a,
+.widget_event_slider li a img,
+.widget_event_slider li a,
+.widget_event_slider li a:before,
+.churech_author.comment > a,
+.ch_social_share ul li a,
+.blockquote_text a,	
+.breadcrumb li a,
+.post_fig_text > h6 a,
+.post_comment a,
+.church_location.active span,
+.church_location span,
+.church_causes_fig > h4 a,
+.church_causes_fig .progress-bar.position .progress_text,
+.church_meta_date.meta_2 li a,
+.sermon_caption .social-icons-simple li a,
+.church_playing-options.icon ul li a i,
+.arrows_redios .slick-arrow:before,
+.church_causes_columns .church_absolute_middel,
+.arrows_redios .slick-arrow,
+.navigation ul li ul.sub-menu > li a,
+.default_small_btn.btn_2{
+	-webkit-transition:all 0.3s ease-in-out;
+		-moz-transition:all 0.3s ease-in-out;
+			-ms-transition:all 0.3s ease-in-out;
+				-o-transition:all 0.3s ease-in-out;
+					transition:all 0.3s ease-in-out;
+}
+
+.soft_column a,
+.soft_column p,
+.soft_column h4,
+.default_btn,
+.hover-effect-03 .simple_effect a,
+.hover-effect-03 .simple_effect,
+.hover-effect-03 figure:before,
+.simple_effect,
+.header_version_2 .navigation ul li ul.children li:before,
+.header_version_2 .navigation ul li ul.sub-menu li:before,
+.header_version_2 .navigation ul li ul.children,
+.header_version_2 .navigation ul li ul.sub-menu,
+.hover_effect_02{
+	-webkit-transition:all 400ms ease-in-out;
+		-moz-transition:all 400ms ease-in-out;
+			-ms-transition:all 400ms ease-in-out;
+				-o-transition:all 400ms ease-in-out;
+					transition:all 400ms ease-in-out;
+}
+
+
+.slider_thumbnail_items .item,
+.slider_thumbnail_items .item img{
+	-webkit-transition:all 600ms ease-in-out;
+		-moz-transition:all 600ms ease-in-out;
+			-ms-transition:all 600ms ease-in-out;
+				-o-transition:all 600ms ease-in-out;
+					transition:all 600ms ease-in-out;
+}
+
+
+

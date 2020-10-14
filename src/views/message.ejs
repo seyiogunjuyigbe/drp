@@ -1,0 +1,34 @@
+<%- include ('./partials/header') -%>
+<title>Message</title>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h2 class="">Send Us a Message</h2>
+    <br>
+    <p>We would be glad to hear from you</p>
+</div>
+<div class="container">
+
+<form action="/message" method='POST'>
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="name">Your Name</label>
+        <input type="text" name="sender" class="form-control" id="name" placeholder="Your Name" required>
+      </div>
+      <div class="form-group col-md-6">
+        <label for="emailAdd">Email</label>
+        <input type="email" name="email" class="form-control" id="emailAdd" placeholder="Your Email" required>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="title">Message Title</label>
+      <input type="text" class="form-control" name="title" id="title" placeholder="Message Title">
+    </div>
+    <div class="form-group">
+      <label for="description">Your Message</label>
+      <textarea class="form-control" name="message" id="description" placeholder="Your Message Here..."></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+  </div>
+  <%- include ('./partials/footer') -%>
