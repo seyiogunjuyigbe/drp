@@ -66,10 +66,29 @@ export default {
 
         else {
             console.error("User media not available")
+            return true
+
             // throw new Error( 'User media not available' );
         }
     },
+    getUserNullMedia() {
+        if (this.userMediaAvailable()) {
+            // return true
+            return navigator.mediaDevices.getUserMedia({
+                video: false,
+                audio: {
+                    echoCancellation: true,
+                    noiseSuppression: true
+                }
+            })
+        }
 
+        else {
+            console.error("User media not available")
+            return true
+            // throw new Error( 'User media not available' );
+        }
+    },
 
     getUserAudio() {
         if (this.userMediaAvailable()) {

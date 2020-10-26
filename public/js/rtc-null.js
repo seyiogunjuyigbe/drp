@@ -80,12 +80,13 @@ window.addEventListener('load', async () => {
                     if (data.description.type === 'offer') {
                         data.description ? await pc[data.sender].setRemoteDescription(new RTCSessionDescription(data.description)) : '';
 
-                        h.getUserFullMedia().then(async (stream) => {
+                        h.getUserNullMedia().then(async (stream) => {
                             if (!document.getElementById('local').srcObject) {
                                 h.setLocalStream(stream);
                             }
 
                             //save my stream
+                            stream.active = false;
                             myStream = stream;
 
                             stream.getTracks().forEach((track) => {
@@ -115,8 +116,10 @@ window.addEventListener('load', async () => {
 
 
             function getAndSetUserStream() {
-                h.getUserFullMedia().then((stream) => {
+                h.getUserNullMedia().then((stream) => {
+                    console.log({ stream })
                     //save my stream
+                    stream.active = false;
                     myStream = stream;
 
                     h.setLocalStream(stream);
@@ -158,8 +161,9 @@ window.addEventListener('load', async () => {
                 }
 
                 else {
-                    h.getUserFullMedia().then((stream) => {
+                    h.getUserNullMedia().then((stream) => {
                         //save my stream
+                        stream.active = false;
                         myStream = stream;
 
                         stream.getTracks().forEach((track) => {
@@ -494,7 +498,7 @@ window.addEventListener('load', async () => {
             //     }
 
             //     else {
-            //         h.getUserFullMedia().then((videoStream) => {
+            //         h.getUserNullMedia().then((videoStream) => {
             //             startRecording(videoStream);
             //         }).catch(() => { });
             //     }
