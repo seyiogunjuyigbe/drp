@@ -86,18 +86,27 @@ window.addEventListener('load', async () => {
                             }
 
                             //save my stream
-                            stream.active = false;
+                            // stream.active = false;
                             myStream = stream;
 
                             stream.getTracks().forEach((track) => {
                                 pc[data.sender].addTrack(track, stream);
                             });
 
+                            if (myStream) {
+
+                                if (myStream.getAudioTracks()[0].enabled) {
+                                    myStream.getAudioTracks()[0].enabled = false;
+                                }
+                                broadcastNewTracks(myStream, 'audio');
+                            }
+                            stopAudioOnly(myStream)
+
                             let answer = await pc[data.sender].createAnswer();
 
                             await pc[data.sender].setLocalDescription(answer);
-
                             socket.emit('sdp', { description: pc[data.sender].localDescription, to: data.sender, sender: socketId });
+
                         }).catch((e) => {
                             console.error(e);
                         });
@@ -105,6 +114,7 @@ window.addEventListener('load', async () => {
 
                     else if (data.description.type === 'answer') {
                         await pc[data.sender].setRemoteDescription(new RTCSessionDescription(data.description));
+
                     }
                 });
 
@@ -117,17 +127,20 @@ window.addEventListener('load', async () => {
 
             function getAndSetUserStream() {
                 h.getUserNullMedia().then((stream) => {
-                    console.log({ stream })
                     //save my stream
-                    stream.active = false;
                     myStream = stream;
-
                     h.setLocalStream(stream);
                 }).catch((e) => {
                     console.error(`stream error: ${e}`);
                 });
             }
-
+            function stopVideoAndAudio(stream) {
+                stream.getTracks().forEach(function (track) {
+                    if (track.readyState == 'live') {
+                        track.stop();
+                    }
+                });
+            }
 
             function sendMsg(msg) {
                 let data = {
@@ -163,7 +176,7 @@ window.addEventListener('load', async () => {
                 else {
                     h.getUserNullMedia().then((stream) => {
                         //save my stream
-                        stream.active = false;
+                        // stream.active = false;
                         myStream = stream;
 
                         stream.getTracks().forEach((track) => {
@@ -171,6 +184,7 @@ window.addEventListener('load', async () => {
                         });
 
                         h.setLocalStream(stream);
+
                     }).catch((e) => {
                         console.error(`stream error: ${e}`);
                     });
@@ -303,7 +317,13 @@ window.addEventListener('load', async () => {
                 });
             }
 
-
+            function stopAudioOnly(stream) {
+                stream.getTracks().forEach(function (track) {
+                    if (track.readyState == 'live' && track.kind === 'audio') {
+                        track.stop();
+                    }
+                });
+            }
 
             function broadcastNewTracks(stream, type, mirrorMode = true) {
                 h.setLocalStream(stream, mirrorMode);
@@ -364,7 +384,9 @@ window.addEventListener('load', async () => {
                 };
             }
 
-
+            window.onload = function check() {
+                alert('loaded')
+            }
             //Chat textarea
             document.getElementById('chat-input').addEventListener('keypress', (e) => {
                 if (e.which === 13 && (e.target.value.trim())) {
@@ -377,14 +399,7 @@ window.addEventListener('load', async () => {
                     }, 50);
                 }
             });
-            if (myStream) {
-                if (myStream.getVideoTracks()[0].enabled) {
-                    myStream.getVideoTracks()[0].enabled = false;
-                }
-                if (myStream.getAudioTracks()[0].enabled) {
-                    myStream.getAudioTracks()[0].enabled = false;
-                }
-            }
+
 
             //When the video icon is clicked
             // document.getElementById('toggle-video').addEventListener('click', (e) => {
